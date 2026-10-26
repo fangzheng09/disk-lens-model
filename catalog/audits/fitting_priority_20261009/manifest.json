@@ -1,0 +1,443 @@
+{
+  "date": "2026-10-09",
+  "user_confirmation": "Prioritize the original paper 20 successful objects plus user-confirmed successful additions 4,83993,83999.",
+  "original_successful_20": [
+    3,
+    5,
+    56404,
+    56405,
+    83991,
+    217244,
+    401306,
+    411079,
+    412691,
+    414684,
+    419880,
+    425781,
+    441099,
+    448856,
+    451452,
+    451938,
+    453492,
+    468189,
+    471967,
+    485608
+  ],
+  "original_unsuccessful_13": [
+    100666,
+    209287,
+    323241,
+    343209,
+    360186,
+    415409,
+    442663,
+    450416,
+    454966,
+    461656,
+    463901,
+    464399,
+    498059
+  ],
+  "priority_23": [
+    3,
+    4,
+    5,
+    56404,
+    56405,
+    83991,
+    83993,
+    83999,
+    217244,
+    401306,
+    411079,
+    412691,
+    414684,
+    419880,
+    425781,
+    441099,
+    448856,
+    451452,
+    451938,
+    453492,
+    468189,
+    471967,
+    485608
+  ],
+  "deferred_14": [
+    100666,
+    209287,
+    297779,
+    323241,
+    343209,
+    360186,
+    415409,
+    442663,
+    450416,
+    454966,
+    461656,
+    463901,
+    464399,
+    498059
+  ],
+  "unclassified_deferred": [
+    297779
+  ],
+  "membership_changed": false,
+  "new_sph_fit_outcomes_verified": false,
+  "evidence": [
+    {
+      "id": 3,
+      "directory": "/home/fangzheng/code/disk_lens/finish/3",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/3/mass_light_dark[1]/model.results",
+          "sha256": "1c79669b58fc23b588b9a0c5b23359d6d9a9746ef1499fc291da4ab9b67fe1cf"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/3/mass_light_dark[1]/files/samples.csv",
+          "bytes": 13952562
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "directory": "/home/fangzheng/code/disk_lens/finish/5",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/5/mass_light_dark[1]/model.results",
+          "sha256": "b524cea31ed52bcd47ddf09613e102138afea19770fabe9515589dca379358d0"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/5/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9286144
+        }
+      ]
+    },
+    {
+      "id": 56404,
+      "directory": "/home/fangzheng/code/disk_lens/finish/56404",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/56404/mass_light_dark[1]/model.results",
+          "sha256": "8c4585cabb596e2a78c096e82de15a97a899cecb5aa91613397e3294113a66f0"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/56404/mass_light_dark[1]/files/samples.csv",
+          "bytes": 16550614
+        }
+      ]
+    },
+    {
+      "id": 56405,
+      "directory": "/home/fangzheng/code/disk_lens/finish/56405",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/56405/mass_light_dark[1]/model.results",
+          "sha256": "fc62567aad66f4416ba3e171b3bc70dbec814c7a78fc6d9f0e18b0369f071bae"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/56405/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9234653
+        }
+      ]
+    },
+    {
+      "id": 83991,
+      "directory": "/home/fangzheng/code/disk_lens/finish/83991",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/83991/mass_light_dark[1]/model.results",
+          "sha256": "2ceb0c6ff2cdf4b2d8bd3bbe5c27ae34c911b771416238617964ac294715a2f0"
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/83991/mass_light_dark[1]/ddaefad11f349a42bd2704c1a19f3159/model.results",
+          "sha256": "2ceb0c6ff2cdf4b2d8bd3bbe5c27ae34c911b771416238617964ac294715a2f0"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/83991/mass_light_dark[1]/ddaefad11f349a42bd2704c1a19f3159/files/samples.csv",
+          "bytes": 13578300
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/83991/mass_light_dark[1]/files/samples.csv",
+          "bytes": 13578300
+        }
+      ]
+    },
+    {
+      "id": 217244,
+      "directory": "/home/fangzheng/code/disk_lens/finish/217244",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/217244/mass_light_dark[1]/model.results",
+          "sha256": "bf03fe641353657b7a7799624ad58328e97974a047fef0ff3b60b47ca784ecdc"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/217244/mass_light_dark[1]/files/samples.csv",
+          "bytes": 24754016
+        }
+      ]
+    },
+    {
+      "id": 401306,
+      "directory": "/home/fangzheng/code/disk_lens/finish/401306",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/401306/mass_light_dark[1]/model.results",
+          "sha256": "40cc60d674a3f2bdf867f008d34809ed132cc9004a35c87f3d41b1a3847d3131"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/401306/mass_light_dark[1]/files/samples.csv",
+          "bytes": 17805881
+        }
+      ]
+    },
+    {
+      "id": 411079,
+      "directory": "/home/fangzheng/code/disk_lens/finish/411079",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/411079/mass_light_dark[1]/model.results",
+          "sha256": "d9fa654ab4d912a61f419cad8825a6fe95596b6277f92ce83ce88b9932bdeaa0"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/411079/mass_light_dark[1]/files/samples.csv",
+          "bytes": 14769959
+        }
+      ]
+    },
+    {
+      "id": 412691,
+      "directory": "/home/fangzheng/code/disk_lens/finish/412691",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/412691/mass_light_dark[1]/model.results",
+          "sha256": "dbad1b08ea0a018be545aad63686ad7df24dfcf83212b7406e6ecf42884fdaa2"
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/412691/mass_light_dark[1]/5e38dea6ef375eea359e341bd451d8ac/model.results",
+          "sha256": "dbad1b08ea0a018be545aad63686ad7df24dfcf83212b7406e6ecf42884fdaa2"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/412691/mass_light_dark[1]/files/samples.csv",
+          "bytes": 13396992
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/412691/mass_light_dark[1]/5e38dea6ef375eea359e341bd451d8ac/files/samples.csv",
+          "bytes": 13396992
+        }
+      ]
+    },
+    {
+      "id": 414684,
+      "directory": "/home/fangzheng/code/disk_lens/finish/414684",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/414684/mass_light_dark[1]/model.results",
+          "sha256": "a8031bea3b8581e50415bee0348a943f5ffc4c9b429eea3af225ae86565ab1a3"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/414684/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9980992
+        }
+      ]
+    },
+    {
+      "id": 419880,
+      "directory": "/home/fangzheng/code/disk_lens/finish/419880",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/419880/mass_light_dark[1]/model.results",
+          "sha256": "c4ba88366a06836201b2d92521d67da228049d45a22dcfb1fe27de9e9d901500"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/419880/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9812768
+        }
+      ]
+    },
+    {
+      "id": 425781,
+      "directory": "/home/fangzheng/code/disk_lens/finish/425781",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/425781/mass_light_dark[1]/model.results",
+          "sha256": "60693eacecf592ceaab100a96efa8663a1bea248c32776bc5524b88d9d3a701a"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/425781/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9772975
+        }
+      ]
+    },
+    {
+      "id": 441099,
+      "directory": "/home/fangzheng/code/disk_lens/finish/441099",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/441099/mass_light_dark[1]/model.results",
+          "sha256": "768c31647c842e48b4435b1bd81713ca79a69ac72225e9f4e2ff03b9a859abfd"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/441099/mass_light_dark[1]/files/samples.csv",
+          "bytes": 6850368
+        }
+      ]
+    },
+    {
+      "id": 448856,
+      "directory": "/home/fangzheng/code/disk_lens/finish/448856",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/448856/mass_light_dark[1]/model.results",
+          "sha256": "e03aa521fadaabac73e43c80ecadf80a5da7f4a33aed34ba9ea581aa35fbb8bb"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/448856/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9120150
+        }
+      ]
+    },
+    {
+      "id": 451452,
+      "directory": "/home/fangzheng/code/disk_lens/finish/451452",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/451452/mass_light_dark[1]/model.results",
+          "sha256": "3c8c7fe5fb84a7a6014218cfc8641fb379eb57eb594c1c9120d6f9b1f3ed5ac5"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/451452/mass_light_dark[1]/files/samples.csv",
+          "bytes": 15199680
+        }
+      ]
+    },
+    {
+      "id": 451938,
+      "directory": "/home/fangzheng/code/disk_lens/finish/451938",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/451938/mass_light_dark[1]/model.results",
+          "sha256": "7cc8dec8341c929293176178bdc3c6fc1cb42f4306f17855ee9148894ebbf0b8"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/451938/mass_light_dark[1]/files/samples.csv",
+          "bytes": 8556352
+        }
+      ]
+    },
+    {
+      "id": 453492,
+      "directory": "/home/fangzheng/code/disk_lens/finish/453492",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/453492/mass_light_dark[1]/model.results",
+          "sha256": "80765caeb5c5381a996d01b7581bac70eef2ee9ac5513a1873385ab3e9513eb0"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/453492/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9562909
+        }
+      ]
+    },
+    {
+      "id": 468189,
+      "directory": "/home/fangzheng/code/disk_lens/finish/468189",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/468189/mass_light_dark[1]/model.results",
+          "sha256": "3e06a4c7c006b6e51a58a44c1bb39dfc09f52b65a6a2bad035735a09735ea56c"
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/468189/mass_light_dark[1]/4d821ee877a7fdb84e9c5f5c39267bf6/model.results",
+          "sha256": "3e06a4c7c006b6e51a58a44c1bb39dfc09f52b65a6a2bad035735a09735ea56c"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/468189/mass_light_dark[1]/files/samples.csv",
+          "bytes": 9142336
+        },
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/468189/mass_light_dark[1]/4d821ee877a7fdb84e9c5f5c39267bf6/files/samples.csv",
+          "bytes": 9142336
+        }
+      ]
+    },
+    {
+      "id": 471967,
+      "directory": "/home/fangzheng/code/disk_lens/finish/471967",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/471967/mass_light_dark[1]/model.results",
+          "sha256": "addaffc551e2ccfe05fe0eeb18be9757f6429daa47fe3d73529dfcc57d942ab7"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/471967/mass_light_dark[1]/files/samples.csv",
+          "bytes": 13824981
+        }
+      ]
+    },
+    {
+      "id": 485608,
+      "directory": "/home/fangzheng/code/disk_lens/finish/485608",
+      "model_results": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/485608/mass_light_dark[1]/model.results",
+          "sha256": "006fae2529dc57847b28d5e387af99e575db74977d44015dd6f455574dcedc4f"
+        }
+      ],
+      "samples_csv": [
+        {
+          "path": "/home/fangzheng/code/disk_lens/finish/485608/mass_light_dark[1]/files/samples.csv",
+          "bytes": 12846292
+        }
+      ]
+    }
+  ],
+  "analysis_entry_points": [
+    {
+      "path": "/home/fangzheng/code/disk_lens/pic.py",
+      "sha256": "7fb72d14e84bd1d0b083826ae96db860225a36d680c46e3d5bf0d7b0fa15e86a"
+    },
+    {
+      "path": "/home/fangzheng/code/disk_lens/plot.py",
+      "sha256": "812a9a1cc2557c50cef8cb5b290883576113d8c4ac80b7c5c5c8cf7586caf4cf"
+    }
+  ]
+}

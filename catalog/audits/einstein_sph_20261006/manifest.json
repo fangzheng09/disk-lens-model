@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-05T20:30:22.400462+00:00",
+  "simulation": "TNG50-1",
+  "snapshot": 84,
+  "input_kinematic_csv_sha256": "c091aeefcf122fc794ba2b6420a6b6676e9bd35d348635b3b523b793e3b7c316",
+  "frozen_preselected_ids_sha256": "7d41e48b7ee36a50a34d96ffdbfb8601fc7f9e8b96d9baf75b98f804f5efc3dc",
+  "batch_method_hash": "8df8d7179c284df9304cf8a922aa8adf2d7170f5da9ca8d5cdba0cdf70a16c53",
+  "parallel_partition_wrapper_sha256": "586a9a8e6d02ae960cf857dec3c5e92e7343fa1e95f90ff93b590cfa397f4f01",
+  "frozen_refinement_producer": {
+    "selection_api_sha256": "dc31ae8cff671de884f4b6d7ced32b5caf3e05e158fef8d142ac84eebed2c51a",
+    "refinement_producer_method_hash": "638fa169f1601afba4d1a4e38b3a5a3399fc0429a713e83268003be202f7f092"
+  },
+  "release_metadata_update": "Separate convergence of selection maximum from the retained all-view flag; mass/lensing mathematics unchanged.",
+  "parallel_replay_validation": {
+    "id": 83999,
+    "exact_complete_maps": 6,
+    "exact_field_radii": 3,
+    "passed": true
+  },
+  "result_method_hashes": [
+    "638fa169f1601afba4d1a4e38b3a5a3399fc0429a713e83268003be202f7f092",
+    "8df8d7179c284df9304cf8a922aa8adf2d7170f5da9ca8d5cdba0cdf70a16c53"
+  ],
+  "production_source_sha256": {
+    "src/disk_lens/selection_radii.py": "a8283b3c38b94e1c2a2be83f3681dee84e93a964eb27430dcff1d92b149bbf5f",
+    "src/disk_lens/mass_lensing.py": "6e9cce728609a4b479430a361c2daf47b0bc7fbfe9deaa9e1878c8146d1e7bbf",
+    "src/disk_lens/sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+    "src/disk_lens/geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+    "src/disk_lens/grid.py": "1007f1f41ffbdd1c4207928c6a96ac3a78d270477ca6630152ae7f583797674f",
+    "src/disk_lens/photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+  },
+  "artifacts_sha256": {
+    "README.md": "4276e3eef70a44bf3cc38ad2503a35630baa52b6b15e2f51d795da3df259a324",
+    "production_37.csv": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "summary.json": "ba84e94ff0035701f5885ee48c14647aa1d0474ac50ede3f8d6f7a541cbeb318",
+    "selection_216.csv": "6ce41f7b97dcf9640fc4afe2c539be8474a6f12d4dc17aaaee82ad8e6c7152ef",
+    "historical_crossers_10.csv": "6e918fab119bd5a17edff51c493fa6b82e5601685d74ae4b7588f1eb005d0b0a",
+    "threshold_support_sensitivity.json": "6f90d8a8e3f21a2ad25cb5a6470e3c105fb2158b283588b94749041d6eab67b4",
+    "software_versions.json": "bbe8f3e9e31e2d61bfd6d36e4b3c8b3ae60c0f2efba49e6dc51f78d3ad4f721b",
+    "method_checks.json": "20639acfdc859e6aa2f32b2ecdc3c9ac52cbd08afed8e9d3744b3330e5d90c80"
+  },
+  "initial_pixel_scales_arcsec": [
+    0.05,
+    0.025
+  ],
+  "integration_subpixels": 2,
+  "main_full_width_halfmass_multiple": 10,
+  "field_check_full_width_halfmass_multiple": 20,
+  "lens_redshift": 0.15,
+  "source_redshift": 0.65,
+  "cosmology": "Planck18",
+  "cut": "max(XY,XZ,YZ)>0.5 arcsec",
+  "scope": "bound subhalo stars+wind, DM, gas; BH diagnostic separately",
+  "geometry": "periodic offsets, production iterative real-stellar centre, principal axes within5Rhalf",
+  "refined_ids": [
+    302657,
+    426582,
+    456102,
+    492829,
+    507525,
+    508423,
+    509383,
+    513484
+  ],
+  "scientific_method": "docs/EINSTEIN_RADIUS.md",
+  "production_api_replay_validation": {
+    "id": 83999,
+    "batch_and_field_radii_exactly_equal": 9
+  }
+}

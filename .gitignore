@@ -1,0 +1,44 @@
+# Python and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+/htmlcov/
+
+# Local environments and notebook checkpoints
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Machine-specific configuration and working notes
+.env
+.env.*
+!.env.example
+/templates/local.yaml
+/templates/local.*.yaml
+/templates/local.json
+/templates/local.*.json
+/local_notes/
+
+# Large inputs and generated run products
+/data/raw/
+/data/processed/
+/data/downloads/
+/runs/
+/outputs/
+/cache/
+/logs/
+/root.log
+
+# Small curated FITS, NPY, PDF, JSON and CSV files are not globally ignored.
+
+# Draft manuscripts and internal handoffs
+/GITHUB_HANDOFF.md
+/*circulate*.pdf
+
+# All new paper computations belong in runs/; keep caches out of source.
+**/.matplotlib/

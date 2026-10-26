@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research code, please cite the accompanying manuscript.
+  MIT covers project-authored code and documentation; copied workspace
+  material has separate unresolved terms (see THIRD_PARTY.md and NOTICE).
+title: "TNG50 disc lensing"
+type: software
+version: "0.1.0"
+repository-code: "https://github.com/lzero09/disk-lens-model"
+license: MIT
+authors:
+  - family-names: Fang
+    given-names: Zheng
+    orcid: "https://orcid.org/0009-0005-8336-0873"
+preferred-citation:
+  type: unpublished
+  title: "What can strong lensing recover in edge-on disc galaxies? A mock study based on TNG50 simulations"
+  authors:
+    - family-names: Fang
+      given-names: Zheng
+      orcid: "https://orcid.org/0009-0005-8336-0873"
+    - family-names: Cao
+      given-names: Xiaoyue
+      orcid: "https://orcid.org/0000-0003-4988-9296"
+    - family-names: Li
+      given-names: Ran
+      orcid: "https://orcid.org/0000-0003-3899-0612"
+    - family-names: Lin
+      given-names: Weipeng
+      orcid: "https://orcid.org/0000-0003-2204-2474"
+  year: 2026
+  notes: "Manuscript in preparation; metadata checked against the SPH revision of 23 October 2026."

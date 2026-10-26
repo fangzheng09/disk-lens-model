@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input_particles": "../data/processed/stars.npz",
+  "grid": {
+    "shape": null,
+    "pixel_scale_arcsec": 0.05
+  },
+  "lens_redshift": 0.15,
+  "zeropoint": 25.948,
+  "cosmology": "Planck18",
+  "view": "yz",
+  "aperture_halfmass_multiple": 5.0,
+  "deposition": {
+    "method": "sph",
+    "neighbors": 32,
+    "workers": 1,
+    "subpixels": 8
+  }
+}

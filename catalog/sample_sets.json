@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "simulation": "TNG50-1",
+  "snapshot": 84,
+  "status": "production membership and historical fit partition confirmed; updated SPH fit review pending",
+  "sets": {
+    "paper_parent_33": {
+      "ids": [
+        3,
+        5,
+        56404,
+        56405,
+        83991,
+        100666,
+        209287,
+        217244,
+        323241,
+        343209,
+        360186,
+        401306,
+        411079,
+        412691,
+        414684,
+        415409,
+        419880,
+        425781,
+        441099,
+        442663,
+        448856,
+        450416,
+        451452,
+        451938,
+        453492,
+        454966,
+        461656,
+        463901,
+        464399,
+        468189,
+        471967,
+        485608,
+        498059
+      ],
+      "source": "special33_kappa_before_after.csv",
+      "source_sha256": "c664f2e04100652c2d54f980fe6485f986387a03d70f07258631e970fd221c0d",
+      "status": "transcribed; pending cross-check against paper fit outputs"
+    },
+    "additional_6": {
+      "ids": [
+        4,
+        83993,
+        83999,
+        226262,
+        297779,
+        390155
+      ],
+      "source": "WORKFLOW.md section 1.4",
+      "source_sha256": "2265571e4f883bc6a08c29b0ca69aeca4121b83f9747e3bcec8e5c82a8600481",
+      "status": "historical user-unverified report; superseded by additional_4 on 2026-10-06; not an active production set"
+    },
+    "corrected_velocity_crossers_10": {
+      "ids": [
+        4,
+        7,
+        8,
+        9,
+        83993,
+        83999,
+        226262,
+        297779,
+        390155,
+        432384
+      ],
+      "source": "catalog/audits/selection_20260910/legacy_velocity_crossers_lensing.csv",
+      "source_sha256": "e171cb2b930a95d6614c2c00e2269eb4b5dd3131faf40ad833992e2ff6415ac7",
+      "status": "historical numerical candidates, not an active production set; legacy NGP and new SPH comparison recorded in einstein_sph_20261006"
+    },
+    "additional_4": {
+      "ids": [
+        4,
+        83993,
+        83999,
+        297779
+      ],
+      "source": "User confirmation dated 2026-10-06",
+      "status": "approved additions to the existing 33-object sample; fit outcomes are recorded separately"
+    },
+    "production_37": {
+      "ids": [
+        3,
+        4,
+        5,
+        56404,
+        56405,
+        83991,
+        83993,
+        83999,
+        100666,
+        209287,
+        217244,
+        297779,
+        323241,
+        343209,
+        360186,
+        401306,
+        411079,
+        412691,
+        414684,
+        415409,
+        419880,
+        425781,
+        441099,
+        442663,
+        448856,
+        450416,
+        451452,
+        451938,
+        453492,
+        454966,
+        461656,
+        463901,
+        464399,
+        468189,
+        471967,
+        485608,
+        498059
+      ],
+      "source": "paper_parent_33 union user-confirmed additional_4 dated 2026-10-06",
+      "status": "active production membership; particle-mass selection radii audited; uniform fit classification pending"
+    },
+    "paper_main_successful_20": {
+      "ids": [
+        3,
+        5,
+        56404,
+        56405,
+        83991,
+        217244,
+        401306,
+        411079,
+        412691,
+        414684,
+        419880,
+        425781,
+        441099,
+        448856,
+        451452,
+        451938,
+        453492,
+        468189,
+        471967,
+        485608
+      ],
+      "source": "catalog/audits/fitting_priority_20261009/manifest.json",
+      "source_sha256": "a9933670cf4a474ade2c6c9af778c842692691593383c0495561ecb30d0b53c9",
+      "status": "historical successful paper fits; user-confirmed 2026-10-09, matched to final results and paper analysis entry points"
+    },
+    "paper_main_unsuccessful_13": {
+      "ids": [
+        100666,
+        209287,
+        323241,
+        343209,
+        360186,
+        415409,
+        442663,
+        450416,
+        454966,
+        461656,
+        463901,
+        464399,
+        498059
+      ],
+      "source": "catalog/audits/fitting_priority_20261009/manifest.json",
+      "source_sha256": "a9933670cf4a474ade2c6c9af778c842692691593383c0495561ecb30d0b53c9",
+      "status": "historical unsuccessful paper fits; complement of the confirmed paper successful 20, not a new SPH failure classification"
+    },
+    "main_fit_priority_23": {
+      "ids": [
+        3,
+        4,
+        5,
+        56404,
+        56405,
+        83991,
+        83993,
+        83999,
+        217244,
+        401306,
+        411079,
+        412691,
+        414684,
+        419880,
+        425781,
+        441099,
+        448856,
+        451452,
+        451938,
+        453492,
+        468189,
+        471967,
+        485608
+      ],
+      "source": "catalog/audits/fitting_priority_20261009/manifest.json",
+      "source_sha256": "a9933670cf4a474ade2c6c9af778c842692691593383c0495561ecb30d0b53c9",
+      "status": "success-first scheduling queue adopted 2026-10-09"
+    },
+    "main_fit_deferred_14": {
+      "ids": [
+        100666,
+        209287,
+        297779,
+        323241,
+        343209,
+        360186,
+        415409,
+        442663,
+        450416,
+        454966,
+        461656,
+        463901,
+        464399,
+        498059
+      ],
+      "source": "catalog/audits/fitting_priority_20261009/manifest.json",
+      "source_sha256": "a9933670cf4a474ade2c6c9af778c842692691593383c0495561ecb30d0b53c9",
+      "status": "deferred queue: original unsuccessful 13 and unclassified addition 297779"
+    }
+  },
+  "requires_review": [],
+  "unresolved_sets": [],
+  "notes": [
+    "The active production sample is the original 33 plus exactly four user-approved additions (37 unique IDs).",
+    "additional_6, corrected_velocity_crossers_10 and historical_membership_review preserve prior evidence; they do not enlarge production_37.",
+    "The first three additions have user-reported successful fits; all 37 remain subject to a uniform fit review.",
+    "Membership confirmation does not validate inherited mock parameters or historical nearest-grid-point Einstein radii.",
+    "The historical 20/13 partition was confirmed on 2026-10-09. Main fitting now prioritizes 23 previously successful systems; all updated fit outcomes still require review."
+  ],
+  "active_set": "production_37",
+  "membership_confirmation": {
+    "date": "2026-10-06",
+    "source": "User instruction: add only 4, 83993, 83999, 297779 to the existing sample",
+    "additional_ids": [
+      4,
+      83993,
+      83999,
+      297779
+    ],
+    "not_selected_from_historical_inputs": [
+      9,
+      226262,
+      366182,
+      390155
+    ],
+    "note": "No new physical rejection reason is inferred for objects not selected by this instruction."
+  },
+  "historical_membership_review": [
+    {
+      "id": 7,
+      "status": "passes the available numerical cuts but is absent from reported additional_6; morphology decision is undocumented"
+    },
+    {
+      "id": 8,
+      "status": "passes the available numerical cuts but is absent from reported additional_6; morphology decision is undocumented"
+    },
+    {
+      "id": 9,
+      "status": "passes the available numerical cuts but is absent from reported additional_6; morphology decision is undocumented"
+    },
+    {
+      "id": 366182,
+      "status": "present in historical parameter tables but fails corrected kappa_rot in every audited frame (maximum 0.445807); classify as a numerical rejection"
+    },
+    {
+      "id": 10,
+      "status": "passes mass and all audited kappa frames; handoff reports a passing YZ Einstein radius; reason for exclusion is undocumented"
+    },
+    {
+      "id": 432384,
+      "status": "passes available numerical cuts and is absent from reported additional_6; c/a=0.730 suggests a morphology rejection that still needs explicit sign-off"
+    }
+  ],
+  "selection_radius_audit": {
+    "date": "2026-10-06",
+    "method": "component-specific LOS-projected 3D M4 smoothing; largest closed tangential critical curve; no compact BH in main cut",
+    "directory": "catalog/audits/einstein_sph_20261006",
+    "preselected_count": 216,
+    "passes_strict_gt_0p5": 173,
+    "production_pass_count": 37,
+    "membership_changed": false,
+    "inherited_mock_inputs_changed": false
+  },
+  "fitting_priority": {
+    "date": "2026-10-09",
+    "priority_set": "main_fit_priority_23",
+    "deferred_set": "main_fit_deferred_14",
+    "main_batch_size": 5,
+    "control_cpu_per_sample": 10,
+    "parallel_control_limit": 2
+  }
+}

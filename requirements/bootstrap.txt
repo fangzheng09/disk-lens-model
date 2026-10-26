@@ -1,0 +1,18 @@
+# Resolver-compatible bootstrap for the unified mock/truth/fitting environment.
+# Install .[mock,lensing] with these constraints, then apply production.txt
+# with --no-deps to restore the direct production NumPy/SciPy versions.
+numpy==1.26.4
+scipy==1.14.0
+astropy==6.1.2
+numba==0.61.0
+matplotlib==3.9.4
+autolens==2025.1.18.7
+autogalaxy==2025.1.18.7
+autoarray==2025.1.18.7
+autofit==2025.1.18.7
+autoconf==2025.1.18.7
+lenstronomy==1.13.2
+scikit-image==0.24.0
+nautilus-sampler==1.0.4
+dynesty==2.1.4
+colossus==1.3.1

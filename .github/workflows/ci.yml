@@ -1,0 +1,47 @@
+name: Distribution checks
+on: [push, pull_request]
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check source formatting
+        run: |
+          python -m pip install ruff==0.16.9
+          ruff format --check src scripts
+          ruff check src scripts
+      - name: Build distributions
+        run: |
+          python -m pip install build
+          python -m build
+      - name: Resolve the unified scientific extras
+        run: >-
+          python -m pip install --dry-run --ignore-installed
+          -c requirements/bootstrap.txt '.[mock,lensing]'
+      - name: Install the production wheel
+        run: python -m pip install dist/*.whl
+      - name: Check the base dependency environment
+        run: python -m pip check
+      - name: Check installed entry points
+        working-directory: /tmp
+        run: |
+          disk-lens validate-catalog
+          disk-lens prepare-main --help
+          disk-lens run-main --help
+          disk-lens summarize-main --help
+          disk-lens selection-radii --help
+          disk-lens stellar-ml --help
+          python -m disk_lens.pipeline --help
+          python - <<'PY'
+          from disk_lens._paths import resource_path
+          from disk_lens._fitting_config import STAGE_LIVE_POINTS, load_fitting_config
+          template = resource_path("configs", "fitting.template.json")
+          _, config = load_fitting_config(template)
+          assert config["searches"] == STAGE_LIVE_POINTS
+          assert resource_path("config", "general.yaml").is_file()
+          assert resource_path("catalog", "production_systems.json").is_file()
+          print("Installed scientific resources and fitting defaults are consistent")
+          PY

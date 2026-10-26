@@ -1,0 +1,18 @@
+include README.md CITATION.cff THIRD_PARTY.md CONTRIBUTING.md pipeline.py
+include LICENSE NOTICE
+include CHANGELOG.md
+include pyproject.toml MANIFEST.in
+recursive-include src *.py *.md
+recursive-include config *.yaml *.rst .gitignore
+recursive-include templates *.template.json README.md
+recursive-include catalog *.json *.csv *.md
+recursive-include docs *.md
+recursive-include scripts *.py *.md
+recursive-include requirements *.txt *.md
+recursive-include results *.md *.json *.csv
+prune local_notes
+prune runs
+prune logs
+prune outputs
+global-exclude __pycache__ *.py[cod]
+exclude templates/local.*

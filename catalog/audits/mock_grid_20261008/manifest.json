@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-08",
+  "count": 37,
+  "changed_ids": [
+    5,
+    56405,
+    217244,
+    360186,
+    411079,
+    425781,
+    441099,
+    451938,
+    453492,
+    454966,
+    463901,
+    468189,
+    471967,
+    485608
+  ],
+  "all_mock_grids_within_original_light": true,
+  "central_deflection_radius_arcsec": 0.2,
+  "production_systems_before_sha256": "efb42f1ef0fe514f56c3d6c8777bfb8dae17a3a121eec44bd9fceae9e8ea399c",
+  "production_systems_after_sha256": "750e897c62d06b6b3ad580f0ae9e7f4eb34ed7cadeb1fe270e05640e1cfd5e60",
+  "grid_comparison_sha256": "77bdfbda713d723127439c284b52ad6713a2b4395b9ab51f4fb1e49751a4cb35",
+  "note": "Use archived arc shapes for the original 33, not the fitting/plotting LENS_PARAMS grid. For 468189 the archived 100-pixel arc is used instead of the inconsistent MOCK_GRID_SIZE=160. Additional four retain their tested grids. Foreground aperture and fit masks are unchanged."
+}

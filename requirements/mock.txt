@@ -1,0 +1,3 @@
+# Compatibility alias: mock shares the unified 2025 runtime.
+# Apply with --no-deps after the bootstrap installation.
+-r production.txt

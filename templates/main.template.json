@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "mode": "sph",
+  "subhalo_id": null,
+  "pixel_scale_arcsec": 0.05,
+  "raytrace_grid_shape": null,
+  "stellar_mass_normalization": null,
+  "halo": {
+    "mass_at_200_msun": null,
+    "centre_yx_arcsec": [
+      0.0,
+      0.0
+    ],
+    "lens_redshift": 0.15,
+    "source_redshift": 0.65
+  },
+  "source": {
+    "centre_yx_arcsec": null,
+    "axis_ratio": 0.7,
+    "angle_deg": 0.0,
+    "intensity": 0.4,
+    "effective_radius_arcsec": 0.15,
+    "sersic_index": 1.0
+  },
+  "central_deflection_radius_arcsec": null,
+  "psf": {
+    "sigma_arcsec": 0.05,
+    "size": 15
+  },
+  "observation": {
+    "sky_cps_pixel": 0.1,
+    "exposure_seconds": 2400,
+    "seed": null
+  },
+  "input_lightmap": "../runs/lightmap"
+}

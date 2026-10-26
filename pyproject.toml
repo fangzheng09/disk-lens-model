@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tng50-disc-lensing"
+version = "0.1.0"
+description = "Research workflows for strong lensing by TNG50 edge-on disc galaxies"
+readme = "README.md"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY.md"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<2.2", "astropy>=6.1,<7", "scipy>=1.14,<2", "numba>=0.60,<1"]
+
+[project.urls]
+Repository = "https://github.com/lzero09/disk-lens-model"
+Issues = "https://github.com/lzero09/disk-lens-model/issues"
+
+[project.scripts]
+disk-lens = "disk_lens.cli:main"
+
+[project.optional-dependencies]
+lensing = [
+  "autolens==2025.1.18.7", "autofit==2025.1.18.7",
+  "autoconf==2025.1.18.7", "autoarray==2025.1.18.7",
+  "autogalaxy==2025.1.18.7",
+  "matplotlib>=3.7,<4",
+]
+mock = [
+  "autolens==2025.1.18.7", "autogalaxy==2025.1.18.7",
+  "autoarray==2025.1.18.7", "autoconf==2025.1.18.7",
+  "autofit==2025.1.18.7",
+  "lenstronomy==1.13.2", "scikit-image>=0.24,<0.26",
+  "matplotlib>=3.7,<4",
+]
+
+selection = ["h5py>=3.10,<4", "scikit-image>=0.24,<0.26"]
+
+[tool.setuptools]
+include-package-data = false
+packages = [
+  "disk_lens", "disk_lens.slam", "disk_lens.resources",
+  "disk_lens.resources.config", "disk_lens.resources.configs",
+  "disk_lens.resources.catalog",
+]
+
+[tool.setuptools.package-dir]
+"" = "src"
+"disk_lens.resources.config" = "config"
+"disk_lens.resources.configs" = "templates"
+"disk_lens.resources.catalog" = "catalog"
+
+[tool.setuptools.package-data]
+"disk_lens.slam" = ["*.md", "*.rst"]
+"disk_lens.resources.config" = [".gitignore", "*.yaml", "*.rst", "**/*.yaml", "**/*.rst"]
+"disk_lens.resources.configs" = ["*.template.json", "README.md"]
+"disk_lens.resources.catalog" = ["*.json", "README.md", "audits/**/*.csv", "audits/**/*.json", "audits/**/*.md"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["local.*", "**/local.*", "__pycache__/*", "*.pyc"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+extend-exclude = ["src/disk_lens/slam"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/disk_lens/pipeline.py" = ["E402"]

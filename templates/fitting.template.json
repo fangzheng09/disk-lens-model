@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "experiment": "main",
+  "lens_redshift": 0.15,
+  "source_redshift": 0.65,
+  "lens_mge": {
+    "total_gaussians": 15,
+    "sets_per_component": 2,
+    "source_stage_sigma_min_arcsec": 0.001,
+    "light_stage_sigma_min_arcsec": 0.01,
+    "centre_limit_arcsec": 0.05,
+    "light_stage_centre_sigma_arcsec": 0.1,
+    "ellipticity_component_limit": 0.7
+  },
+  "source_mge": {
+    "total_gaussians": 10,
+    "sigma_min_arcsec": 0.001,
+    "sigma_max_arcsec": 1.0,
+    "centre_prior_sigma_arcsec": 0.3
+  },
+  "source_pixelization": {
+    "initial_shape": [30, 30],
+    "final_pixels": 1000,
+    "inversion": {
+      "image_mesh_min_mesh_pixels_per_pixel": 3,
+      "image_mesh_min_mesh_number": 5,
+      "image_mesh_adapt_background_percent_threshold": 0.1,
+      "image_mesh_adapt_background_percent_check": 0.8
+    }
+  },
+  "positions": {
+    "initial_threshold_arcsec": 0.1,
+    "update_factor": 3.0,
+    "minimum_threshold_arcsec": 0.1
+  },
+  "oversampling": {
+    "sub_size_list": [4, 2, 1],
+    "radial_list_arcsec": [0.1, 0.3]
+  },
+  "searches": {
+    "source_lp_n_live": 800,
+    "source_pix_1_n_live": 800,
+    "source_pix_2_n_live": 1000,
+    "light_n_live": 1000,
+    "mass_n_live": 1500
+  }
+}

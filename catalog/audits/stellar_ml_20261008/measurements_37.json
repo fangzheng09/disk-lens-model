@@ -1,0 +1,5317 @@
+{
+  "3": {
+    "id": 3,
+    "selection_radius_yz_arcsec": 0.9694408726417415,
+    "selection_radius_max_arcsec": 0.9694408726417415,
+    "legacy_stellar_normalization": 0.405640464,
+    "legacy_implied_ml_4p53": 2.058500002484995,
+    "legacy_mock_einstein_radius_arcsec": 0.797958359,
+    "stellar_mass_normalization": 0.40938583177744625,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.6189104378925014,
+      "stellar_mass_msun": 56684848652.79605,
+      "stellar_luminosity_lsun_i": 27537452825.450348,
+      "mass_to_light_msun_per_lsun": 2.058463758870517,
+      "point_particle_mass_to_light": 2.0584336108718477,
+      "foreground_cube_mass_to_light": 2.059308203610255,
+      "foreground_cube_mass_fraction": 0.9971330940896528,
+      "foreground_cube_light_fraction": 0.9967242073602904,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.00036305300735167304,
+        0.00024588082438773605,
+        -0.002668173910201057
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          0.9460011100230235,
+          -0.3181889441761261,
+          0.06194913751853007
+        ],
+        [
+          0.3228913954452722,
+          0.9080094211713989,
+          -0.2669457581820438
+        ],
+        [
+          0.028688788447972097,
+          0.2725338270161402,
+          0.9617183925397933
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.5750695556643136,
+        "c_over_a": 0.3601707607525602,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 3.213207477870128e-12,
+      "order_64": {
+        "radius_kpc": 2.6189104378925014,
+        "stellar_mass_msun": 56684848650.474846,
+        "stellar_luminosity_lsun_i": 27537452824.234222,
+        "mass_to_light_msun_per_lsun": 2.058463758877131,
+        "point_particle_mass_to_light": 2.0584336108718477,
+        "foreground_cube_mass_to_light": 2.0593082036160335,
+        "foreground_cube_mass_fraction": 0.9971330940911243,
+        "foreground_cube_light_fraction": 0.9967242073621673,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.00036305300735167304,
+          0.00024588082438773605,
+          -0.002668173910201057
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.9460011100230235,
+            -0.3181889441761261,
+            0.06194913751853007
+          ],
+          [
+            0.3228913954452722,
+            0.9080094211713989,
+            -0.2669457581820438
+          ],
+          [
+            0.028688788447972097,
+            0.2725338270161402,
+            0.9617183925397933
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5750695556643136,
+          "c_over_a": 0.3601707607525602,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 3,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        7495.8642578125,
+        24910.349609375,
+        21666.669921875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.9681,
+      "measured_ml": 2.058495,
+      "remeasured": {
+        "radius_kpc": 2.6152881175876312,
+        "stellar_mass_msun": 56662085802.28509,
+        "stellar_luminosity_lsun_i": 27525487452.71583,
+        "mass_to_light_msun_per_lsun": 2.0585316027416787,
+        "point_particle_mass_to_light": 2.0584945445354172,
+        "foreground_cube_mass_to_light": 2.059374401321105,
+        "foreground_cube_mass_fraction": 0.9971395571634465,
+        "foreground_cube_light_fraction": 0.9967314779906026,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.00036305300735167304,
+          0.00024588082438773605,
+          -0.002668173910201057
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.9460011100230235,
+            -0.3181889441761261,
+            0.06194913751853007
+          ],
+          [
+            0.3228913954452722,
+            0.9080094211713989,
+            -0.2669457581820438
+          ],
+          [
+            0.028688788447972097,
+            0.2725338270161402,
+            0.9617183925397933
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5750695556643136,
+          "c_over_a": 0.3601707607525602,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 33.74778909981251
+  },
+  "4": {
+    "id": 4,
+    "selection_radius_yz_arcsec": 1.0817594656391214,
+    "selection_radius_max_arcsec": 1.0817594656391214,
+    "legacy_stellar_normalization": 0.444188087,
+    "legacy_implied_ml_4p53": 2.25411727710011,
+    "legacy_mock_einstein_radius_arcsec": 0.8958648217018871,
+    "stellar_mass_normalization": 0.4482849659875954,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.9223351684474124,
+      "stellar_mass_msun": 73151065707.3104,
+      "stellar_luminosity_lsun_i": 32453090908.550896,
+      "mass_to_light_msun_per_lsun": 2.254055427676881,
+      "point_particle_mass_to_light": 2.2540539900668253,
+      "foreground_cube_mass_to_light": 2.257367716071984,
+      "foreground_cube_mass_fraction": 0.9876534573659906,
+      "foreground_cube_light_fraction": 0.9862042503706372,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.005603995253551251,
+        -0.0010720731045690695,
+        -0.005684471952665827
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          -0.0967351149923504,
+          0.982080007996757,
+          -0.1617441665733451
+        ],
+        [
+          -0.34866089315731646,
+          -0.18564550637330315,
+          -0.9186791211005841
+        ],
+        [
+          -0.932243476303352,
+          -0.032474664840288076,
+          0.3603713321469282
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.6278440549563392,
+        "c_over_a": 0.4124471946187942,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.573496971081113e-12,
+      "order_64": {
+        "radius_kpc": 2.9223351684474124,
+        "stellar_mass_msun": 73151065705.00314,
+        "stellar_luminosity_lsun_i": 32453090907.443783,
+        "mass_to_light_msun_per_lsun": 2.254055427682682,
+        "point_particle_mass_to_light": 2.2540539900668253,
+        "foreground_cube_mass_to_light": 2.257367716076382,
+        "foreground_cube_mass_fraction": 0.9876534573706368,
+        "foreground_cube_light_fraction": 0.9862042503758929,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.005603995253551251,
+          -0.0010720731045690695,
+          -0.005684471952665827
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            -0.0967351149923504,
+            0.982080007996757,
+            -0.1617441665733451
+          ],
+          [
+            -0.34866089315731646,
+            -0.18564550637330315,
+            -0.9186791211005841
+          ],
+          [
+            -0.932243476303352,
+            -0.032474664840288076,
+            0.3603713321469282
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6278440549563392,
+          "c_over_a": 0.4124471946187942,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 4,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        7270.1162109375,
+        24616.49609375,
+        21684.47265625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "n_new_samples.csv",
+      "radius_arcsec": 1.0802285199439248,
+      "measured_ml": 2.254117276650741,
+      "remeasured": {
+        "radius_kpc": 2.918199372470427,
+        "stellar_mass_msun": 73123965138.01254,
+        "stellar_luminosity_lsun_i": 32440124239.80945,
+        "mass_to_light_msun_per_lsun": 2.2541209952666343,
+        "point_particle_mass_to_light": 2.254118357939808,
+        "foreground_cube_mass_to_light": 2.257427813324079,
+        "foreground_cube_mass_fraction": 0.9876752171960114,
+        "foreground_cube_light_fraction": 0.9862284102488138,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.005603995253551251,
+          -0.0010720731045690695,
+          -0.005684471952665827
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            -0.0967351149923504,
+            0.982080007996757,
+            -0.1617441665733451
+          ],
+          [
+            -0.34866089315731646,
+            -0.18564550637330315,
+            -0.9186791211005841
+          ],
+          [
+            -0.932243476303352,
+            -0.032474664840288076,
+            0.3603713321469282
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6278440549563392,
+          "c_over_a": 0.4124471946187942,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 32.79337799549103
+  },
+  "5": {
+    "id": 5,
+    "selection_radius_yz_arcsec": 1.0179842454086114,
+    "selection_radius_max_arcsec": 1.0179842454086114,
+    "legacy_stellar_normalization": 0.407039563,
+    "legacy_implied_ml_4p53": 2.065599997555942,
+    "legacy_mock_einstein_radius_arcsec": 0.830205198,
+    "stellar_mass_normalization": 0.41079724982749355,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.750048652937251,
+      "stellar_mass_msun": 62524027658.239944,
+      "stellar_luminosity_lsun_i": 30269761711.73692,
+      "mass_to_light_msun_per_lsun": 2.0655606163558473,
+      "point_particle_mass_to_light": 2.0655580469669914,
+      "foreground_cube_mass_to_light": 2.067400335645995,
+      "foreground_cube_mass_fraction": 0.994312941750526,
+      "foreground_cube_light_fraction": 0.9934281316497234,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.004146426209551686,
+        -0.0033482821006981123,
+        0.002606516541330004
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          0.6057493475744913,
+          0.7389134252507946,
+          0.29508418781292967
+        ],
+        [
+          -0.7752315302380486,
+          0.6316008613372792,
+          0.00981969871129712
+        ],
+        [
+          -0.17911951997996262,
+          -0.23470684255501548,
+          0.9554207950531555
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.460520779328237,
+        "c_over_a": 0.32593647631115075,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 5.07216491030249e-12,
+      "order_64": {
+        "radius_kpc": 2.750048652937251,
+        "stellar_mass_msun": 62524027655.895096,
+        "stellar_luminosity_lsun_i": 30269761710.448177,
+        "mass_to_light_msun_per_lsun": 2.0655606163663243,
+        "point_particle_mass_to_light": 2.0655580469669914,
+        "foreground_cube_mass_to_light": 2.067400335654169,
+        "foreground_cube_mass_fraction": 0.9943129417552498,
+        "foreground_cube_light_fraction": 0.9934281316555542,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.004146426209551686,
+          -0.0033482821006981123,
+          0.002606516541330004
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.6057493475744913,
+            0.7389134252507946,
+            0.29508418781292967
+          ],
+          [
+            -0.7752315302380486,
+            0.6316008613372792,
+            0.00981969871129712
+          ],
+          [
+            -0.17911951997996262,
+            -0.23470684255501548,
+            0.9554207950531555
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.460520779328237,
+          "c_over_a": 0.32593647631115075,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 5,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        6732.45458984375,
+        24385.947265625,
+        21298.2578125
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 1.0166,
+      "measured_ml": 2.0656269,
+      "remeasured": {
+        "radius_kpc": 2.7463091626274,
+        "stellar_mass_msun": 62501383604.547455,
+        "stellar_luminosity_lsun_i": 30257662993.34381,
+        "mass_to_light_msun_per_lsun": 2.065638169686031,
+        "point_particle_mass_to_light": 2.065627849239475,
+        "foreground_cube_mass_to_light": 2.067474805141448,
+        "foreground_cube_mass_fraction": 0.9943241848864179,
+        "foreground_cube_light_fraction": 0.993440879780305,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.004146426209551686,
+          -0.0033482821006981123,
+          0.002606516541330004
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.6057493475744913,
+            0.7389134252507946,
+            0.29508418781292967
+          ],
+          [
+            -0.7752315302380486,
+            0.6316008613372792,
+            0.00981969871129712
+          ],
+          [
+            -0.17911951997996262,
+            -0.23470684255501548,
+            0.9554207950531555
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.460520779328237,
+          "c_over_a": 0.32593647631115075,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 26.617565490305424
+  },
+  "56404": {
+    "id": 56404,
+    "selection_radius_yz_arcsec": 0.7824717495437286,
+    "selection_radius_max_arcsec": 0.7824717495437286,
+    "legacy_stellar_normalization": 0.295604207,
+    "legacy_implied_ml_4p53": 1.500100001966458,
+    "legacy_mock_einstein_radius_arcsec": 0.643422404,
+    "stellar_mass_normalization": 0.2983256853388196,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.113819924521969,
+      "stellar_mass_msun": 38062923986.98961,
+      "stellar_luminosity_lsun_i": 25374709777.793716,
+      "mass_to_light_msun_per_lsun": 1.5000338652266985,
+      "point_particle_mass_to_light": 1.5000581269092181,
+      "foreground_cube_mass_to_light": 1.5001020903113949,
+      "foreground_cube_mass_fraction": 0.9989778382433657,
+      "foreground_cube_light_fraction": 0.9989324044371841,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.001568068889481189,
+        -0.0014922413111696509,
+        0.007411998461020902
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          0.12864193908774632,
+          0.3286190481546992,
+          -0.9356606076444841
+        ],
+        [
+          0.9623085348778155,
+          -0.2693327113546181,
+          0.03771172623578234
+        ],
+        [
+          -0.23961121678472477,
+          -0.905245498074566,
+          -0.3508803970111088
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.9162186234019265,
+        "c_over_a": 0.3857923099383693,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 6.465938895416912e-13,
+      "order_64": {
+        "radius_kpc": 2.113819924521969,
+        "stellar_mass_msun": 38062923984.60838,
+        "stellar_luminosity_lsun_i": 25374709776.222675,
+        "mass_to_light_msun_per_lsun": 1.5000338652257286,
+        "point_particle_mass_to_light": 1.5000581269092181,
+        "foreground_cube_mass_to_light": 1.500102090310911,
+        "foreground_cube_mass_fraction": 0.9989778382450857,
+        "foreground_cube_light_fraction": 0.9989324044385803,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.001568068889481189,
+          -0.0014922413111696509,
+          0.007411998461020902
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.12864193908774632,
+            0.3286190481546992,
+            -0.9356606076444841
+          ],
+          [
+            0.9623085348778155,
+            -0.2693327113546181,
+            0.03771172623578234
+          ],
+          [
+            -0.23961121678472477,
+            -0.905245498074566,
+            -0.3508803970111088
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9162186234019265,
+          "c_over_a": 0.3857923099383693,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 56404,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        23828.625,
+        14985.39453125,
+        3153.32080078125
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 12.797242164611816
+  },
+  "56405": {
+    "id": 56405,
+    "selection_radius_yz_arcsec": 0.7970266051549219,
+    "selection_radius_max_arcsec": 0.7970266051549219,
+    "legacy_stellar_normalization": 0.440598257,
+    "legacy_implied_ml_4p53": 2.235899999190871,
+    "legacy_mock_einstein_radius_arcsec": 0.586672826,
+    "stellar_mass_normalization": 0.44463490594040816,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.153139355296845,
+      "stellar_mass_msun": 32334958553.361176,
+      "stellar_luminosity_lsun_i": 14462998388.145748,
+      "mass_to_light_msun_per_lsun": 2.2357022856245186,
+      "point_particle_mass_to_light": 2.2356022054950646,
+      "foreground_cube_mass_to_light": 2.2531823293958326,
+      "foreground_cube_mass_fraction": 0.9808289835834623,
+      "foreground_cube_light_fraction": 0.9732197753354064,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.003552501460783089,
+        0.007882033553783922,
+        0.0005645374924904329
+      ],
+      "centre_iterations": 2,
+      "rotation_rows": [
+        [
+          0.2347109735513213,
+          0.2737373386988437,
+          0.9327264488030057
+        ],
+        [
+          -0.971650868326684,
+          0.09408008718685598,
+          0.21689519882863728
+        ],
+        [
+          -0.02837867112096588,
+          -0.9571921471663813,
+          0.28805875169558687
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7385881014861522,
+        "c_over_a": 0.4386853042984951,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.0529799254754835e-11,
+      "order_64": {
+        "radius_kpc": 2.153139355296845,
+        "stellar_mass_msun": 32334958552.025436,
+        "stellar_luminosity_lsun_i": 14462998387.395996,
+        "mass_to_light_msun_per_lsun": 2.23570228564806,
+        "point_particle_mass_to_light": 2.2356022054950646,
+        "foreground_cube_mass_to_light": 2.25318232941013,
+        "foreground_cube_mass_fraction": 0.9808289835918864,
+        "foreground_cube_light_fraction": 0.9732197753478375,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.003552501460783089,
+          0.007882033553783922,
+          0.0005645374924904329
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.2347109735513213,
+            0.2737373386988437,
+            0.9327264488030057
+          ],
+          [
+            -0.971650868326684,
+            0.09408008718685598,
+            0.21689519882863728
+          ],
+          [
+            -0.02837867112096588,
+            -0.9571921471663813,
+            0.28805875169558687
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7385881014861522,
+          "c_over_a": 0.4386853042984951,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 56405,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        23658.205078125,
+        15464.6103515625,
+        3205.963623046875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 7.1393498703837395
+  },
+  "83991": {
+    "id": 83991,
+    "selection_radius_yz_arcsec": 0.6790953594787272,
+    "selection_radius_max_arcsec": 0.6790953594787272,
+    "legacy_stellar_normalization": 0.326147938,
+    "legacy_implied_ml_4p53": 1.6550999980699066,
+    "legacy_mock_einstein_radius_arcsec": 0.565177592,
+    "stellar_mass_normalization": 0.3291538503385252,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.8345522408362942,
+      "stellar_mass_msun": 28356634012.550514,
+      "stellar_luminosity_lsun_i": 17133469718.270153,
+      "mass_to_light_msun_per_lsun": 1.6550432853838484,
+      "point_particle_mass_to_light": 1.6550316554968778,
+      "foreground_cube_mass_to_light": 1.6553481874010154,
+      "foreground_cube_mass_fraction": 0.9991807689168697,
+      "foreground_cube_light_fraction": 0.9989967277379347,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.025614730913648878,
+        0.0035378199283936504,
+        -0.026368718815966145
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          0.7949655480637289,
+          -0.003489158574330533,
+          0.606644544329032
+        ],
+        [
+          0.21810618600277842,
+          -0.9314770267065658,
+          -0.2911704661280349
+        ],
+        [
+          0.5660913963478484,
+          0.36378341700844313,
+          -0.7397311379755517
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.5624085500960443,
+        "c_over_a": 0.26687176960052206,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 4.408584608484034e-12,
+      "order_64": {
+        "radius_kpc": 1.8345522408362942,
+        "stellar_mass_msun": 28356634010.99923,
+        "stellar_luminosity_lsun_i": 17133469717.257313,
+        "mass_to_light_msun_per_lsun": 1.6550432853911448,
+        "point_particle_mass_to_light": 1.6550316554968778,
+        "foreground_cube_mass_to_light": 1.6553481874075124,
+        "foreground_cube_mass_fraction": 0.9991807689180296,
+        "foreground_cube_light_fraction": 0.9989967277395775,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.025614730913648878,
+          0.0035378199283936504,
+          -0.026368718815966145
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.7949655480637289,
+            -0.003489158574330533,
+            0.606644544329032
+          ],
+          [
+            0.21810618600277842,
+            -0.9314770267065658,
+            -0.2911704661280349
+          ],
+          [
+            0.5660913963478484,
+            0.36378341700844313,
+            -0.7397311379755517
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5624085500960443,
+          "c_over_a": 0.26687176960052206,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 83991,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        27439.3515625,
+        7612.02294921875,
+        4490.6240234375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.678,
+      "measured_ml": 1.6550883,
+      "remeasured": {
+        "radius_kpc": 1.8315931657105817,
+        "stellar_mass_msun": 28341700272.009274,
+        "stellar_luminosity_lsun_i": 17123777719.82136,
+        "mass_to_light_msun_per_lsun": 1.6551079286203758,
+        "point_particle_mass_to_light": 1.6550886862936585,
+        "foreground_cube_mass_to_light": 1.6554121223239382,
+        "foreground_cube_mass_fraction": 0.9991830099792776,
+        "foreground_cube_light_fraction": 0.998999403023497,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.025614730913648878,
+          0.0035378199283936504,
+          -0.026368718815966145
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.7949655480637289,
+            -0.003489158574330533,
+            0.606644544329032
+          ],
+          [
+            0.21810618600277842,
+            -0.9314770267065658,
+            -0.2911704661280349
+          ],
+          [
+            0.5660913963478484,
+            0.36378341700844313,
+            -0.7397311379755517
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5624085500960443,
+          "c_over_a": 0.26687176960052206,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 11.005363717675209
+  },
+  "83993": {
+    "id": 83993,
+    "selection_radius_yz_arcsec": 0.6828369883914351,
+    "selection_radius_max_arcsec": 0.6828369883914351,
+    "legacy_stellar_normalization": 0.365357388,
+    "legacy_implied_ml_4p53": 1.8540758401901227,
+    "legacy_mock_einstein_radius_arcsec": 0.5578197079114776,
+    "stellar_mass_normalization": 0.3687050085308751,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.8446601198114283,
+      "stellar_mass_msun": 28259084804.986458,
+      "stellar_luminosity_lsun_i": 15242936437.69315,
+      "mass_to_light_msun_per_lsun": 1.8539134451224648,
+      "point_particle_mass_to_light": 1.8538336560715345,
+      "foreground_cube_mass_to_light": 1.8543583394596552,
+      "foreground_cube_mass_fraction": 0.9993463726017905,
+      "foreground_cube_light_fraction": 0.9991066112069179,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.004643112943017141,
+        0.0019026491445719013,
+        -0.011201521583357178
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          -0.9104832743759536,
+          0.2019882520124763,
+          -0.36086140432385727
+        ],
+        [
+          -0.193963588211965,
+          0.5620904299264374,
+          0.8040102456020396
+        ],
+        [
+          0.36523736600953305,
+          0.802031853877424,
+          -0.47259556899780697
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.6687355020624506,
+        "c_over_a": 0.26882492693623466,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.3005374555064009e-11,
+      "order_64": {
+        "radius_kpc": 1.8446601198114283,
+        "stellar_mass_msun": 28259084803.401882,
+        "stellar_luminosity_lsun_i": 15242936436.64019,
+        "mass_to_light_msun_per_lsun": 1.8539134451465757,
+        "point_particle_mass_to_light": 1.8538336560715345,
+        "foreground_cube_mass_to_light": 1.8543583394829692,
+        "foreground_cube_mass_fraction": 0.9993463726023123,
+        "foreground_cube_light_fraction": 0.999106611207872,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.004643112943017141,
+          0.0019026491445719013,
+          -0.011201521583357178
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.9104832743759536,
+            0.2019882520124763,
+            -0.36086140432385727
+          ],
+          [
+            -0.193963588211965,
+            0.5620904299264374,
+            0.8040102456020396
+          ],
+          [
+            0.36523736600953305,
+            0.802031853877424,
+            -0.47259556899780697
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6687355020624506,
+          "c_over_a": 0.26882492693623466,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 83993,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        27380.65625,
+        7395.224609375,
+        4119.6591796875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "n_new_samples.csv",
+      "radius_arcsec": 0.6815018093665675,
+      "measured_ml": 1.854075840366231,
+      "remeasured": {
+        "radius_kpc": 1.8410531806123902,
+        "stellar_mass_msun": 28241077870.62654,
+        "stellar_luminosity_lsun_i": 15231135230.819061,
+        "mass_to_light_msun_per_lsun": 1.8541676272089578,
+        "point_particle_mass_to_light": 1.8540765255493514,
+        "foreground_cube_mass_to_light": 1.8546115129678626,
+        "foreground_cube_mass_fraction": 0.9993484281790552,
+        "foreground_cube_light_fraction": 0.9991092424884938,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.004643112943017141,
+          0.0019026491445719013,
+          -0.011201521583357178
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.9104832743759536,
+            0.2019882520124763,
+            -0.36086140432385727
+          ],
+          [
+            -0.193963588211965,
+            0.5620904299264374,
+            0.8040102456020396
+          ],
+          [
+            0.36523736600953305,
+            0.802031853877424,
+            -0.47259556899780697
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6687355020624506,
+          "c_over_a": 0.26882492693623466,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 10.572232350707054
+  },
+  "83999": {
+    "id": 83999,
+    "selection_radius_yz_arcsec": 0.5873050436336582,
+    "selection_radius_max_arcsec": 0.5873050436336582,
+    "legacy_stellar_normalization": 0.409420931,
+    "legacy_implied_ml_4p53": 2.077684704257978,
+    "legacy_mock_einstein_radius_arcsec": 0.5109294887662275,
+    "stellar_mass_normalization": 0.41319650693280413,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.5865839293610078,
+      "stellar_mass_msun": 23663663865.58538,
+      "stellar_luminosity_lsun_i": 11389769346.895256,
+      "mass_to_light_msun_per_lsun": 2.0776245018548924,
+      "point_particle_mass_to_light": 2.077624998684616,
+      "foreground_cube_mass_to_light": 2.080914127038824,
+      "foreground_cube_mass_fraction": 0.9902959787209398,
+      "foreground_cube_light_fraction": 0.9887304635712195,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.006092128011244256,
+        0.004617022180324232,
+        0.007188985934594938
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          -0.29633296367184836,
+          0.05667279860798801,
+          0.9534017875688069
+        ],
+        [
+          -0.3754206233204451,
+          0.9109741156813381,
+          -0.1708376894724706
+        ],
+        [
+          -0.8782062002896285,
+          -0.40855153219213686,
+          -0.2486755221494679
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.4704104758447282,
+        "c_over_a": 0.2783221045626933,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 5.788258761185716e-12,
+      "order_64": {
+        "radius_kpc": 1.5865839293610078,
+        "stellar_mass_msun": 23663663864.4896,
+        "stellar_luminosity_lsun_i": 11389769346.301908,
+        "mass_to_light_msun_per_lsun": 2.0776245018669184,
+        "point_particle_mass_to_light": 2.077624998684616,
+        "foreground_cube_mass_to_light": 2.080914127048361,
+        "foreground_cube_mass_fraction": 0.9902959787284388,
+        "foreground_cube_light_fraction": 0.9887304635798982,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.006092128011244256,
+          0.004617022180324232,
+          0.007188985934594938
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.29633296367184836,
+            0.05667279860798801,
+            0.9534017875688069
+          ],
+          [
+            -0.3754206233204451,
+            0.9109741156813381,
+            -0.1708376894724706
+          ],
+          [
+            -0.8782062002896285,
+            -0.40855153219213686,
+            -0.2486755221494679
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4704104758447282,
+          "c_over_a": 0.2783221045626933,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 83999,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        27352.203125,
+        7293.3466796875,
+        3929.067138671875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "n_new_samples.csv",
+      "radius_arcsec": 0.5866699868349453,
+      "measured_ml": 2.0776847018169713,
+      "remeasured": {
+        "radius_kpc": 1.5848683457439567,
+        "stellar_mass_msun": 23657424564.91857,
+        "stellar_luminosity_lsun_i": 11386445661.956097,
+        "mass_to_light_msun_per_lsun": 2.0776829984761394,
+        "point_particle_mass_to_light": 2.077685043783681,
+        "foreground_cube_mass_to_light": 2.0809679477031042,
+        "foreground_cube_mass_fraction": 0.9903113439366342,
+        "foreground_cube_light_fraction": 0.9887480702267677,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.006092128011244256,
+          0.004617022180324232,
+          0.007188985934594938
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.29633296367184836,
+            0.05667279860798801,
+            0.9534017875688069
+          ],
+          [
+            -0.3754206233204451,
+            0.9109741156813381,
+            -0.1708376894724706
+          ],
+          [
+            -0.8782062002896285,
+            -0.40855153219213686,
+            -0.2486755221494679
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4704104758447282,
+          "c_over_a": 0.2783221045626933,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 7.6315798163414
+  },
+  "100666": {
+    "id": 100666,
+    "selection_radius_yz_arcsec": 0.5758789723947458,
+    "selection_radius_max_arcsec": 0.5758789723947458,
+    "legacy_stellar_normalization": 0.354287583,
+    "legacy_implied_ml_4p53": 1.7979000006417083,
+    "legacy_mock_einstein_radius_arcsec": 0.456316718,
+    "stellar_mass_normalization": 0.35736406115559005,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.5557167995791286,
+      "stellar_mass_msun": 17565539212.686295,
+      "stellar_luminosity_lsun_i": 9775527327.310383,
+      "mass_to_light_msun_per_lsun": 1.7968891727827883,
+      "point_particle_mass_to_light": 1.796792062355651,
+      "foreground_cube_mass_to_light": 1.7969735523352117,
+      "foreground_cube_mass_fraction": 0.9998531619923948,
+      "foreground_cube_light_fraction": 0.9998062124075283,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.01341022951766133,
+        -0.0029362120038854563,
+        -0.007517202942178648
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          -0.7248059633305639,
+          -0.666340166706354,
+          0.17506312505551178
+        ],
+        [
+          0.6879759985563251,
+          -0.7135500753062876,
+          0.13242097809946757
+        ],
+        [
+          0.03667888944449675,
+          0.2164187428670164,
+          0.9756113912849613
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8138839187354865,
+        "c_over_a": 0.21472788451047106,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 4.197631131575008e-11,
+      "order_64": {
+        "radius_kpc": 1.5557167995791286,
+        "stellar_mass_msun": 17565539211.16485,
+        "stellar_luminosity_lsun_i": 9775527326.053331,
+        "mass_to_light_msun_per_lsun": 1.796889172858215,
+        "point_particle_mass_to_light": 1.796792062355651,
+        "foreground_cube_mass_to_light": 1.7969735524105757,
+        "foreground_cube_mass_fraction": 0.9998531619923914,
+        "foreground_cube_light_fraction": 0.9998062124075618,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.01341022951766133,
+          -0.0029362120038854563,
+          -0.007517202942178648
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            -0.7248059633305639,
+            -0.666340166706354,
+            0.17506312505551178
+          ],
+          [
+            0.6879759985563251,
+            -0.7135500753062876,
+            0.13242097809946757
+          ],
+          [
+            0.03667888944449675,
+            0.2164187428670164,
+            0.9756113912849613
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8138839187354865,
+          "c_over_a": 0.21472788451047106,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 100666,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        15811.8701171875,
+        29067.625,
+        25799.87890625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 5.656316116452217
+  },
+  "209287": {
+    "id": 209287,
+    "selection_radius_yz_arcsec": 0.5495002425467744,
+    "selection_radius_max_arcsec": 0.5495002425467744,
+    "legacy_stellar_normalization": 0.293653349,
+    "legacy_implied_ml_4p53": 1.4902000004768436,
+    "legacy_mock_einstein_radius_arcsec": 0.454302231,
+    "stellar_mass_normalization": 0.2964154661555513,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.4844555882079336,
+      "stellar_mass_msun": 18545754429.00524,
+      "stellar_luminosity_lsun_i": 12443232836.984615,
+      "mass_to_light_msun_per_lsun": 1.490428948165488,
+      "point_particle_mass_to_light": 1.4900555692746096,
+      "foreground_cube_mass_to_light": 1.4904336323449698,
+      "foreground_cube_mass_fraction": 0.9997383009148383,
+      "foreground_cube_light_fraction": 0.9997351589073481,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.0037264903383635744,
+        0.0036851177523846484,
+        -0.001328180159960413
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          0.9108589868874548,
+          0.28100864986063995,
+          0.30227478345019004
+        ],
+        [
+          -0.405167419775773,
+          0.7482859869267056,
+          0.5252689251434625
+        ],
+        [
+          -0.07858287318876789,
+          -0.6009178150734308,
+          0.7954385655528476
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7420638090432438,
+        "c_over_a": 0.2676702369995547,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.9389490840969756e-11,
+      "order_64": {
+        "radius_kpc": 1.4844555882079336,
+        "stellar_mass_msun": 18545754427.564095,
+        "stellar_luminosity_lsun_i": 12443232835.651981,
+        "mass_to_light_msun_per_lsun": 1.490428948209291,
+        "point_particle_mass_to_light": 1.4900555692746096,
+        "foreground_cube_mass_to_light": 1.4904336323884402,
+        "foreground_cube_mass_fraction": 0.9997383009164877,
+        "foreground_cube_light_fraction": 0.9997351589092208,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.0037264903383635744,
+          0.0036851177523846484,
+          -0.001328180159960413
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.9108589868874548,
+            0.28100864986063995,
+            0.30227478345019004
+          ],
+          [
+            -0.405167419775773,
+            0.7482859869267056,
+            0.5252689251434625
+          ],
+          [
+            -0.07858287318876789,
+            -0.6009178150734308,
+            0.7954385655528476
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7420638090432438,
+          "c_over_a": 0.2676702369995547,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 209287,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        994.1738891601562,
+        5849.279296875,
+        27159.84375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 5.775628663599491
+  },
+  "217244": {
+    "id": 217244,
+    "selection_radius_yz_arcsec": 0.7739663839872636,
+    "selection_radius_max_arcsec": 0.7739663839872636,
+    "legacy_stellar_normalization": 0.413384777,
+    "legacy_implied_ml_4p53": 2.097799997787595,
+    "legacy_mock_einstein_radius_arcsec": 0.614114041,
+    "stellar_mass_normalization": 0.41719058084017346,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.090842978467262,
+      "stellar_mass_msun": 33934103128.33516,
+      "stellar_luminosity_lsun_i": 16176757078.911777,
+      "mass_to_light_msun_per_lsun": 2.0977074059282304,
+      "point_particle_mass_to_light": 2.0975138909533766,
+      "foreground_cube_mass_to_light": 2.1163124594201363,
+      "foreground_cube_mass_fraction": 0.9940000561628213,
+      "foreground_cube_light_fraction": 0.9852615430318566,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.00971029615087113,
+        0.01379063937000647,
+        0.024734840155458408
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          -0.07737693002341227,
+          0.5158948538309895,
+          0.853150227387213
+        ],
+        [
+          -0.3339269694901342,
+          0.7928817288863996,
+          -0.5097365427799427
+        ],
+        [
+          -0.9394176865203717,
+          -0.32433171875229105,
+          0.1109204510624531
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.4848429573517333,
+        "c_over_a": 0.29960683499166046,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.2342460387060328e-11,
+      "order_64": {
+        "radius_kpc": 2.090842978467262,
+        "stellar_mass_msun": 33934103126.719696,
+        "stellar_luminosity_lsun_i": 16176757077.942007,
+        "mass_to_light_msun_per_lsun": 2.097707405954121,
+        "point_particle_mass_to_light": 2.0975138909533766,
+        "foreground_cube_mass_to_light": 2.1163124594353113,
+        "foreground_cube_mass_fraction": 0.9940000561682396,
+        "foreground_cube_light_fraction": 0.985261543042323,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.00971029615087113,
+          0.01379063937000647,
+          0.024734840155458408
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.07737693002341227,
+            0.5158948538309895,
+            0.853150227387213
+          ],
+          [
+            -0.3339269694901342,
+            0.7928817288863996,
+            -0.5097365427799427
+          ],
+          [
+            -0.9394176865203717,
+            -0.32433171875229105,
+            0.1109204510624531
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4848429573517333,
+          "c_over_a": 0.29960683499166046,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 217244,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        4771.61865234375,
+        22252.880859375,
+        16784.82421875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.7725,
+      "measured_ml": 2.0977635,
+      "remeasured": {
+        "radius_kpc": 2.086881593674667,
+        "stellar_mass_msun": 33914045886.75029,
+        "stellar_luminosity_lsun_i": 16165750684.32335,
+        "mass_to_light_msun_per_lsun": 2.0978948982331054,
+        "point_particle_mass_to_light": 2.0977636866611373,
+        "foreground_cube_mass_to_light": 2.1164713589094255,
+        "foreground_cube_mass_fraction": 0.9940138645130934,
+        "foreground_cube_light_fraction": 0.9852893148573119,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.00971029615087113,
+          0.01379063937000647,
+          0.024734840155458408
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.07737693002341227,
+            0.5158948538309895,
+            0.853150227387213
+          ],
+          [
+            -0.3339269694901342,
+            0.7928817288863996,
+            -0.5097365427799427
+          ],
+          [
+            -0.9394176865203717,
+            -0.32433171875229105,
+            0.1109204510624531
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4848429573517333,
+          "c_over_a": 0.29960683499166046,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 9.577045410871506
+  },
+  "297779": {
+    "id": 297779,
+    "selection_radius_yz_arcsec": 0.7766338173152387,
+    "selection_radius_max_arcsec": 0.7766338173152387,
+    "legacy_stellar_normalization": 0.320353851,
+    "legacy_implied_ml_4p53": 1.6256967970522234,
+    "legacy_mock_einstein_radius_arcsec": 0.645979459434022,
+    "stellar_mass_normalization": 0.3232885693541885,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.098048955832318,
+      "stellar_mass_msun": 39114448565.731026,
+      "stellar_luminosity_lsun_i": 24062261689.60797,
+      "mass_to_light_msun_per_lsun": 1.6255516239615915,
+      "point_particle_mass_to_light": 1.6254638940212265,
+      "foreground_cube_mass_to_light": 1.6274834558515257,
+      "foreground_cube_mass_fraction": 0.9994385538169835,
+      "foreground_cube_light_fraction": 0.9982522147096019,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.007729895500172243,
+        -0.004747961778028902,
+        0.010315056081788081
+      ],
+      "centre_iterations": 2,
+      "rotation_rows": [
+        [
+          0.7378132572673476,
+          0.6352043322941567,
+          -0.2283572938079291
+        ],
+        [
+          -0.6746736415985967,
+          0.6833713919474812,
+          -0.2789606029529084
+        ],
+        [
+          -0.021144141804193474,
+          0.3598874781129454,
+          0.9327560926441965
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7284404193212951,
+        "c_over_a": 0.33571078873514143,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.0031865055614162e-11,
+      "order_64": {
+        "radius_kpc": 2.098048955832318,
+        "stellar_mass_msun": 39114448563.52842,
+        "stellar_luminosity_lsun_i": 24062261687.77097,
+        "mass_to_light_msun_per_lsun": 1.6255516239941543,
+        "point_particle_mass_to_light": 1.6254638940212265,
+        "foreground_cube_mass_to_light": 1.627483455889189,
+        "foreground_cube_mass_fraction": 0.9994385538170674,
+        "foreground_cube_light_fraction": 0.9982522147065808,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.007729895500172243,
+          -0.004747961778028902,
+          0.010315056081788081
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.7378132572673476,
+            0.6352043322941567,
+            -0.2283572938079291
+          ],
+          [
+            -0.6746736415985967,
+            0.6833713919474812,
+            -0.2789606029529084
+          ],
+          [
+            -0.021144141804193474,
+            0.3598874781129454,
+            0.9327560926441965
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7284404193212951,
+          "c_over_a": 0.33571078873514143,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 297779,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        1691.092041015625,
+        4226.03857421875,
+        34384.25
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "n_new_samples.csv",
+      "radius_arcsec": 0.7752138098912245,
+      "measured_ml": 1.6256967989128532,
+      "remeasured": {
+        "radius_kpc": 2.094212855695028,
+        "stellar_mass_msun": 39083759371.1484,
+        "stellar_luminosity_lsun_i": 24039756599.495705,
+        "mass_to_light_msun_per_lsun": 1.6257968007865886,
+        "point_particle_mass_to_light": 1.6256973284201242,
+        "foreground_cube_mass_to_light": 1.6277266348784296,
+        "foreground_cube_mass_fraction": 0.9994399625067731,
+        "foreground_cube_light_fraction": 0.9982550256315847,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.007729895500172243,
+          -0.004747961778028902,
+          0.010315056081788081
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.7378132572673476,
+            0.6352043322941567,
+            -0.2283572938079291
+          ],
+          [
+            -0.6746736415985967,
+            0.6833713919474812,
+            -0.2789606029529084
+          ],
+          [
+            -0.021144141804193474,
+            0.3598874781129454,
+            0.9327560926441965
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7284404193212951,
+          "c_over_a": 0.33571078873514143,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 11.252857588231564
+  },
+  "323241": {
+    "id": 323241,
+    "selection_radius_yz_arcsec": 0.6505129559792606,
+    "selection_radius_max_arcsec": 0.6505129559792606,
+    "legacy_stellar_normalization": 0.233886163,
+    "legacy_implied_ml_4p53": 1.1869000009740298,
+    "legacy_mock_einstein_radius_arcsec": 0.534305477,
+    "stellar_mass_normalization": 0.23603437321563828,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.75733788256313,
+      "stellar_mass_msun": 22785762472.507286,
+      "stellar_luminosity_lsun_i": 19198968491.33454,
+      "mass_to_light_msun_per_lsun": 1.186822223433079,
+      "point_particle_mass_to_light": 1.1867557185570354,
+      "foreground_cube_mass_to_light": 1.1868170042770037,
+      "foreground_cube_mass_fraction": 0.9999757195316608,
+      "foreground_cube_light_fraction": 0.9999801170329883,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.00500855946267885,
+        -0.015182127192378428,
+        0.02250493201280287
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          0.7059808620099325,
+          0.6562074967795484,
+          0.2664258689505046
+        ],
+        [
+          -0.456831331379954,
+          0.7093938475956716,
+          -0.5367173405648714
+        ],
+        [
+          -0.541198814804069,
+          0.25720048632094605,
+          0.8005946244454424
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8805108753086366,
+        "c_over_a": 0.21615123281041948,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 6.967759702547482e-13,
+      "order_64": {
+        "radius_kpc": 1.75733788256313,
+        "stellar_mass_msun": 22785762470.294674,
+        "stellar_luminosity_lsun_i": 19198968489.45685,
+        "mass_to_light_msun_per_lsun": 1.1868222234339059,
+        "point_particle_mass_to_light": 1.1867557185570354,
+        "foreground_cube_mass_to_light": 1.1868170042778161,
+        "foreground_cube_mass_fraction": 0.9999757195316,
+        "foreground_cube_light_fraction": 0.9999801170329397,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.00500855946267885,
+          -0.015182127192378428,
+          0.02250493201280287
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.7059808620099325,
+            0.6562074967795484,
+            0.2664258689505046
+          ],
+          [
+            -0.456831331379954,
+            0.7093938475956716,
+            -0.5367173405648714
+          ],
+          [
+            -0.541198814804069,
+            0.25720048632094605,
+            0.8005946244454424
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8805108753086366,
+          "c_over_a": 0.21615123281041948,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 323241,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        16757.333984375,
+        32415.79296875,
+        27803.40625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 9.902881413698196
+  },
+  "343209": {
+    "id": 343209,
+    "selection_radius_yz_arcsec": 0.5319874010778501,
+    "selection_radius_max_arcsec": 0.5319874010778501,
+    "legacy_stellar_normalization": 0.229531218,
+    "legacy_implied_ml_4p53": 1.164800000878078,
+    "legacy_mock_einstein_radius_arcsec": 0.477494693,
+    "stellar_mass_normalization": 0.23162771171501134,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.4371452626228973,
+      "stellar_mass_msun": 13669178732.049671,
+      "stellar_luminosity_lsun_i": 11736577976.445213,
+      "mass_to_light_msun_per_lsun": 1.1646647565826342,
+      "point_particle_mass_to_light": 1.1641292155647947,
+      "foreground_cube_mass_to_light": 1.1646672140783534,
+      "foreground_cube_mass_fraction": 0.999926865038452,
+      "foreground_cube_light_fraction": 0.9999247551516444,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.005501089128713795,
+        -0.011536019234189869,
+        -0.012724012948878224
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          0.5854575832592255,
+          0.5785837094935506,
+          0.5678734976321307
+        ],
+        [
+          0.7902029765442976,
+          -0.2507379011556043,
+          -0.5592045786513338
+        ],
+        [
+          -0.18115925056369422,
+          0.7761258892942337,
+          -0.6039949750638951
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8336613660202234,
+        "c_over_a": 0.16775399659463688,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.5758727656134397e-11,
+      "order_64": {
+        "radius_kpc": 1.4371452626228973,
+        "stellar_mass_msun": 13669178730.455917,
+        "stellar_luminosity_lsun_i": 11736577975.261745,
+        "mass_to_light_msun_per_lsun": 1.1646647565642805,
+        "point_particle_mass_to_light": 1.1641292155647947,
+        "foreground_cube_mass_to_light": 1.1646672140600536,
+        "foreground_cube_mass_fraction": 0.9999268650387246,
+        "foreground_cube_light_fraction": 0.9999247551518706,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.005501089128713795,
+          -0.011536019234189869,
+          -0.012724012948878224
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.5854575832592255,
+            0.5785837094935506,
+            0.5678734976321307
+          ],
+          [
+            0.7902029765442976,
+            -0.2507379011556043,
+            -0.5592045786513338
+          ],
+          [
+            -0.18115925056369422,
+            0.7761258892942337,
+            -0.6039949750638951
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8336613660202234,
+          "c_over_a": 0.16775399659463688,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 343209,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        30819.958984375,
+        12590.5458984375,
+        8156.97509765625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 3.9938818514347076
+  },
+  "360186": {
+    "id": 360186,
+    "selection_radius_yz_arcsec": 0.6836748622543953,
+    "selection_radius_max_arcsec": 0.6836748622543953,
+    "legacy_stellar_normalization": 0.393265326,
+    "legacy_implied_ml_4p53": 1.9957000013397637,
+    "legacy_mock_einstein_radius_arcsec": 0.536580427,
+    "stellar_mass_normalization": 0.3968990381009633,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.846923606597749,
+      "stellar_mass_msun": 26821908131.47935,
+      "stellar_luminosity_lsun_i": 13439998100.723415,
+      "mass_to_light_msun_per_lsun": 1.995677970373794,
+      "point_particle_mass_to_light": 1.9951970299177746,
+      "foreground_cube_mass_to_light": 1.9957739406889616,
+      "foreground_cube_mass_fraction": 0.9998456834200993,
+      "foreground_cube_light_fraction": 0.9997976040743375,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.0017368568631844516,
+        0.0003435414422049793,
+        0.00979524626567372
+      ],
+      "centre_iterations": 7,
+      "rotation_rows": [
+        [
+          0.5308509090979989,
+          -0.8299685489292962,
+          -0.17131701637031652
+        ],
+        [
+          0.5888002441269389,
+          0.21581606790951705,
+          0.7789336925233954
+        ],
+        [
+          -0.6095175016567488,
+          -0.5143691598650469,
+          0.6032518400749732
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7855045933793564,
+        "c_over_a": 0.23000009549924103,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.6004086944576557e-11,
+      "order_64": {
+        "radius_kpc": 1.846923606597749,
+        "stellar_mass_msun": 26821908129.29583,
+        "stellar_luminosity_lsun_i": 13439998099.414196,
+        "mass_to_light_msun_per_lsun": 1.9956779704057328,
+        "point_particle_mass_to_light": 1.9951970299177746,
+        "foreground_cube_mass_to_light": 1.99577394072081,
+        "foreground_cube_mass_fraction": 0.9998456834201859,
+        "foreground_cube_light_fraction": 0.9997976040744702,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.0017368568631844516,
+          0.0003435414422049793,
+          0.00979524626567372
+        ],
+        "centre_iterations": 7,
+        "rotation_rows": [
+          [
+            0.5308509090979989,
+            -0.8299685489292962,
+            -0.17131701637031652
+          ],
+          [
+            0.5888002441269389,
+            0.21581606790951705,
+            0.7789336925233954
+          ],
+          [
+            -0.6095175016567488,
+            -0.5143691598650469,
+            0.6032518400749732
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7855045933793564,
+          "c_over_a": 0.23000009549924103,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 360186,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 65,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        11843.701171875,
+        18249.46484375,
+        2760.65087890625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 8.559454508125782
+  },
+  "401306": {
+    "id": 401306,
+    "selection_radius_yz_arcsec": 0.9258045555583146,
+    "selection_radius_max_arcsec": 0.9258045555583146,
+    "legacy_stellar_normalization": 0.389166554,
+    "legacy_implied_ml_4p53": 1.9749000000554109,
+    "legacy_mock_einstein_radius_arcsec": 0.730960186,
+    "stellar_mass_normalization": 0.3926814538100831,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.5010284612748253,
+      "stellar_mass_msun": 46205974323.69299,
+      "stellar_luminosity_lsun_i": 23401695567.072536,
+      "mass_to_light_msun_per_lsun": 1.9744712168936733,
+      "point_particle_mass_to_light": 1.9744497071110247,
+      "foreground_cube_mass_to_light": 1.9926455687440736,
+      "foreground_cube_mass_fraction": 0.9933247195452942,
+      "foreground_cube_light_fraction": 0.984264888114211,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.00808683708709933,
+        0.026684094764264216,
+        -0.0013241776708761762
+      ],
+      "centre_iterations": 8,
+      "rotation_rows": [
+        [
+          0.6378870122089862,
+          -0.7520661929104704,
+          -0.16582099124128988
+        ],
+        [
+          -0.41120951416661994,
+          -0.5146627582590034,
+          0.7523489753565742
+        ],
+        [
+          -0.6511581183659958,
+          -0.4117264707817392,
+          -0.6375534629689255
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.6251076905058937,
+        "c_over_a": 0.35183292499769625,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 5.8484328491204e-12,
+      "order_64": {
+        "radius_kpc": 2.5010284612748253,
+        "stellar_mass_msun": 46205974321.61995,
+        "stellar_luminosity_lsun_i": 23401695565.88575,
+        "mass_to_light_msun_per_lsun": 1.974471216905221,
+        "point_particle_mass_to_light": 1.9744497071110247,
+        "foreground_cube_mass_to_light": 1.9926455687656703,
+        "foreground_cube_mass_fraction": 0.9933247195487463,
+        "foreground_cube_light_fraction": 0.9842648881127204,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.00808683708709933,
+          0.026684094764264216,
+          -0.0013241776708761762
+        ],
+        "centre_iterations": 8,
+        "rotation_rows": [
+          [
+            0.6378870122089862,
+            -0.7520661929104704,
+            -0.16582099124128988
+          ],
+          [
+            -0.41120951416661994,
+            -0.5146627582590034,
+            0.7523489753565742
+          ],
+          [
+            -0.6511581183659958,
+            -0.4117264707817392,
+            -0.6375534629689255
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6251076905058937,
+          "c_over_a": 0.35183292499769625,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 401306,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        9843.75,
+        10665.8330078125,
+        2995.10498046875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.9239,
+      "measured_ml": 1.9748753,
+      "remeasured": {
+        "radius_kpc": 2.4958833713864403,
+        "stellar_mass_msun": 46176408745.87746,
+        "stellar_luminosity_lsun_i": 23382607330.032436,
+        "mass_to_light_msun_per_lsun": 1.9748186373796237,
+        "point_particle_mass_to_light": 1.9748751080965437,
+        "foreground_cube_mass_to_light": 1.9929460938492083,
+        "foreground_cube_mass_fraction": 0.9933456272668981,
+        "foreground_cube_light_fraction": 0.9843103454431161,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.00808683708709933,
+          0.026684094764264216,
+          -0.0013241776708761762
+        ],
+        "centre_iterations": 8,
+        "rotation_rows": [
+          [
+            0.6378870122089862,
+            -0.7520661929104704,
+            -0.16582099124128988
+          ],
+          [
+            -0.41120951416661994,
+            -0.5146627582590034,
+            0.7523489753565742
+          ],
+          [
+            -0.6511581183659958,
+            -0.4117264707817392,
+            -0.6375534629689255
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6251076905058937,
+          "c_over_a": 0.35183292499769625,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 15.354640915989876
+  },
+  "411079": {
+    "id": 411079,
+    "selection_radius_yz_arcsec": 0.829814396529334,
+    "selection_radius_max_arcsec": 0.829814396529334,
+    "legacy_stellar_normalization": 0.380673426,
+    "legacy_implied_ml_4p53": 1.9318000000290194,
+    "legacy_mock_einstein_radius_arcsec": 0.70736729,
+    "stellar_mass_normalization": 0.38414913672768225,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.2417144210787296,
+      "stellar_mass_msun": 41484887007.434906,
+      "stellar_luminosity_lsun_i": 21477297504.058662,
+      "mass_to_light_msun_per_lsun": 1.9315692302346381,
+      "point_particle_mass_to_light": 1.9315470374127421,
+      "foreground_cube_mass_to_light": 1.932012775810524,
+      "foreground_cube_mass_fraction": 0.9993859241675475,
+      "foreground_cube_light_fraction": 0.9991564882079009,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.008989198264830214,
+        -0.0018435315358361728,
+        0.04421255023928376
+      ],
+      "centre_iterations": 12,
+      "rotation_rows": [
+        [
+          -0.23365294262925207,
+          -0.090824765720186,
+          -0.9680687807860373
+        ],
+        [
+          0.7567545768648749,
+          0.6081631348508995,
+          -0.23970838909473025
+        ],
+        [
+          0.6105152027548163,
+          -0.7885990510647345,
+          -0.07336704890511257
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7607208642827995,
+        "c_over_a": 0.3000739210151725,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 5.626832333405218e-12,
+      "order_64": {
+        "radius_kpc": 2.2417144210787296,
+        "stellar_mass_msun": 41484887005.89963,
+        "stellar_luminosity_lsun_i": 21477297503.14298,
+        "mass_to_light_msun_per_lsun": 1.9315692302455068,
+        "point_particle_mass_to_light": 1.9315470374127421,
+        "foreground_cube_mass_to_light": 1.9320127758202243,
+        "foreground_cube_mass_fraction": 0.9993859241675995,
+        "foreground_cube_light_fraction": 0.9991564882085586,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.008989198264830214,
+          -0.0018435315358361728,
+          0.04421255023928376
+        ],
+        "centre_iterations": 12,
+        "rotation_rows": [
+          [
+            -0.23365294262925207,
+            -0.090824765720186,
+            -0.9680687807860373
+          ],
+          [
+            0.7567545768648749,
+            0.6081631348508995,
+            -0.23970838909473025
+          ],
+          [
+            0.6105152027548163,
+            -0.7885990510647345,
+            -0.07336704890511257
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7607208642827995,
+          "c_over_a": 0.3000739210151725,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 411079,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 2,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        27641.953125,
+        11380.70703125,
+        3812.828125
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 10.156503476202488
+  },
+  "412691": {
+    "id": 412691,
+    "selection_radius_yz_arcsec": 1.0882804882045092,
+    "selection_radius_max_arcsec": 1.0882804882045092,
+    "legacy_stellar_normalization": 0.435021563,
+    "legacy_implied_ml_4p53": 2.2076000004687066,
+    "legacy_mock_einstein_radius_arcsec": 0.890005557,
+    "stellar_mass_normalization": 0.4390062029804981,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.939951481668959,
+      "stellar_mass_msun": 65337199283.85687,
+      "stellar_luminosity_lsun_i": 29599163702.105335,
+      "mass_to_light_msun_per_lsun": 2.2074001799993272,
+      "point_particle_mass_to_light": 2.2074302693201546,
+      "foreground_cube_mass_to_light": 2.208075455834924,
+      "foreground_cube_mass_fraction": 0.9986376367441981,
+      "foreground_cube_light_fraction": 0.9983322323872823,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.015230448379731013,
+        0.0038717263582411236,
+        0.01263740538556435
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          -0.7771811139029626,
+          -0.32162869799641003,
+          -0.540873827077706
+        ],
+        [
+          0.366174550583768,
+          0.46786881453447626,
+          -0.8043724080865023
+        ],
+        [
+          0.5117672466046707,
+          -0.8231972746621784,
+          -0.24584656249668585
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.5150790658692231,
+        "c_over_a": 0.2867154394728889,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.7658986212486525e-12,
+      "order_64": {
+        "radius_kpc": 2.939951481668959,
+        "stellar_mass_msun": 65337199281.87073,
+        "stellar_luminosity_lsun_i": 29599163701.123703,
+        "mass_to_light_msun_per_lsun": 2.2074001800054326,
+        "point_particle_mass_to_light": 2.2074302693201546,
+        "foreground_cube_mass_to_light": 2.208075455839797,
+        "foreground_cube_mass_fraction": 0.998637636746209,
+        "foreground_cube_light_fraction": 0.9983322323898505,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.015230448379731013,
+          0.0038717263582411236,
+          0.01263740538556435
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.7771811139029626,
+            -0.32162869799641003,
+            -0.540873827077706
+          ],
+          [
+            0.366174550583768,
+            0.46786881453447626,
+            -0.8043724080865023
+          ],
+          [
+            0.5117672466046707,
+            -0.8231972746621784,
+            -0.24584656249668585
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5150790658692231,
+          "c_over_a": 0.2867154394728889,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 412691,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 36,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        4105.408203125,
+        17026.5078125,
+        12162.02734375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 1.0857,
+      "measured_ml": 2.2075565,
+      "remeasured": {
+        "radius_kpc": 2.9329803834984935,
+        "stellar_mass_msun": 65291457836.50368,
+        "stellar_luminosity_lsun_i": 29576982585.141014,
+        "mass_to_light_msun_per_lsun": 2.2075090874653664,
+        "point_particle_mass_to_light": 2.207556744280257,
+        "foreground_cube_mass_to_light": 2.2081821619414526,
+        "foreground_cube_mass_fraction": 0.998642096151365,
+        "foreground_cube_light_fraction": 0.9983377007453839,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.015230448379731013,
+          0.0038717263582411236,
+          0.01263740538556435
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.7771811139029626,
+            -0.32162869799641003,
+            -0.540873827077706
+          ],
+          [
+            0.366174550583768,
+            0.46786881453447626,
+            -0.8043724080865023
+          ],
+          [
+            0.5117672466046707,
+            -0.8231972746621784,
+            -0.24584656249668585
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5150790658692231,
+          "c_over_a": 0.2867154394728889,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 35.36799129843712
+  },
+  "414684": {
+    "id": 414684,
+    "selection_radius_yz_arcsec": 0.865048357896833,
+    "selection_radius_max_arcsec": 0.865048357896833,
+    "legacy_stellar_normalization": 0.287485486,
+    "legacy_implied_ml_4p53": 1.4589000017646168,
+    "legacy_mock_einstein_radius_arcsec": 0.739692874,
+    "stellar_mass_normalization": 0.29011083640253976,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.3368977291047206,
+      "stellar_mass_msun": 43885821814.30893,
+      "stellar_luminosity_lsun_i": 30084989715.614082,
+      "mass_to_light_msun_per_lsun": 1.4587281640828424,
+      "point_particle_mass_to_light": 1.4586553440627832,
+      "foreground_cube_mass_to_light": 1.4586949421407107,
+      "foreground_cube_mass_fraction": 0.9990181682208685,
+      "foreground_cube_light_fraction": 0.9990409209725334,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.009455036579730607,
+        -0.009153297023404316,
+        -0.0018608996460965838
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          0.5606259706642178,
+          0.7500292308677786,
+          -0.3509340021438389
+        ],
+        [
+          0.5929986552485651,
+          -0.06783984688963496,
+          0.8023405449354932
+        ],
+        [
+          0.5779715528381972,
+          -0.6579163381600123,
+          -0.4827991053139218
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8296835377382207,
+        "c_over_a": 0.453471640710362,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 7.2299943809639444e-12,
+      "order_64": {
+        "radius_kpc": 2.3368977291047206,
+        "stellar_mass_msun": 43885821812.0352,
+        "stellar_luminosity_lsun_i": 30084989713.837864,
+        "mass_to_light_msun_per_lsun": 1.4587281640933891,
+        "point_particle_mass_to_light": 1.4586553440627832,
+        "foreground_cube_mass_to_light": 1.4586949421510877,
+        "foreground_cube_mass_fraction": 0.9990181682227102,
+        "foreground_cube_light_fraction": 0.9990409209744909,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.009455036579730607,
+          -0.009153297023404316,
+          -0.0018608996460965838
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.5606259706642178,
+            0.7500292308677786,
+            -0.3509340021438389
+          ],
+          [
+            0.5929986552485651,
+            -0.06783984688963496,
+            0.8023405449354932
+          ],
+          [
+            0.5779715528381972,
+            -0.6579163381600123,
+            -0.4827991053139218
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8296835377382207,
+          "c_over_a": 0.453471640710362,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 414684,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 3,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        22094.384765625,
+        1471.42578125,
+        13290.29296875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.8631,
+      "measured_ml": 1.45889,
+      "remeasured": {
+        "radius_kpc": 2.3316343087386473,
+        "stellar_mass_msun": 43844621471.90949,
+        "stellar_luminosity_lsun_i": 30052223009.94004,
+        "mass_to_light_msun_per_lsun": 1.4589476943987636,
+        "point_particle_mass_to_light": 1.4588902194973443,
+        "foreground_cube_mass_to_light": 1.4589147845484824,
+        "foreground_cube_mass_fraction": 0.9990214324346571,
+        "foreground_cube_light_fraction": 0.9990439681208516,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.009455036579730607,
+          -0.009153297023404316,
+          -0.0018608996460965838
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.5606259706642178,
+            0.7500292308677786,
+            -0.3509340021438389
+          ],
+          [
+            0.5929986552485651,
+            -0.06783984688963496,
+            0.8023405449354932
+          ],
+          [
+            0.5779715528381972,
+            -0.6579163381600123,
+            -0.4827991053139218
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8296835377382207,
+          "c_over_a": 0.453471640710362,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 23.471542090177536
+  },
+  "415409": {
+    "id": 415409,
+    "selection_radius_yz_arcsec": 0.9140757532271547,
+    "selection_radius_max_arcsec": 0.9140757532271547,
+    "legacy_stellar_normalization": 0.19211022,
+    "legacy_implied_ml_4p53": 0.974899999984698,
+    "legacy_mock_einstein_radius_arcsec": 0.71942461,
+    "stellar_mass_normalization": 0.19386576876120803,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.4693435140893936,
+      "stellar_mass_msun": 42765236354.98356,
+      "stellar_luminosity_lsun_i": 43871181240.4073,
+      "mass_to_light_msun_per_lsun": 0.9747910848499078,
+      "point_particle_mass_to_light": 0.9748707239413531,
+      "foreground_cube_mass_to_light": 0.9746330059508411,
+      "foreground_cube_mass_fraction": 0.9995213249947034,
+      "foreground_cube_light_fraction": 0.999683440611232,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.006046887212614397,
+        0.012674748855457607,
+        -0.006874306555267594
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          -0.14134611205564732,
+          -0.9087645339270476,
+          0.39264271097666975
+        ],
+        [
+          -0.755151068330088,
+          0.3554436237399413,
+          0.5508236508561937
+        ],
+        [
+          -0.6401313463709452,
+          -0.2186477811892336,
+          -0.7364950829261157
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8708840606756335,
+        "c_over_a": 0.19570148026926423,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.4121592784022141e-11,
+      "order_64": {
+        "radius_kpc": 2.4693435140893936,
+        "stellar_mass_msun": 42765236352.2534,
+        "stellar_luminosity_lsun_i": 43871181238.226074,
+        "mass_to_light_msun_per_lsun": 0.9747910848361422,
+        "point_particle_mass_to_light": 0.9748707239413531,
+        "foreground_cube_mass_to_light": 0.9746330059372127,
+        "foreground_cube_mass_fraction": 0.9995213249951526,
+        "foreground_cube_light_fraction": 0.9996834406115429,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.006046887212614397,
+          0.012674748855457607,
+          -0.006874306555267594
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.14134611205564732,
+            -0.9087645339270476,
+            0.39264271097666975
+          ],
+          [
+            -0.755151068330088,
+            0.3554436237399413,
+            0.5508236508561937
+          ],
+          [
+            -0.6401313463709452,
+            -0.2186477811892336,
+            -0.7364950829261157
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8708840606756335,
+          "c_over_a": 0.19570148026926423,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 415409,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 253,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        22675.61328125,
+        26544.728515625,
+        23073.93359375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 16.384867653250694
+  },
+  "419880": {
+    "id": 419880,
+    "selection_radius_yz_arcsec": 0.7111185127572405,
+    "selection_radius_max_arcsec": 0.7111185127572405,
+    "legacy_stellar_normalization": 0.331369931,
+    "legacy_implied_ml_4p53": 1.6815999988279093,
+    "legacy_mock_einstein_radius_arcsec": 0.583717548,
+    "stellar_mass_normalization": 0.33441353545332136,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.921061663682057,
+      "stellar_mass_msun": 28931339969.913116,
+      "stellar_luminosity_lsun_i": 17205776788.394188,
+      "mass_to_light_msun_per_lsun": 1.6814899045667135,
+      "point_particle_mass_to_light": 1.6812468041217068,
+      "foreground_cube_mass_to_light": 1.6920472279504801,
+      "foreground_cube_mass_fraction": 0.9946078742492015,
+      "foreground_cube_light_fraction": 0.988402139092974,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.008468437233706846,
+        -0.01499388906949408,
+        0.011079392298263357
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          0.12511476795486218,
+          0.8658295334305219,
+          -0.4844435094818448
+        ],
+        [
+          -0.7322413727272457,
+          0.4100538713544602,
+          0.5437631788322357
+        ],
+        [
+          0.6694541559405834,
+          0.2866967764497972,
+          0.6853000010704622
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.559129183360529,
+        "c_over_a": 0.32048625851878254,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.608235766781263e-11,
+      "order_64": {
+        "radius_kpc": 1.921061663682057,
+        "stellar_mass_msun": 28931339968.49636,
+        "stellar_luminosity_lsun_i": 17205776787.274918,
+        "mass_to_light_msun_per_lsun": 1.681489904593756,
+        "point_particle_mass_to_light": 1.6812468041217068,
+        "foreground_cube_mass_to_light": 1.692047227972905,
+        "foreground_cube_mass_fraction": 0.9946078742528398,
+        "foreground_cube_light_fraction": 0.988402139099386,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.008468437233706846,
+          -0.01499388906949408,
+          0.011079392298263357
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.12511476795486218,
+            0.8658295334305219,
+            -0.4844435094818448
+          ],
+          [
+            -0.7322413727272457,
+            0.4100538713544602,
+            0.5437631788322357
+          ],
+          [
+            0.6694541559405834,
+            0.2866967764497972,
+            0.6853000010704622
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.559129183360529,
+          "c_over_a": 0.32048625851878254,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 419880,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 20,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        23013.474609375,
+        16156.880859375,
+        4154.81494140625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.7096,
+      "measured_ml": 1.681632,
+      "remeasured": {
+        "radius_kpc": 1.916959454849895,
+        "stellar_mass_msun": 28911855326.456886,
+        "stellar_luminosity_lsun_i": 17190601237.11894,
+        "mass_to_light_msun_per_lsun": 1.6818408459169385,
+        "point_particle_mass_to_light": 1.6816035474129574,
+        "foreground_cube_mass_to_light": 1.692371626593572,
+        "foreground_cube_mass_fraction": 0.9946255964849368,
+        "foreground_cube_light_fraction": 0.9884365397509669,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.008468437233706846,
+          -0.01499388906949408,
+          0.011079392298263357
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.12511476795486218,
+            0.8658295334305219,
+            -0.4844435094818448
+          ],
+          [
+            -0.7322413727272457,
+            0.4100538713544602,
+            0.5437631788322357
+          ],
+          [
+            0.6694541559405834,
+            0.2866967764497972,
+            0.6853000010704622
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.559129183360529,
+          "c_over_a": 0.32048625851878254,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 8.31894026696682
+  },
+  "425781": {
+    "id": 425781,
+    "selection_radius_yz_arcsec": 0.9767167897215636,
+    "selection_radius_max_arcsec": 0.9767167897215636,
+    "legacy_stellar_normalization": 0.383116925,
+    "legacy_implied_ml_4p53": 1.9442000023561348,
+    "legacy_mock_einstein_radius_arcsec": 0.828296905,
+    "stellar_mass_normalization": 0.38665009112221005,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.6385660721073676,
+      "stellar_mass_msun": 53820077483.44617,
+      "stellar_luminosity_lsun_i": 27683167779.99998,
+      "mass_to_light_msun_per_lsun": 1.9441444675391917,
+      "point_particle_mass_to_light": 1.944152372676889,
+      "foreground_cube_mass_to_light": 1.944339689187288,
+      "foreground_cube_mass_fraction": 0.9995215869520574,
+      "foreground_cube_light_fraction": 0.9994212298732003,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.002171349745488346,
+        0.01809016999361455,
+        0.014351804227313834
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          -0.2516184890954514,
+          -0.7947377543312445,
+          -0.5523405089126209
+        ],
+        [
+          0.7465074868340444,
+          0.20384971147280667,
+          -0.63338129687667
+        ],
+        [
+          0.6159664828917566,
+          -0.5716967701264228,
+          0.5419853272746185
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7200919469308615,
+        "c_over_a": 0.26347614419720217,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 4.981459689190615e-12,
+      "order_64": {
+        "radius_kpc": 2.6385660721073676,
+        "stellar_mass_msun": 53820077481.61003,
+        "stellar_luminosity_lsun_i": 27683167778.917633,
+        "mass_to_light_msun_per_lsun": 1.9441444675488764,
+        "point_particle_mass_to_light": 1.944152372676889,
+        "foreground_cube_mass_to_light": 1.944339689196866,
+        "foreground_cube_mass_fraction": 0.9995215869519198,
+        "foreground_cube_light_fraction": 0.9994212298731181,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.002171349745488346,
+          0.01809016999361455,
+          0.014351804227313834
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.2516184890954514,
+            -0.7947377543312445,
+            -0.5523405089126209
+          ],
+          [
+            0.7465074868340444,
+            0.20384971147280667,
+            -0.63338129687667
+          ],
+          [
+            0.6159664828917566,
+            -0.5716967701264228,
+            0.5419853272746185
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7200919469308615,
+          "c_over_a": 0.26347614419720217,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 425781,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 15,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        8845.26171875,
+        14472.1669921875,
+        26023.1484375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 25.985216468572617
+  },
+  "441099": {
+    "id": 441099,
+    "selection_radius_yz_arcsec": 0.7873279881820905,
+    "selection_radius_max_arcsec": 0.7873279881820905,
+    "legacy_stellar_normalization": 0.405482818,
+    "legacy_implied_ml_4p53": 2.057699997751267,
+    "legacy_mock_einstein_radius_arcsec": 0.650386283,
+    "stellar_mass_normalization": 0.40927193743676876,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.1269388824881688,
+      "stellar_mass_msun": 35256891302.10788,
+      "stellar_luminosity_lsun_i": 17132535184.409616,
+      "mass_to_light_msun_per_lsun": 2.0578910781511888,
+      "point_particle_mass_to_light": 2.0574656913733786,
+      "foreground_cube_mass_to_light": 2.058462829288909,
+      "foreground_cube_mass_fraction": 0.9996783897798376,
+      "foreground_cube_light_fraction": 0.9994007227515199,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.0033115905565779535,
+        0.005465738462821565,
+        -0.014368783287069092
+      ],
+      "centre_iterations": 5,
+      "rotation_rows": [
+        [
+          0.17718379138391543,
+          -0.3516538664713626,
+          0.91920915044758
+        ],
+        [
+          0.8192305827618822,
+          0.5702895476641572,
+          0.060258477350806576
+        ],
+        [
+          -0.545405497165593,
+          0.7423674225211878,
+          0.389131666201557
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.624474542118859,
+        "c_over_a": 0.2632217356875615,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.1256773291279387e-11,
+      "order_64": {
+        "radius_kpc": 2.1269388824881688,
+        "stellar_mass_msun": 35256891300.377426,
+        "stellar_luminosity_lsun_i": 17132535183.761585,
+        "mass_to_light_msun_per_lsun": 2.0578910781280237,
+        "point_particle_mass_to_light": 2.0574656913733786,
+        "foreground_cube_mass_to_light": 2.0584628292641534,
+        "foreground_cube_mass_fraction": 0.9996783897799313,
+        "foreground_cube_light_fraction": 0.9994007227523827,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.0033115905565779535,
+          0.005465738462821565,
+          -0.014368783287069092
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.17718379138391543,
+            -0.3516538664713626,
+            0.91920915044758
+          ],
+          [
+            0.8192305827618822,
+            0.5702895476641572,
+            0.060258477350806576
+          ],
+          [
+            -0.545405497165593,
+            0.7423674225211878,
+            0.389131666201557
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.624474542118859,
+          "c_over_a": 0.2632217356875615,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 441099,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 12,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        34557.765625,
+        21161.423828125,
+        3117.748046875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 10.794607251882553
+  },
+  "442663": {
+    "id": 442663,
+    "selection_radius_yz_arcsec": 0.9158525745672823,
+    "selection_radius_max_arcsec": 0.9158525745672823,
+    "legacy_stellar_normalization": 0.390092719,
+    "legacy_implied_ml_4p53": 1.979600001223937,
+    "legacy_mock_einstein_radius_arcsec": 0.763138571,
+    "stellar_mass_normalization": 0.39358157068314115,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.474143534477692,
+      "stellar_mass_msun": 46449847945.109024,
+      "stellar_luminosity_lsun_i": 23471407047.89723,
+      "mass_to_light_msun_per_lsun": 1.978997162390842,
+      "point_particle_mass_to_light": 1.9788125715455276,
+      "foreground_cube_mass_to_light": 1.979253391877942,
+      "foreground_cube_mass_fraction": 0.999668063053118,
+      "foreground_cube_light_fraction": 0.9995386483778077,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.014540024676149553,
+        0.0463892993138423,
+        0.0033021662786443026
+      ],
+      "centre_iterations": 14,
+      "rotation_rows": [
+        [
+          0.301174258823787,
+          0.9307825521579485,
+          0.2072146385279732
+        ],
+        [
+          0.6482256859106068,
+          -0.3592152055628816,
+          0.6713925053336095
+        ],
+        [
+          0.6993550785885992,
+          -0.06788428898318133,
+          -0.7115435315998468
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.6295538809453944,
+        "c_over_a": 0.26376209060061756,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 7.381095734615428e-12,
+      "order_64": {
+        "radius_kpc": 2.474143534477692,
+        "stellar_mass_msun": 46449847943.02506,
+        "stellar_luminosity_lsun_i": 23471407046.670944,
+        "mass_to_light_msun_per_lsun": 1.9789971624054492,
+        "point_particle_mass_to_light": 1.9788125715455276,
+        "foreground_cube_mass_to_light": 1.9792533918920014,
+        "foreground_cube_mass_fraction": 0.9996680630535447,
+        "foreground_cube_light_fraction": 0.999538648378512,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.014540024676149553,
+          0.0463892993138423,
+          0.0033021662786443026
+        ],
+        "centre_iterations": 14,
+        "rotation_rows": [
+          [
+            0.301174258823787,
+            0.9307825521579485,
+            0.2072146385279732
+          ],
+          [
+            0.6482256859106068,
+            -0.3592152055628816,
+            0.6713925053336095
+          ],
+          [
+            0.6993550785885992,
+            -0.06788428898318133,
+            -0.7115435315998468
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6295538809453944,
+          "c_over_a": 0.26376209060061756,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 442663,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 22,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        24962.9921875,
+        13542.4599609375,
+        3436.793212890625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.9137,
+      "measured_ml": 1.9795936,
+      "remeasured": {
+        "radius_kpc": 2.468328429955396,
+        "stellar_mass_msun": 46412325788.87305,
+        "stellar_luminosity_lsun_i": 23448127394.142433,
+        "mass_to_light_msun_per_lsun": 1.9793617208198593,
+        "point_particle_mass_to_light": 1.9795944082272716,
+        "foreground_cube_mass_to_light": 1.9796170412565008,
+        "foreground_cube_mass_fraction": 0.9996693913925632,
+        "foreground_cube_light_fraction": 0.9995404593717792,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.014540024676149553,
+          0.0463892993138423,
+          0.0033021662786443026
+        ],
+        "centre_iterations": 14,
+        "rotation_rows": [
+          [
+            0.301174258823787,
+            0.9307825521579485,
+            0.2072146385279732
+          ],
+          [
+            0.6482256859106068,
+            -0.3592152055628816,
+            0.6713925053336095
+          ],
+          [
+            0.6993550785885992,
+            -0.06788428898318133,
+            -0.7115435315998468
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6295538809453944,
+          "c_over_a": 0.26376209060061756,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 19.009047098457813
+  },
+  "448856": {
+    "id": 448856,
+    "selection_radius_yz_arcsec": 0.713798177299953,
+    "selection_radius_max_arcsec": 0.713798177299953,
+    "legacy_stellar_normalization": 0.383018396,
+    "legacy_implied_ml_4p53": 1.9436999981288818,
+    "legacy_mock_einstein_radius_arcsec": 0.591107331,
+    "stellar_mass_normalization": 0.38659356653756427,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.9283006832437521,
+      "stellar_mass_msun": 29475896705.092068,
+      "stellar_luminosity_lsun_i": 15163588367.293875,
+      "mass_to_light_msun_per_lsun": 1.9438602520145036,
+      "point_particle_mass_to_light": 1.9434913318394647,
+      "foreground_cube_mass_to_light": 1.9439483372834623,
+      "foreground_cube_mass_fraction": 0.9998763968719049,
+      "foreground_cube_light_fraction": 0.999831089916131,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.0026501125983408465,
+        0.0303703323835093,
+        -0.017493241394424833
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          -0.22527202043368263,
+          0.9291501476767616,
+          -0.2931424907480635
+        ],
+        [
+          0.8755139755276041,
+          0.06104435970760418,
+          -0.479321254279151
+        ],
+        [
+          -0.4274667185472758,
+          -0.3646280148591722,
+          -0.8272355259019549
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8072906903560427,
+        "c_over_a": 0.3033740848852747,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.006450561253814e-11,
+      "order_64": {
+        "radius_kpc": 1.9283006832437521,
+        "stellar_mass_msun": 29475896702.261826,
+        "stellar_luminosity_lsun_i": 15163588365.533634,
+        "mass_to_light_msun_per_lsun": 1.9438602520535062,
+        "point_particle_mass_to_light": 1.9434913318394647,
+        "foreground_cube_mass_to_light": 1.9439483373220081,
+        "foreground_cube_mass_fraction": 0.999876396872689,
+        "foreground_cube_light_fraction": 0.9998310899171511,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.0026501125983408465,
+          0.0303703323835093,
+          -0.017493241394424833
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            -0.22527202043368263,
+            0.9291501476767616,
+            -0.2931424907480635
+          ],
+          [
+            0.8755139755276041,
+            0.06104435970760418,
+            -0.479321254279151
+          ],
+          [
+            -0.4274667185472758,
+            -0.3646280148591722,
+            -0.8272355259019549
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8072906903560427,
+          "c_over_a": 0.3033740848852747,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 448856,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 2,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        14414.0361328125,
+        20411.744140625,
+        10949.388671875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 21.107944451272488
+  },
+  "450416": {
+    "id": 450416,
+    "selection_radius_yz_arcsec": 0.7355486964358868,
+    "selection_radius_max_arcsec": 0.7355486964358868,
+    "legacy_stellar_normalization": 0.178533039,
+    "legacy_implied_ml_4p53": 0.9060000020736435,
+    "legacy_mock_einstein_radius_arcsec": 0.549649626,
+    "stellar_mass_normalization": 0.18019093029066321,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.98705894607566,
+      "stellar_mass_msun": 24882868482.255375,
+      "stellar_luminosity_lsun_i": 27463576895.046993,
+      "mass_to_light_msun_per_lsun": 0.9060315987733905,
+      "point_particle_mass_to_light": 0.9060747786950254,
+      "foreground_cube_mass_to_light": 0.9057659127281706,
+      "foreground_cube_mass_fraction": 0.9990479259081367,
+      "foreground_cube_light_fraction": 0.9993409741325064,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.00476003859935102,
+        -0.021336361732175253,
+        0.0011262805593078831
+      ],
+      "centre_iterations": 7,
+      "rotation_rows": [
+        [
+          -0.48139801855746817,
+          -0.8592252560380327,
+          -0.1731701680871182
+        ],
+        [
+          -0.8474326093841892,
+          0.5067179790277764,
+          -0.1584135798544765
+        ],
+        [
+          0.22386138631136876,
+          0.07049006395502488,
+          -0.9720685318445241
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8445271832187227,
+        "c_over_a": 0.22636240127468651,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 8.942624418750711e-12,
+      "order_64": {
+        "radius_kpc": 1.98705894607566,
+        "stellar_mass_msun": 24882868479.90761,
+        "stellar_luminosity_lsun_i": 27463576892.701332,
+        "mass_to_light_msun_per_lsun": 0.9060315987652882,
+        "point_particle_mass_to_light": 0.9060747786950254,
+        "foreground_cube_mass_to_light": 0.905765912720745,
+        "foreground_cube_mass_fraction": 0.9990479259107782,
+        "foreground_cube_light_fraction": 0.9993409741344046,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.00476003859935102,
+          -0.021336361732175253,
+          0.0011262805593078831
+        ],
+        "centre_iterations": 7,
+        "rotation_rows": [
+          [
+            -0.48139801855746817,
+            -0.8592252560380327,
+            -0.1731701680871182
+          ],
+          [
+            -0.8474326093841892,
+            0.5067179790277764,
+            -0.1584135798544765
+          ],
+          [
+            0.22386138631136876,
+            0.07049006395502488,
+            -0.9720685318445241
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8445271832187227,
+          "c_over_a": 0.22636240127468651,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 450416,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 36,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        17945.814453125,
+        5868.5341796875,
+        25136.388671875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 10.874909445643425
+  },
+  "451452": {
+    "id": 451452,
+    "selection_radius_yz_arcsec": 0.7642121102428892,
+    "selection_radius_max_arcsec": 0.7642121102428892,
+    "legacy_stellar_normalization": 0.288116066,
+    "legacy_implied_ml_4p53": 1.462100000400766,
+    "legacy_mock_einstein_radius_arcsec": 0.598046882,
+    "stellar_mass_normalization": 0.290755384541703,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.06449215084681,
+      "stellar_mass_msun": 31463396433.829063,
+      "stellar_luminosity_lsun_i": 21521246368.009476,
+      "mass_to_light_msun_per_lsun": 1.4619690651652137,
+      "point_particle_mass_to_light": 1.461896136377735,
+      "foreground_cube_mass_to_light": 1.462009786767642,
+      "foreground_cube_mass_fraction": 0.9991744387318312,
+      "foreground_cube_light_fraction": 0.9991466085595445,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.021109613495672537,
+        -0.014680380355243149,
+        -0.03414693952186224
+      ],
+      "centre_iterations": 6,
+      "rotation_rows": [
+        [
+          0.6853624852338781,
+          -0.27734680833582226,
+          -0.6733179128316539
+        ],
+        [
+          -0.691797056426394,
+          -0.5366771548460112,
+          -0.48310916383998276
+        ],
+        [
+          -0.22736555709653936,
+          0.7969042473047327,
+          -0.5596860942294859
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.9142459260766895,
+        "c_over_a": 0.3963088396820604,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 6.149969422608592e-12,
+      "order_64": {
+        "radius_kpc": 2.06449215084681,
+        "stellar_mass_msun": 31463396431.32524,
+        "stellar_luminosity_lsun_i": 21521246366.164482,
+        "mass_to_light_msun_per_lsun": 1.4619690651742048,
+        "point_particle_mass_to_light": 1.461896136377735,
+        "foreground_cube_mass_to_light": 1.4620097867770814,
+        "foreground_cube_mass_fraction": 0.9991744387328817,
+        "foreground_cube_light_fraction": 0.9991466085602888,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.021109613495672537,
+          -0.014680380355243149,
+          -0.03414693952186224
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.6853624852338781,
+            -0.27734680833582226,
+            -0.6733179128316539
+          ],
+          [
+            -0.691797056426394,
+            -0.5366771548460112,
+            -0.48310916383998276
+          ],
+          [
+            -0.22736555709653936,
+            0.7969042473047327,
+            -0.5596860942294859
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9142459260766895,
+          "c_over_a": 0.3963088396820604,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 451452,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 12,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        26042.70703125,
+        6695.75341796875,
+        2850.37744140625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.7618,
+      "measured_ml": 1.4620551,
+      "remeasured": {
+        "radius_kpc": 2.0579759198205325,
+        "stellar_mass_msun": 31400794239.83239,
+        "stellar_luminosity_lsun_i": 21475152184.051228,
+        "mass_to_light_msun_per_lsun": 1.4621919309681333,
+        "point_particle_mass_to_light": 1.46205518610571,
+        "foreground_cube_mass_to_light": 1.4622326306233375,
+        "foreground_cube_mass_fraction": 0.9991779619888908,
+        "foreground_cube_light_fraction": 0.9991501509568504,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.021109613495672537,
+          -0.014680380355243149,
+          -0.03414693952186224
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.6853624852338781,
+            -0.27734680833582226,
+            -0.6733179128316539
+          ],
+          [
+            -0.691797056426394,
+            -0.5366771548460112,
+            -0.48310916383998276
+          ],
+          [
+            -0.22736555709653936,
+            0.7969042473047327,
+            -0.5596860942294859
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9142459260766895,
+          "c_over_a": 0.3963088396820604,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 14.803290612995625
+  },
+  "451938": {
+    "id": 451938,
+    "selection_radius_yz_arcsec": 0.6228865275145089,
+    "selection_radius_max_arcsec": 0.6228865275145089,
+    "legacy_stellar_normalization": 0.408241607,
+    "legacy_implied_ml_4p53": 2.0716999993964564,
+    "legacy_mock_einstein_radius_arcsec": 0.482781016,
+    "stellar_mass_normalization": 0.4119793289374861,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.6827060572400747,
+      "stellar_mass_msun": 20663745104.90747,
+      "stellar_luminosity_lsun_i": 9975236320.310848,
+      "mass_to_light_msun_per_lsun": 2.0715043174299,
+      "point_particle_mass_to_light": 2.071368219769111,
+      "foreground_cube_mass_to_light": 2.074822063298373,
+      "foreground_cube_mass_fraction": 0.9977020279218434,
+      "foreground_cube_light_fraction": 0.9961066517015603,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.004480620576960163,
+        -0.014262125849757992,
+        -0.002548263930840578
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          0.6135567411809928,
+          0.5823275471329653,
+          -0.533331747790682
+        ],
+        [
+          -0.5809542271998136,
+          -0.12456248109712537,
+          -0.8043484159253341
+        ],
+        [
+          -0.5348273658387599,
+          0.8033547262281043,
+          0.2618795001464239
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.4463007525624414,
+        "c_over_a": 0.23659461948090213,
+        "iterations": 8
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.7515655592603707e-11,
+      "order_64": {
+        "radius_kpc": 1.6827060572400747,
+        "stellar_mass_msun": 20663745103.81424,
+        "stellar_luminosity_lsun_i": 9975236319.608376,
+        "mass_to_light_msun_per_lsun": 2.071504317466184,
+        "point_particle_mass_to_light": 2.071368219769111,
+        "foreground_cube_mass_to_light": 2.0748220633335976,
+        "foreground_cube_mass_fraction": 0.9977020279223934,
+        "foreground_cube_light_fraction": 0.996106651702646,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.004480620576960163,
+          -0.014262125849757992,
+          -0.002548263930840578
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.6135567411809928,
+            0.5823275471329653,
+            -0.533331747790682
+          ],
+          [
+            -0.5809542271998136,
+            -0.12456248109712537,
+            -0.8043484159253341
+          ],
+          [
+            -0.5348273658387599,
+            0.8033547262281043,
+            0.2618795001464239
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4463007525624414,
+          "c_over_a": 0.23659461948090213,
+          "iterations": 8
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 451938,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        21152.1953125,
+        20502.41015625,
+        14907.2724609375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 4.19601646065712
+  },
+  "453492": {
+    "id": 453492,
+    "selection_radius_yz_arcsec": 0.9206662625923369,
+    "selection_radius_max_arcsec": 0.9206662625923369,
+    "legacy_stellar_normalization": 0.42623285,
+    "legacy_implied_ml_4p53": 2.1629999979099384,
+    "legacy_mock_einstein_radius_arcsec": 0.753783106,
+    "stellar_mass_normalization": 0.4301311831309977,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.487147543457858,
+      "stellar_mass_msun": 47831981676.80772,
+      "stellar_luminosity_lsun_i": 22116022772.641205,
+      "mass_to_light_msun_per_lsun": 2.162775023725271,
+      "point_particle_mass_to_light": 2.1627069701670156,
+      "foreground_cube_mass_to_light": 2.1840382710615556,
+      "foreground_cube_mass_fraction": 0.974627394689432,
+      "foreground_cube_light_fraction": 0.9651386674868966,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.04227366586045802,
+        0.00480093287023973,
+        0.00833699664037619
+      ],
+      "centre_iterations": 8,
+      "rotation_rows": [
+        [
+          -0.7634119545409893,
+          0.46161971719027206,
+          0.45178471019400374
+        ],
+        [
+          0.602604767290276,
+          0.7608170475611213,
+          0.2408836121022159
+        ],
+        [
+          -0.23252888444866235,
+          0.4561410492836089,
+          -0.8589910715807872
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.7428153688123563,
+        "c_over_a": 0.32540967115855124,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 5.981770634377881e-12,
+      "order_64": {
+        "radius_kpc": 2.487147543457858,
+        "stellar_mass_msun": 47831981675.5564,
+        "stellar_luminosity_lsun_i": 22116022771.93034,
+        "mass_to_light_msun_per_lsun": 2.162775023738208,
+        "point_particle_mass_to_light": 2.1627069701670156,
+        "foreground_cube_mass_to_light": 2.184038271070974,
+        "foreground_cube_mass_fraction": 0.9746273946938983,
+        "foreground_cube_light_fraction": 0.9651386674929308,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.04227366586045802,
+          0.00480093287023973,
+          0.00833699664037619
+        ],
+        "centre_iterations": 8,
+        "rotation_rows": [
+          [
+            -0.7634119545409893,
+            0.46161971719027206,
+            0.45178471019400374
+          ],
+          [
+            0.602604767290276,
+            0.7608170475611213,
+            0.2408836121022159
+          ],
+          [
+            -0.23252888444866235,
+            0.4561410492836089,
+            -0.8589910715807872
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7428153688123563,
+          "c_over_a": 0.32540967115855124,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 453492,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        4782.763671875,
+        9201.888671875,
+        21690.34765625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 6.698980018496513
+  },
+  "454966": {
+    "id": 454966,
+    "selection_radius_yz_arcsec": 0.8409065416533225,
+    "selection_radius_max_arcsec": 0.8409065416533225,
+    "legacy_stellar_normalization": 0.395235889,
+    "legacy_implied_ml_4p53": 2.005699999615076,
+    "legacy_mock_einstein_radius_arcsec": 0.696779737,
+    "stellar_mass_normalization": 0.3988064640955363,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.2716794611999203,
+      "stellar_mass_msun": 35069350418.57052,
+      "stellar_luminosity_lsun_i": 17488602859.7221,
+      "mass_to_light_msun_per_lsun": 2.0052688427923844,
+      "point_particle_mass_to_light": 2.0050305570711444,
+      "foreground_cube_mass_to_light": 2.005407819317459,
+      "foreground_cube_mass_fraction": 0.9997075701225415,
+      "foreground_cube_light_fraction": 0.9996382895089685,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.002744993667730962,
+        0.019585912929594357,
+        0.01541601822680861
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          0.20973343978615305,
+          -0.9225969774019975,
+          -0.32376951914003105
+        ],
+        [
+          0.23325780033533217,
+          -0.274361489596824,
+          0.9329075900693131
+        ],
+        [
+          -0.9495276103506362,
+          -0.2711836837180792,
+          0.1576601625868214
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.9120455028641281,
+        "c_over_a": 0.21557274301720175,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.1393109506107066e-11,
+      "order_64": {
+        "radius_kpc": 2.2716794611999203,
+        "stellar_mass_msun": 35069350416.51404,
+        "stellar_luminosity_lsun_i": 17488602858.322426,
+        "mass_to_light_msun_per_lsun": 2.0052688428352834,
+        "point_particle_mass_to_light": 2.0050305570711444,
+        "foreground_cube_mass_to_light": 2.005407819360044,
+        "foreground_cube_mass_fraction": 0.999707570123615,
+        "foreground_cube_light_fraction": 0.9996382895101996,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.002744993667730962,
+          0.019585912929594357,
+          0.01541601822680861
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.20973343978615305,
+            -0.9225969774019975,
+            -0.32376951914003105
+          ],
+          [
+            0.23325780033533217,
+            -0.274361489596824,
+            0.9329075900693131
+          ],
+          [
+            -0.9495276103506362,
+            -0.2711836837180792,
+            0.1576601625868214
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9120455028641281,
+          "c_over_a": 0.21557274301720175,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 454966,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 1,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        32568.59375,
+        18236.923828125,
+        4493.44287109375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 8.522340528666973
+  },
+  "461656": {
+    "id": 461656,
+    "selection_radius_yz_arcsec": 0.7849790949849293,
+    "selection_radius_max_arcsec": 0.7849790949849293,
+    "legacy_stellar_normalization": 0.276568565,
+    "legacy_implied_ml_4p53": 1.403500001271499,
+    "legacy_mock_einstein_radius_arcsec": 0.637617128,
+    "stellar_mass_normalization": 0.2791191217920883,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.1205934300886047,
+      "stellar_mass_msun": 33515761938.122673,
+      "stellar_luminosity_lsun_i": 23880812020.064293,
+      "mass_to_light_msun_per_lsun": 1.403459895332003,
+      "point_particle_mass_to_light": 1.4034952926307713,
+      "foreground_cube_mass_to_light": 1.403320985008853,
+      "foreground_cube_mass_fraction": 0.9990353500621196,
+      "foreground_cube_light_fraction": 0.9991342414239662,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.009345459612616328,
+        -0.005820268123455469,
+        0.014242708497568533
+      ],
+      "centre_iterations": 3,
+      "rotation_rows": [
+        [
+          0.8073961788208303,
+          -0.3662620166151294,
+          0.46256193705334164
+        ],
+        [
+          -0.22922928115514543,
+          -0.9171299860261103,
+          -0.326077483725635
+        ],
+        [
+          0.54365921962808,
+          0.15724097403912007,
+          -0.8244452249826034
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.9398327695854755,
+        "c_over_a": 0.2445679920936226,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 2.4560353750757713e-12,
+      "order_64": {
+        "radius_kpc": 2.1205934300886047,
+        "stellar_mass_msun": 33515761936.24614,
+        "stellar_luminosity_lsun_i": 23880812018.785866,
+        "mass_to_light_msun_per_lsun": 1.4034598953285562,
+        "point_particle_mass_to_light": 1.4034952926307713,
+        "foreground_cube_mass_to_light": 1.4033209850057815,
+        "foreground_cube_mass_fraction": 0.9990353500630542,
+        "foreground_cube_light_fraction": 0.9991342414246339,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.009345459612616328,
+          -0.005820268123455469,
+          0.014242708497568533
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.8073961788208303,
+            -0.3662620166151294,
+            0.46256193705334164
+          ],
+          [
+            -0.22922928115514543,
+            -0.9171299860261103,
+            -0.326077483725635
+          ],
+          [
+            0.54365921962808,
+            0.15724097403912007,
+            -0.8244452249826034
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9398327695854755,
+          "c_over_a": 0.2445679920936226,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 461656,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 3,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        23945.029296875,
+        19478.591796875,
+        11689.7578125
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 6.569511689245701
+  },
+  "463901": {
+    "id": 463901,
+    "selection_radius_yz_arcsec": 0.6356443961899091,
+    "selection_radius_max_arcsec": 0.6356443961899091,
+    "legacy_stellar_normalization": 0.298914753,
+    "legacy_implied_ml_4p53": 1.516899999880933,
+    "legacy_mock_einstein_radius_arcsec": 0.533167531,
+    "stellar_mass_normalization": 0.3016560151977773,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.7171709909788595,
+      "stellar_mass_msun": 23367970109.61361,
+      "stellar_luminosity_lsun_i": 15406308203.765974,
+      "mass_to_light_msun_per_lsun": 1.516779347819451,
+      "point_particle_mass_to_light": 1.5167291334293451,
+      "foreground_cube_mass_to_light": 1.5169123786429357,
+      "foreground_cube_mass_fraction": 0.9993149677977116,
+      "foreground_cube_light_fraction": 0.9992273294509234,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.02166061807209957,
+        -0.0037471807977061894,
+        0.017266125312337597
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          0.8072890129334133,
+          -0.366886732537321,
+          0.46225379942741834
+        ],
+        [
+          -0.23412935874475269,
+          0.5198910683625192,
+          0.8215209798968305
+        ],
+        [
+          -0.5417267696641608,
+          -0.7714320466022696,
+          0.3338033919903549
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.8694275106068379,
+        "c_over_a": 0.4079600172016,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 8.454348332520567e-12,
+      "order_64": {
+        "radius_kpc": 1.7171709909788595,
+        "stellar_mass_msun": 23367970107.861977,
+        "stellar_luminosity_lsun_i": 15406308202.480886,
+        "mass_to_light_msun_per_lsun": 1.5167793478322742,
+        "point_particle_mass_to_light": 1.5167291334293451,
+        "foreground_cube_mass_to_light": 1.5169123786554561,
+        "foreground_cube_mass_fraction": 0.9993149677988119,
+        "foreground_cube_light_fraction": 0.9992273294522239,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.02166061807209957,
+          -0.0037471807977061894,
+          0.017266125312337597
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.8072890129334133,
+            -0.366886732537321,
+            0.46225379942741834
+          ],
+          [
+            -0.23412935874475269,
+            0.5198910683625192,
+            0.8215209798968305
+          ],
+          [
+            -0.5417267696641608,
+            -0.7714320466022696,
+            0.3338033919903549
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8694275106068379,
+          "c_over_a": 0.4079600172016,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 463901,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        21101.177734375,
+        18217.642578125,
+        22962.578125
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 5.206064350903034
+  },
+  "464399": {
+    "id": 464399,
+    "selection_radius_yz_arcsec": 0.7104251605326776,
+    "selection_radius_max_arcsec": 0.7104251605326776,
+    "legacy_stellar_normalization": 0.316807468,
+    "legacy_implied_ml_4p53": 1.607699999241853,
+    "legacy_mock_einstein_radius_arcsec": 0.61186978,
+    "stellar_mass_normalization": 0.31972194328067927,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.9191885970213791,
+      "stellar_mass_msun": 30688332671.59794,
+      "stellar_luminosity_lsun_i": 19089318869.722446,
+      "mass_to_light_msun_per_lsun": 1.6076180025612479,
+      "point_particle_mass_to_light": 1.6076510230441134,
+      "foreground_cube_mass_to_light": 1.6076284265903447,
+      "foreground_cube_mass_fraction": 0.9989904184287683,
+      "foreground_cube_light_fraction": 0.9989839408715064,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.008136787103238128,
+        -1.5600056361695323e-05,
+        0.0033741846402360106
+      ],
+      "centre_iterations": 9,
+      "rotation_rows": [
+        [
+          0.8071167798426016,
+          -0.1794583874965495,
+          -0.5624563901794052
+        ],
+        [
+          0.5847458437972912,
+          0.11155062962700353,
+          0.8035102707443218
+        ],
+        [
+          -0.081454293062448,
+          -0.9774206587682489,
+          0.1949719311971323
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.5457730988563992,
+        "c_over_a": 0.2501874681108219,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 6.0964566728216596e-12,
+      "order_64": {
+        "radius_kpc": 1.9191885970213791,
+        "stellar_mass_msun": 30688332670.203262,
+        "stellar_luminosity_lsun_i": 19089318868.97128,
+        "mass_to_light_msun_per_lsun": 1.6076180025514473,
+        "point_particle_mass_to_light": 1.6076510230441134,
+        "foreground_cube_mass_to_light": 1.6076284265806902,
+        "foreground_cube_mass_fraction": 0.9989904184308057,
+        "foreground_cube_light_fraction": 0.998983940873453,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.008136787103238128,
+          -1.5600056361695323e-05,
+          0.0033741846402360106
+        ],
+        "centre_iterations": 9,
+        "rotation_rows": [
+          [
+            0.8071167798426016,
+            -0.1794583874965495,
+            -0.5624563901794052
+          ],
+          [
+            0.5847458437972912,
+            0.11155062962700353,
+            0.8035102707443218
+          ],
+          [
+            -0.081454293062448,
+            -0.9774206587682489,
+            0.1949719311971323
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5457730988563992,
+          "c_over_a": 0.2501874681108219,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 464399,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        32924.07421875,
+        18235.3515625,
+        5026.72900390625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 6.5921680778265
+  },
+  "468189": {
+    "id": 468189,
+    "selection_radius_yz_arcsec": 0.7405394826531878,
+    "selection_radius_max_arcsec": 0.7405394826531878,
+    "legacy_stellar_normalization": 0.409226889,
+    "legacy_implied_ml_4p53": 2.076700001071458,
+    "legacy_mock_einstein_radius_arcsec": 0.609770671,
+    "stellar_mass_normalization": 0.4129889793406509,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 2.0005413795965024,
+      "stellar_mass_msun": 31596074079.92304,
+      "stellar_luminosity_lsun_i": 15215430472.217934,
+      "mass_to_light_msun_per_lsun": 2.076581016726063,
+      "point_particle_mass_to_light": 2.0765152037838934,
+      "foreground_cube_mass_to_light": 2.0846609543094425,
+      "foreground_cube_mass_fraction": 0.9892836311306322,
+      "foreground_cube_light_fraction": 0.9854492666142967,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.038767057250387454,
+        0.00039608373507898497,
+        -0.007426321802282591
+      ],
+      "centre_iterations": 1,
+      "rotation_rows": [
+        [
+          0.9548286205487255,
+          0.29469340813919154,
+          0.038185083217474734
+        ],
+        [
+          -0.2949404231575132,
+          0.9241828575856799,
+          0.24268537766506257
+        ],
+        [
+          0.036227781724591346,
+          -0.24298526898574513,
+          0.9693532415416172
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.454482351956121,
+        "c_over_a": 0.30354820652653725,
+        "iterations": 6
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 7.602807272633072e-12,
+      "order_64": {
+        "radius_kpc": 2.0005413795965024,
+        "stellar_mass_msun": 31596074078.635994,
+        "stellar_luminosity_lsun_i": 15215430471.482464,
+        "mass_to_light_msun_per_lsun": 2.076581016741851,
+        "point_particle_mass_to_light": 2.0765152037838934,
+        "foreground_cube_mass_to_light": 2.0846609543217682,
+        "foreground_cube_mass_fraction": 0.989283631136673,
+        "foreground_cube_light_fraction": 0.9854492666219795,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.038767057250387454,
+          0.00039608373507898497,
+          -0.007426321802282591
+        ],
+        "centre_iterations": 1,
+        "rotation_rows": [
+          [
+            0.9548286205487255,
+            0.29469340813919154,
+            0.038185083217474734
+          ],
+          [
+            -0.2949404231575132,
+            0.9241828575856799,
+            0.24268537766506257
+          ],
+          [
+            0.036227781724591346,
+            -0.24298526898574513,
+            0.9693532415416172
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.454482351956121,
+          "c_over_a": 0.30354820652653725,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 468189,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        19627.744140625,
+        15909.8427734375,
+        7230.05712890625
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": {
+      "source": "mlratio_results.csv",
+      "radius_arcsec": 0.7391,
+      "measured_ml": 2.0767374,
+      "remeasured": {
+        "radius_kpc": 1.9966526678122283,
+        "stellar_mass_msun": 31580413252.73207,
+        "stellar_luminosity_lsun_i": 15206304101.065994,
+        "mass_to_light_msun_per_lsun": 2.076797428411169,
+        "point_particle_mass_to_light": 2.076737556898711,
+        "foreground_cube_mass_to_light": 2.084862063777785,
+        "foreground_cube_mass_fraction": 0.9893097317929651,
+        "foreground_cube_light_fraction": 0.9854828972075164,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.038767057250387454,
+          0.00039608373507898497,
+          -0.007426321802282591
+        ],
+        "centre_iterations": 1,
+        "rotation_rows": [
+          [
+            0.9548286205487255,
+            0.29469340813919154,
+            0.038185083217474734
+          ],
+          [
+            -0.2949404231575132,
+            0.9241828575856799,
+            0.24268537766506257
+          ],
+          [
+            0.036227781724591346,
+            -0.24298526898574513,
+            0.9693532415416172
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.454482351956121,
+          "c_over_a": 0.30354820652653725,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "elapsed_seconds": 6.012597061693668
+  },
+  "471967": {
+    "id": 471967,
+    "selection_radius_yz_arcsec": 0.5707179745803614,
+    "selection_radius_max_arcsec": 0.5707179745803614,
+    "legacy_stellar_normalization": 0.311151951,
+    "legacy_implied_ml_4p53": 1.5789999981528247,
+    "legacy_mock_einstein_radius_arcsec": 0.492698372,
+    "stellar_mass_normalization": 0.31403623792437224,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.5417745454123533,
+      "stellar_mass_msun": 19982134281.388214,
+      "stellar_luminosity_lsun_i": 12654695228.59882,
+      "mass_to_light_msun_per_lsun": 1.5790292788900866,
+      "point_particle_mass_to_light": 1.5790559671531719,
+      "foreground_cube_mass_to_light": 1.5791363692240774,
+      "foreground_cube_mass_fraction": 0.9983396269073407,
+      "foreground_cube_light_fraction": 0.9982719237461917,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.0198725926200444,
+        -0.020756920618339822,
+        -0.003707021085950801
+      ],
+      "centre_iterations": 2,
+      "rotation_rows": [
+        [
+          0.7028115073030362,
+          -0.6288670533707968,
+          -0.3325390418990907
+        ],
+        [
+          0.07260835728754599,
+          0.5284315944446487,
+          -0.8458652826808122
+        ],
+        [
+          0.7076609439939712,
+          0.5703387407299437,
+          0.4170488090957042
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.38211118955550644,
+        "c_over_a": 0.24525378287940985,
+        "iterations": 8
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 1.4994672170587364e-12,
+      "order_64": {
+        "radius_kpc": 1.5417745454123533,
+        "stellar_mass_msun": 19982134280.5319,
+        "stellar_luminosity_lsun_i": 12654695228.075489,
+        "mass_to_light_msun_per_lsun": 1.579029278887719,
+        "point_particle_mass_to_light": 1.5790559671531719,
+        "foreground_cube_mass_to_light": 1.57913636922361,
+        "foreground_cube_mass_fraction": 0.9983396269096343,
+        "foreground_cube_light_fraction": 0.9982719237472838,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.0198725926200444,
+          -0.020756920618339822,
+          -0.003707021085950801
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.7028115073030362,
+            -0.6288670533707968,
+            -0.3325390418990907
+          ],
+          [
+            0.07260835728754599,
+            0.5284315944446487,
+            -0.8458652826808122
+          ],
+          [
+            0.7076609439939712,
+            0.5703387407299437,
+            0.4170488090957042
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.38211118955550644,
+          "c_over_a": 0.24525378287940985,
+          "iterations": 8
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 471967,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 0,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        7999.77099609375,
+        14667.455078125,
+        24629.41796875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 3.2211361080408096
+  },
+  "485608": {
+    "id": 485608,
+    "selection_radius_yz_arcsec": 0.6117052052360223,
+    "selection_radius_max_arcsec": 0.6117052052360223,
+    "legacy_stellar_normalization": 0.347883252,
+    "legacy_implied_ml_4p53": 1.7653999999035799,
+    "legacy_mock_einstein_radius_arcsec": 0.523154277,
+    "stellar_mass_normalization": 0.3510496329460872,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.6525001081709252,
+      "stellar_mass_msun": 22852002604.017097,
+      "stellar_luminosity_lsun_i": 12946289808.354137,
+      "mass_to_light_msun_per_lsun": 1.7651391203424847,
+      "point_particle_mass_to_light": 1.7652505444089697,
+      "foreground_cube_mass_to_light": 1.7655590342620384,
+      "foreground_cube_mass_fraction": 0.9984834518644256,
+      "foreground_cube_light_fraction": 0.9982459763160324,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        -0.02610380177388665,
+        -0.024705038406056826,
+        0.0028942973779396055
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          0.7810372705474701,
+          0.6177499384503896,
+          0.09146472303734446
+        ],
+        [
+          -0.2223982140559835,
+          0.4120135272312723,
+          -0.8836197642443008
+        ],
+        [
+          -0.5835407581313127,
+          0.6697983778145368,
+          0.4591844037819092
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.5618209911207183,
+        "c_over_a": 0.2616322544059488,
+        "iterations": 7
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 4.401035091916583e-12,
+      "order_64": {
+        "radius_kpc": 1.6525001081709252,
+        "stellar_mass_msun": 22852002602.842056,
+        "stellar_luminosity_lsun_i": 12946289807.631468,
+        "mass_to_light_msun_per_lsun": 1.765139120350253,
+        "point_particle_mass_to_light": 1.7652505444089697,
+        "foreground_cube_mass_to_light": 1.7655590342689942,
+        "foreground_cube_mass_fraction": 0.9984834518675336,
+        "foreground_cube_light_fraction": 0.9982459763196002,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          -0.02610380177388665,
+          -0.024705038406056826,
+          0.0028942973779396055
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.7810372705474701,
+            0.6177499384503896,
+            0.09146472303734446
+          ],
+          [
+            -0.2223982140559835,
+            0.4120135272312723,
+            -0.8836197642443008
+          ],
+          [
+            -0.5835407581313127,
+            0.6697983778145368,
+            0.4591844037819092
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5618209911207183,
+          "c_over_a": 0.2616322544059488,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 485608,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 1,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        19085.61328125,
+        23340.021484375,
+        1768.067138671875
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 4.37125726044178
+  },
+  "498059": {
+    "id": 498059,
+    "selection_radius_yz_arcsec": 0.5787902495499707,
+    "selection_radius_max_arcsec": 0.5787902495499707,
+    "legacy_stellar_normalization": 0.202593617,
+    "legacy_implied_ml_4p53": 1.0281000001467904,
+    "legacy_mock_einstein_radius_arcsec": 0.460231082,
+    "stellar_mass_normalization": 0.20447168752216882,
+    "unit_ml_template_factor": 0.19887930016415595,
+    "aperture": {
+      "radius_kpc": 1.5635815124714578,
+      "stellar_mass_msun": 17582105272.409687,
+      "stellar_luminosity_lsun_i": 17101227237.684147,
+      "mass_to_light_msun_per_lsun": 1.0281195044099456,
+      "point_particle_mass_to_light": 1.0281329272838424,
+      "foreground_cube_mass_to_light": 1.0278767503769872,
+      "foreground_cube_mass_fraction": 0.9993113569456503,
+      "foreground_cube_light_fraction": 0.9995473646790588,
+      "solar_absolute_magnitude": 4.53,
+      "quadrature_order": 128,
+      "centre_offset_kpc": [
+        0.006722820585363763,
+        0.008734018519666273,
+        -0.013353553319499245
+      ],
+      "centre_iterations": 4,
+      "rotation_rows": [
+        [
+          0.5666758578518879,
+          -0.5788489503180242,
+          0.586355152483159
+        ],
+        [
+          0.823101239658318,
+          0.4298233589014776,
+          -0.3711552632195755
+        ],
+        [
+          -0.03718630662983822,
+          0.6929543800701262,
+          0.7200218092119562
+        ]
+      ],
+      "shape": {
+        "b_over_a": 0.896307599355797,
+        "c_over_a": 0.23341677843707673,
+        "iterations": 5
+      },
+      "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+      "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+    },
+    "quadrature_check": {
+      "relative_ml_delta": 9.025447056387748e-12,
+      "order_64": {
+        "radius_kpc": 1.5635815124714578,
+        "stellar_mass_msun": 17582105270.807453,
+        "stellar_luminosity_lsun_i": 17101227236.28008,
+        "mass_to_light_msun_per_lsun": 1.0281195044006664,
+        "point_particle_mass_to_light": 1.0281329272838424,
+        "foreground_cube_mass_to_light": 1.0278767503678452,
+        "foreground_cube_mass_fraction": 0.9993113569457988,
+        "foreground_cube_light_fraction": 0.9995473646790758,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 64,
+        "centre_offset_kpc": [
+          0.006722820585363763,
+          0.008734018519666273,
+          -0.013353553319499245
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.5666758578518879,
+            -0.5788489503180242,
+            0.586355152483159
+          ],
+          [
+            0.823101239658318,
+            0.4298233589014776,
+            -0.3711552632195755
+          ],
+          [
+            -0.03718630662983822,
+            0.6929543800701262,
+            0.7200218092119562
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.896307599355797,
+          "c_over_a": 0.23341677843707673,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4"
+      }
+    },
+    "particle_input_metadata": {
+      "simulation": "TNG50-1",
+      "snapshot": 84,
+      "subhalo_id": 498059,
+      "snapshot_redshift": 0.19728418237600986,
+      "scale_factor": 0.8352235958012078,
+      "hubble_h": 0.6774,
+      "wind_filter": "GFM_StellarFormationTime > 0",
+      "excluded_wind_particles": 1,
+      "origin": "SubhaloPos; periodic minimum-image offsets",
+      "subhalo_position_ckpc_h": [
+        7472.974609375,
+        25984.431640625,
+        27178.677734375
+      ],
+      "photometry": "GFM_StellarPhotometrics[:,6], intrinsic SDSS i AB",
+      "smoothing": "PartType4/StellarHsml; physical kpc; 32+/-1 same-type neighbours"
+    },
+    "source_sha256": {
+      "stellar_ml.py": "d23a6289de44bd2eb5382965b473071367de635895fa8d2b6282ce428935a94d",
+      "sph.py": "e5c4f330544a8c81f34b89947a249d583c9ffdf2e49628a9df0f5441e33bdee3",
+      "geometry.py": "a9a018fae938068a70b9d7567d3d93447ed6a3b7a9e3a549455d58a36495fd1d",
+      "particles.py": "6ea881416a608405fb65e6f49caa85806b9ac53bbb8f7e0e1e4b7251ca601cc1",
+      "photometry.py": "1dc9c26c9b63b00203c4730777d3543fbf18fa1ac2d44e7852bfa6c055b30706"
+    },
+    "selection_table_sha256": "fdc7ac468d14b477d17392747f845714d3480de11469e4e24f27da6e2b26ec20",
+    "historical_aperture": null,
+    "elapsed_seconds": 4.883144341409206
+  }
+}

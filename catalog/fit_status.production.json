@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "sample_set": "production_37",
+  "recorded_date": "2026-10-09",
+  "status": "uniform_fit_review_pending",
+  "notes": [
+    "Reported success/failure describes historical paper fitting, not the current updated SPH run.",
+    "The paper 20/13 split was confirmed by the user and checked against finish/ and paper analysis entry points.",
+    "New five-stage SPH fits still require uniform review. Addition 297779 remains unclassified.",
+    "Scheduling uses historical success first without changing production sample membership."
+  ],
+  "systems": {
+    "3": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "4": {
+      "reported_fit_outcome": "success",
+      "report_source": "User statement dated 2026-10-06",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "5": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "56404": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "56405": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "83991": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "83993": {
+      "reported_fit_outcome": "success",
+      "report_source": "User statement dated 2026-10-06",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "83999": {
+      "reported_fit_outcome": "success",
+      "report_source": "User statement dated 2026-10-06",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "100666": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "209287": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "217244": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "297779": {
+      "reported_fit_outcome": "unclassified",
+      "report_source": null,
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "323241": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "343209": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "360186": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "401306": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "411079": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "412691": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "414684": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "415409": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "419880": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "425781": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "441099": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "442663": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "448856": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "450416": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "451452": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "451938": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "453492": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "454966": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "461656": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "463901": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "464399": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    },
+    "468189": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "471967": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "485608": {
+      "reported_fit_outcome": "success",
+      "report_source": "User-confirmed historical paper split, matched to finish/ and paper readers on 2026-10-09",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "priority"
+    },
+    "498059": {
+      "reported_fit_outcome": "failure",
+      "report_source": "Historical paper unsuccessful 13, complement of confirmed successful 20; not current SPH results",
+      "uniform_fit_review": "pending",
+      "scheduling_priority": "deferred"
+    }
+  }
+}

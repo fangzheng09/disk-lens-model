@@ -1,0 +1,4575 @@
+{
+  "schema_version": 1,
+  "simulation": "TNG50-1",
+  "snapshot": 84,
+  "status": "production_membership_confirmed; stellar_aperture_parameters_recalculated; mock_grids_audited; central_suppression_0p2_confirmed; other_inherited_fitting_parameters_provisional",
+  "sources": {
+    "lens_params.py": "5ede9aef42ec3838757ee21ec5824b93de43dc38126931f7cd2415756cb0b34c",
+    "position.ipynb": "d6d1f06a9e551ab78f5772fcb6cc8fb27fbfd8a077b83d0060c0e95c68113076"
+  },
+  "systems": {
+    "3": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.04895555317224834,
+        0.07143348838836494
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.79,
+          0.38
+        ],
+        [
+          -0.04,
+          -0.73
+        ],
+        [
+          -0.26,
+          0.77
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.405640464,
+      "halo_mass_at_200_msun_legacy": 440000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.797958359,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9694408726417415,
+      "selection_einstein_radius_max_arcsec": 0.9694408726417415,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.058463758870517,
+      "stellar_mass_normalization": 0.40938583177744625,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9694408726417415,
+        "radius_kpc": 2.6189104378925014,
+        "stellar_mass_msun": 56684848652.79605,
+        "stellar_luminosity_lsun_i": 27537452825.450348,
+        "mass_to_light_msun_per_lsun": 2.058463758870517,
+        "point_particle_mass_to_light": 2.0584336108718477,
+        "foreground_cube_mass_to_light": 2.059308203610255,
+        "foreground_cube_mass_fraction": 0.9971330940896528,
+        "foreground_cube_light_fraction": 0.9967242073602904,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.00036305300735167304,
+          0.00024588082438773605,
+          -0.002668173910201057
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.9460011100230235,
+            -0.3181889441761261,
+            0.06194913751853007
+          ],
+          [
+            0.3228913954452722,
+            0.9080094211713989,
+            -0.2669457581820438
+          ],
+          [
+            0.028688788447972097,
+            0.2725338270161402,
+            0.9617183925397933
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5750695556643136,
+          "c_over_a": 0.3601707607525602,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map3.fits",
+        "sha256": "b2d713246417c919be974db3db28dc81eb58933827cf202ba9467b812649985a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.8022896735088245,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.8022896735088245,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001918841699218854,
+          "tolerance_arcsec": 0.008022896735088245,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "a5e983122243a46e74eb1fdecd51303ff6fe8b716780904115129553e9c8eea8",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "4": {
+      "grid_shape": [
+        100,
+        100
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 2.5,
+      "source_centre_yx_arcsec": [
+        -0.0027734756918503,
+        -0.0411547195184551
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.77,
+          -0.48
+        ],
+        [
+          0.14,
+          -0.88
+        ],
+        [
+          0.12,
+          0.88
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.444188087,
+      "halo_mass_at_200_msun_legacy": 270000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.8958648217018871,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 1.0817594656391214,
+      "selection_einstein_radius_max_arcsec": 1.0817594656391214,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.254055427676881,
+      "stellar_mass_normalization": 0.4482849659875954,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 1.0817594656391214,
+        "radius_kpc": 2.9223351684474124,
+        "stellar_mass_msun": 73151065707.3104,
+        "stellar_luminosity_lsun_i": 32453090908.550896,
+        "mass_to_light_msun_per_lsun": 2.254055427676881,
+        "point_particle_mass_to_light": 2.2540539900668253,
+        "foreground_cube_mass_to_light": 2.257367716071984,
+        "foreground_cube_mass_fraction": 0.9876534573659906,
+        "foreground_cube_light_fraction": 0.9862042503706372,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.005603995253551251,
+          -0.0010720731045690695,
+          -0.005684471952665827
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            -0.0967351149923504,
+            0.982080007996757,
+            -0.1617441665733451
+          ],
+          [
+            -0.34866089315731646,
+            -0.18564550637330315,
+            -0.9186791211005841
+          ],
+          [
+            -0.932243476303352,
+            -0.032474664840288076,
+            0.3603713321469282
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6278440549563392,
+          "c_over_a": 0.4124471946187942,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "retained tested additional-sample mock grid",
+        "artifact": "production_systems before grid audit",
+        "sha256": "efb42f1ef0fe514f56c3d6c8777bfb8dae17a3a121eec44bd9fceae9e8ea399c",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          100,
+          100
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.900304041704863,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.900304041704863,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          100,
+          100
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001334538122091944,
+          "tolerance_arcsec": 0.00900304041704863,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "c58acdeb4bba4fc47957155578d61b7c898f1e54092b54099d0af08353bda38c",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "5": {
+      "grid_shape": [
+        120,
+        120
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.09058477180731667,
+        -0.11215177166473772
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.23,
+          0.73
+        ],
+        [
+          -0.76,
+          -0.5
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.407039563,
+      "halo_mass_at_200_msun_legacy": 300000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.830205198,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 1.0179842454086114,
+      "selection_einstein_radius_max_arcsec": 1.0179842454086114,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0655606163558473,
+      "stellar_mass_normalization": 0.41079724982749355,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 1.0179842454086114,
+        "radius_kpc": 2.750048652937251,
+        "stellar_mass_msun": 62524027658.239944,
+        "stellar_luminosity_lsun_i": 30269761711.73692,
+        "mass_to_light_msun_per_lsun": 2.0655606163558473,
+        "point_particle_mass_to_light": 2.0655580469669914,
+        "foreground_cube_mass_to_light": 2.067400335645995,
+        "foreground_cube_mass_fraction": 0.994312941750526,
+        "foreground_cube_light_fraction": 0.9934281316497234,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.004146426209551686,
+          -0.0033482821006981123,
+          0.002606516541330004
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.6057493475744913,
+            0.7389134252507946,
+            0.29508418781292967
+          ],
+          [
+            -0.7752315302380486,
+            0.6316008613372792,
+            0.00981969871129712
+          ],
+          [
+            -0.17911951997996262,
+            -0.23470684255501548,
+            0.9554207950531555
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.460520779328237,
+          "c_over_a": 0.32593647631115075,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map5.fits",
+        "sha256": "7652db8f58fa53fb99269e941081e58cfcdbdf8fa74ad8cacb0d77540603336a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.834424501657771,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.834424501657771,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          120,
+          120
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 6.833076822465589e-05,
+          "tolerance_arcsec": 0.00834424501657771,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "c9ec4f1eb535da9651b939e6558fadaaec68ef126a7ae7e52a1fe68a7efe0485",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "56404": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.08137168,
+        0.10636979179100355
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.68,
+          0.3
+        ],
+        [
+          -0.01,
+          -0.52
+        ],
+        [
+          -0.13,
+          0.67
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.295604207,
+      "halo_mass_at_200_msun_legacy": 240000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.643422404,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7824717495437286,
+      "selection_einstein_radius_max_arcsec": 0.7824717495437286,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.5000338652266985,
+      "stellar_mass_normalization": 0.2983256853388196,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7824717495437286,
+        "radius_kpc": 2.113819924521969,
+        "stellar_mass_msun": 38062923986.98961,
+        "stellar_luminosity_lsun_i": 25374709777.793716,
+        "mass_to_light_msun_per_lsun": 1.5000338652266985,
+        "point_particle_mass_to_light": 1.5000581269092181,
+        "foreground_cube_mass_to_light": 1.5001020903113949,
+        "foreground_cube_mass_fraction": 0.9989778382433657,
+        "foreground_cube_light_fraction": 0.9989324044371841,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.001568068889481189,
+          -0.0014922413111696509,
+          0.007411998461020902
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.12864193908774632,
+            0.3286190481546992,
+            -0.9356606076444841
+          ],
+          [
+            0.9623085348778155,
+            -0.2693327113546181,
+            0.03771172623578234
+          ],
+          [
+            -0.23961121678472477,
+            -0.905245498074566,
+            -0.3508803970111088
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9162186234019265,
+          "c_over_a": 0.3857923099383693,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map56404.fits",
+        "sha256": "df385f750e8bb6ec617e0f60d4025510deb6d232771fa363fbc5103901a7fdb1",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.646853188710632,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.646853188710632,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 2.5701438958747325e-05,
+          "tolerance_arcsec": 0.00646853188710632,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "1b5fda26997c7ce9e7fde107f5868873bd79d40462ba021e353a29a3acd15aa8",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "56405": {
+      "grid_shape": [
+        120,
+        120
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.01672013,
+        -0.07056271422509967
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.53,
+          -0.36
+        ],
+        [
+          -0.03,
+          -0.6
+        ],
+        [
+          -0.02,
+          0.52
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.440598257,
+      "halo_mass_at_200_msun_legacy": 290000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.586672826,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7970266051549219,
+      "selection_einstein_radius_max_arcsec": 0.7970266051549219,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.2357022856245186,
+      "stellar_mass_normalization": 0.44463490594040816,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7970266051549219,
+        "radius_kpc": 2.153139355296845,
+        "stellar_mass_msun": 32334958553.361176,
+        "stellar_luminosity_lsun_i": 14462998388.145748,
+        "mass_to_light_msun_per_lsun": 2.2357022856245186,
+        "point_particle_mass_to_light": 2.2356022054950646,
+        "foreground_cube_mass_to_light": 2.2531823293958326,
+        "foreground_cube_mass_fraction": 0.9808289835834623,
+        "foreground_cube_light_fraction": 0.9732197753354064,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.003552501460783089,
+          0.007882033553783922,
+          0.0005645374924904329
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.2347109735513213,
+            0.2737373386988437,
+            0.9327264488030057
+          ],
+          [
+            -0.971650868326684,
+            0.09408008718685598,
+            0.21689519882863728
+          ],
+          [
+            -0.02837867112096588,
+            -0.9571921471663813,
+            0.28805875169558687
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7385881014861522,
+          "c_over_a": 0.4386853042984951,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map56405.fits",
+        "sha256": "3e2b41ac5d40b1246ca500701e44de94991dceb8849492dcbb884f4b07b1887a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5897894716124892,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5897894716124892,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          120,
+          120
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 1.4539117239031896e-06,
+          "tolerance_arcsec": 0.005897894716124892,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "f769882df168ada64360c035204399120c9b37bd03d49ce817c227afc78a8122",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "83991": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.04617924068609316,
+        0.05003063107989044
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.3,
+          0.5
+        ],
+        [
+          -0.56,
+          0.25
+        ],
+        [
+          0.12,
+          -0.47
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.326147938,
+      "halo_mass_at_200_msun_legacy": 340000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.565177592,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6790953594787272,
+      "selection_einstein_radius_max_arcsec": 0.6790953594787272,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.6550432853838484,
+      "stellar_mass_normalization": 0.3291538503385252,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6790953594787272,
+        "radius_kpc": 1.8345522408362942,
+        "stellar_mass_msun": 28356634012.550514,
+        "stellar_luminosity_lsun_i": 17133469718.270153,
+        "mass_to_light_msun_per_lsun": 1.6550432853838484,
+        "point_particle_mass_to_light": 1.6550316554968778,
+        "foreground_cube_mass_to_light": 1.6553481874010154,
+        "foreground_cube_mass_fraction": 0.9991807689168697,
+        "foreground_cube_light_fraction": 0.9989967277379347,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.025614730913648878,
+          0.0035378199283936504,
+          -0.026368718815966145
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.7949655480637289,
+            -0.003489158574330533,
+            0.606644544329032
+          ],
+          [
+            0.21810618600277842,
+            -0.9314770267065658,
+            -0.2911704661280349
+          ],
+          [
+            0.5660913963478484,
+            0.36378341700844313,
+            -0.7397311379755517
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5624085500960443,
+          "c_over_a": 0.26687176960052206,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map83991.fits",
+        "sha256": "4c8801464549e1b602e9ed23e7d075fa22ca640e556b0d0eac0c5e520fc5b69a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5680753670654973,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5680753670654973,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 1.9722578309955274e-05,
+          "tolerance_arcsec": 0.005680753670654974,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "589eeaee1fa8cdf52fdde86845e1edae3ee4361b0cb6b6421ccdf1330a46158d",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "83993": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.0,
+      "source_centre_yx_arcsec": [
+        -0.0057387207589282,
+        0.0686153761286952
+      ],
+      "positions_yx_arcsec": [
+        [
+          -0.52,
+          0.28
+        ],
+        [
+          0.04,
+          -0.48
+        ],
+        [
+          0.02,
+          0.57
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.365357388,
+      "halo_mass_at_200_msun_legacy": 240000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.5578197079114776,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6828369883914351,
+      "selection_einstein_radius_max_arcsec": 0.6828369883914351,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.8539134451224648,
+      "stellar_mass_normalization": 0.3687050085308751,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6828369883914351,
+        "radius_kpc": 1.8446601198114283,
+        "stellar_mass_msun": 28259084804.986458,
+        "stellar_luminosity_lsun_i": 15242936437.69315,
+        "mass_to_light_msun_per_lsun": 1.8539134451224648,
+        "point_particle_mass_to_light": 1.8538336560715345,
+        "foreground_cube_mass_to_light": 1.8543583394596552,
+        "foreground_cube_mass_fraction": 0.9993463726017905,
+        "foreground_cube_light_fraction": 0.9991066112069179,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.004643112943017141,
+          0.0019026491445719013,
+          -0.011201521583357178
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.9104832743759536,
+            0.2019882520124763,
+            -0.36086140432385727
+          ],
+          [
+            -0.193963588211965,
+            0.5620904299264374,
+            0.8040102456020396
+          ],
+          [
+            0.36523736600953305,
+            0.802031853877424,
+            -0.47259556899780697
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6687355020624506,
+          "c_over_a": 0.26882492693623466,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "retained tested additional-sample mock grid",
+        "artifact": "production_systems before grid audit",
+        "sha256": "efb42f1ef0fe514f56c3d6c8777bfb8dae17a3a121eec44bd9fceae9e8ea399c",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5606457098476156,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5606457098476156,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00012146529469247991,
+          "tolerance_arcsec": 0.0056064570984761565,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "cad789f44c1520859cf5e420092fee44021cc394574a5dccd60f679b6e903559",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "83999": {
+      "grid_shape": [
+        90,
+        90
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 2.25,
+      "source_centre_yx_arcsec": [
+        -0.1598280381885287,
+        -0.000658441520304
+      ],
+      "positions_yx_arcsec": [
+        [
+          -0.6377460783260768,
+          -0.05629096358281943
+        ],
+        [
+          0.4009277526612364,
+          0.08669115110681593
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.409420931,
+      "halo_mass_at_200_msun_legacy": 110000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.5109294887662275,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5873050436336582,
+      "selection_einstein_radius_max_arcsec": 0.5873050436336582,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0776245018548924,
+      "stellar_mass_normalization": 0.41319650693280413,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5873050436336582,
+        "radius_kpc": 1.5865839293610078,
+        "stellar_mass_msun": 23663663865.58538,
+        "stellar_luminosity_lsun_i": 11389769346.895256,
+        "mass_to_light_msun_per_lsun": 2.0776245018548924,
+        "point_particle_mass_to_light": 2.077624998684616,
+        "foreground_cube_mass_to_light": 2.080914127038824,
+        "foreground_cube_mass_fraction": 0.9902959787209398,
+        "foreground_cube_light_fraction": 0.9887304635712195,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.006092128011244256,
+          0.004617022180324232,
+          0.007188985934594938
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.29633296367184836,
+            0.05667279860798801,
+            0.9534017875688069
+          ],
+          [
+            -0.3754206233204451,
+            0.9109741156813381,
+            -0.1708376894724706
+          ],
+          [
+            -0.8782062002896285,
+            -0.40855153219213686,
+            -0.2486755221494679
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4704104758447282,
+          "c_over_a": 0.2783221045626933,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "retained tested additional-sample mock grid",
+        "artifact": "production_systems before grid audit",
+        "sha256": "efb42f1ef0fe514f56c3d6c8777bfb8dae17a3a121eec44bd9fceae9e8ea399c",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          90,
+          90
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.513600137654925,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.513600137654925,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          90,
+          90
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0002630758902643082,
+          "tolerance_arcsec": 0.0051360013765492495,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "7a057657770e385ce52878ed5d9803641b17be307da9f5e6f46baba786cdb6b6",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      },
+      "positions_review": {
+        "status": "user_confirmed",
+        "confirmed_at": "2026-10-08T17:00:31.750296+08:00",
+        "method": "detected arc candidates with explicit user selection",
+        "selected_candidate_ranks": [
+          1,
+          2
+        ],
+        "previous_positions_yx_arcsec": [
+          [
+            -0.62,
+            -0.02
+          ],
+          [
+            0.44,
+            0.1
+          ]
+        ],
+        "candidate_image": "source_convolved.fits, no foreground",
+        "source_image_sha256": "4d57f83492d478fc26097d206fa9dd1087d40e7d3a03ab63efa0afbcd42f0bbd",
+        "audit": "catalog/audits/positions_manual_20261008/83999.json",
+        "coordinate_frame": "native PyAutoLens fitting grid after Array2D.from_fits",
+        "fits_flip_for_ds9": true,
+        "coordinate_correction": "Preserve the explicitly selected C1/C2 pixel locations; convert raw-storage coordinates to the actual fit frame by reversing y.",
+        "superseded_raw_storage_positions_yx_arcsec": [
+          [
+            0.6377460783260768,
+            -0.05629096358281943
+          ],
+          [
+            -0.4009277526612364,
+            0.08669115110681593
+          ]
+        ],
+        "coordinate_corrected_at": "2026-10-08T19:14:45.423743+08:00"
+      }
+    },
+    "100666": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.07316667,
+        -0.11215177166473772
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.48,
+          -0.28
+        ],
+        [
+          -0.02,
+          0.34
+        ],
+        [
+          -0.22,
+          -0.41
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.354287583,
+      "halo_mass_at_200_msun_legacy": 310000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.456316718,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5758789723947458,
+      "selection_einstein_radius_max_arcsec": 0.5758789723947458,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.7968891727827883,
+      "stellar_mass_normalization": 0.35736406115559005,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5758789723947458,
+        "radius_kpc": 1.5557167995791286,
+        "stellar_mass_msun": 17565539212.686295,
+        "stellar_luminosity_lsun_i": 9775527327.310383,
+        "mass_to_light_msun_per_lsun": 1.7968891727827883,
+        "point_particle_mass_to_light": 1.796792062355651,
+        "foreground_cube_mass_to_light": 1.7969735523352117,
+        "foreground_cube_mass_fraction": 0.9998531619923948,
+        "foreground_cube_light_fraction": 0.9998062124075283,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.01341022951766133,
+          -0.0029362120038854563,
+          -0.007517202942178648
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            -0.7248059633305639,
+            -0.666340166706354,
+            0.17506312505551178
+          ],
+          [
+            0.6879759985563251,
+            -0.7135500753062876,
+            0.13242097809946757
+          ],
+          [
+            0.03667888944449675,
+            0.2164187428670164,
+            0.9756113912849613
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8138839187354865,
+          "c_over_a": 0.21472788451047106,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map100666.fits",
+        "sha256": "0bc08eec82417f992ee7a8633401caace015f4549c8062b41ff71157248351ef",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.4600093856545956,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.4600093856545956,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.000496699150439317,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "10ada5dd1f6fb648b11ff1e7fc1dd996e898d1f9b844617739eef4d65e97ca78",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "209287": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.09584533,
+        -0.07907036876504407
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.49,
+          -0.3
+        ],
+        [
+          -0.24,
+          -0.33
+        ],
+        [
+          -0.06,
+          0.37
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.293653349,
+      "halo_mass_at_200_msun_legacy": 240000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.454302231,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5495002425467744,
+      "selection_einstein_radius_max_arcsec": 0.5495002425467744,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.490428948165488,
+      "stellar_mass_normalization": 0.2964154661555513,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5495002425467744,
+        "radius_kpc": 1.4844555882079336,
+        "stellar_mass_msun": 18545754429.00524,
+        "stellar_luminosity_lsun_i": 12443232836.984615,
+        "mass_to_light_msun_per_lsun": 1.490428948165488,
+        "point_particle_mass_to_light": 1.4900555692746096,
+        "foreground_cube_mass_to_light": 1.4904336323449698,
+        "foreground_cube_mass_fraction": 0.9997383009148383,
+        "foreground_cube_light_fraction": 0.9997351589073481,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.0037264903383635744,
+          0.0036851177523846484,
+          -0.001328180159960413
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.9108589868874548,
+            0.28100864986063995,
+            0.30227478345019004
+          ],
+          [
+            -0.405167419775773,
+            0.7482859869267056,
+            0.5252689251434625
+          ],
+          [
+            -0.07858287318876789,
+            -0.6009178150734308,
+            0.7954385655528476
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7420638090432438,
+          "c_over_a": 0.2676702369995547,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map209287.fits",
+        "sha256": "170dbb9f947b6a7cf7d1d13c5b0609840c4f94e216bacc9744486870e0e88ac9",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.456872886843377,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.456872886843377,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 4.394070358393343e-05,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "958a4b5aaee8a23379abe2bb95655c867dd01dc9022b0aa8317f5200c776c6fa",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "217244": {
+      "grid_shape": [
+        140,
+        140
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.05365797741895824,
+        -0.06995099167105774
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.44,
+          -0.46
+        ],
+        [
+          -0.61,
+          -0.28
+        ],
+        [
+          0.12,
+          0.52
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.413384777,
+      "halo_mass_at_200_msun_legacy": 550000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.614114041,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7739663839872636,
+      "selection_einstein_radius_max_arcsec": 0.7739663839872636,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0977074059282304,
+      "stellar_mass_normalization": 0.41719058084017346,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7739663839872636,
+        "radius_kpc": 2.090842978467262,
+        "stellar_mass_msun": 33934103128.33516,
+        "stellar_luminosity_lsun_i": 16176757078.911777,
+        "mass_to_light_msun_per_lsun": 2.0977074059282304,
+        "point_particle_mass_to_light": 2.0975138909533766,
+        "foreground_cube_mass_to_light": 2.1163124594201363,
+        "foreground_cube_mass_fraction": 0.9940000561628213,
+        "foreground_cube_light_fraction": 0.9852615430318566,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.00971029615087113,
+          0.01379063937000647,
+          0.024734840155458408
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.07737693002341227,
+            0.5158948538309895,
+            0.853150227387213
+          ],
+          [
+            -0.3339269694901342,
+            0.7928817288863996,
+            -0.5097365427799427
+          ],
+          [
+            -0.9394176865203717,
+            -0.32433171875229105,
+            0.1109204510624531
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4848429573517333,
+          "c_over_a": 0.29960683499166046,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map217244.fits",
+        "sha256": "bdc4c14d66098db887d2342331192aeb352c9c3444c1cdcd820c9a7f124d53e6",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.617451188731257,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.617451188731257,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          140,
+          140
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001420358316767123,
+          "tolerance_arcsec": 0.00617451188731257,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "674dba9eac93a1ce27316c49ad0abdeda124dcd269e9d2c615acc4a028a9e4a7",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "297779": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.0984048753540174,
+        -0.0933076737031885
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.68,
+          -0.25
+        ],
+        [
+          -0.24,
+          0.47
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.320353851,
+      "halo_mass_at_200_msun_legacy": 130000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.645979459434022,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7766338173152387,
+      "selection_einstein_radius_max_arcsec": 0.7766338173152387,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.6255516239615915,
+      "stellar_mass_normalization": 0.3232885693541885,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7766338173152387,
+        "radius_kpc": 2.098048955832318,
+        "stellar_mass_msun": 39114448565.731026,
+        "stellar_luminosity_lsun_i": 24062261689.60797,
+        "mass_to_light_msun_per_lsun": 1.6255516239615915,
+        "point_particle_mass_to_light": 1.6254638940212265,
+        "foreground_cube_mass_to_light": 1.6274834558515257,
+        "foreground_cube_mass_fraction": 0.9994385538169835,
+        "foreground_cube_light_fraction": 0.9982522147096019,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.007729895500172243,
+          -0.004747961778028902,
+          0.010315056081788081
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.7378132572673476,
+            0.6352043322941567,
+            -0.2283572938079291
+          ],
+          [
+            -0.6746736415985967,
+            0.6833713919474812,
+            -0.2789606029529084
+          ],
+          [
+            -0.021144141804193474,
+            0.3598874781129454,
+            0.9327560926441965
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7284404193212951,
+          "c_over_a": 0.33571078873514143,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "retained tested additional-sample mock grid",
+        "artifact": "production_systems before grid audit",
+        "sha256": "efb42f1ef0fe514f56c3d6c8777bfb8dae17a3a121eec44bd9fceae9e8ea399c",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.6552582094424615,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.6552582094424615,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00010803259757519168,
+          "tolerance_arcsec": 0.006552582094424615,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "6ebf90e1c72bbafa485fcab2a780885368527233ac6c9d1c496167b24b808b2a",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "323241": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.03609316,
+        0.05003063107989044
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.56,
+          0.05
+        ],
+        [
+          0.02,
+          0.41
+        ],
+        [
+          -0.48,
+          0.06
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.233886163,
+      "halo_mass_at_200_msun_legacy": 310000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.534305477,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6505129559792606,
+      "selection_einstein_radius_max_arcsec": 0.6505129559792606,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.186822223433079,
+      "stellar_mass_normalization": 0.23603437321563828,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6505129559792606,
+        "radius_kpc": 1.75733788256313,
+        "stellar_mass_msun": 22785762472.507286,
+        "stellar_luminosity_lsun_i": 19198968491.33454,
+        "mass_to_light_msun_per_lsun": 1.186822223433079,
+        "point_particle_mass_to_light": 1.1867557185570354,
+        "foreground_cube_mass_to_light": 1.1868170042770037,
+        "foreground_cube_mass_fraction": 0.9999757195316608,
+        "foreground_cube_light_fraction": 0.9999801170329883,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.00500855946267885,
+          -0.015182127192378428,
+          0.02250493201280287
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.7059808620099325,
+            0.6562074967795484,
+            0.2664258689505046
+          ],
+          [
+            -0.456831331379954,
+            0.7093938475956716,
+            -0.5367173405648714
+          ],
+          [
+            -0.541198814804069,
+            0.25720048632094605,
+            0.8005946244454424
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8805108753086366,
+          "c_over_a": 0.21615123281041948,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map323241.fits",
+        "sha256": "ad166904560b2c9498feb9577af398f049114c570f34bc1c2ad57d3f8b995a86",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5377957237469357,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5377957237469357,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0003585852143875856,
+          "tolerance_arcsec": 0.005377957237469358,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "ea098a8b93994183d880248d49ae527c00fc8990ee6450d2ab4e69c592c5ee90",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "343209": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.01895824,
+        -0.06995099167105774
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.4,
+          -0.22
+        ],
+        [
+          -0.02,
+          -0.38
+        ],
+        [
+          -0.37,
+          -0.2
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.229531218,
+      "halo_mass_at_200_msun_legacy": 530000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.477494693,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5319874010778501,
+      "selection_einstein_radius_max_arcsec": 0.5319874010778501,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.1646647565826342,
+      "stellar_mass_normalization": 0.23162771171501134,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5319874010778501,
+        "radius_kpc": 1.4371452626228973,
+        "stellar_mass_msun": 13669178732.049671,
+        "stellar_luminosity_lsun_i": 11736577976.445213,
+        "mass_to_light_msun_per_lsun": 1.1646647565826342,
+        "point_particle_mass_to_light": 1.1641292155647947,
+        "foreground_cube_mass_to_light": 1.1646672140783534,
+        "foreground_cube_mass_fraction": 0.999926865038452,
+        "foreground_cube_light_fraction": 0.9999247551516444,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.005501089128713795,
+          -0.011536019234189869,
+          -0.012724012948878224
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.5854575832592255,
+            0.5785837094935506,
+            0.5678734976321307
+          ],
+          [
+            0.7902029765442976,
+            -0.2507379011556043,
+            -0.5592045786513338
+          ],
+          [
+            -0.18115925056369422,
+            0.7761258892942337,
+            -0.6039949750638951
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8336613660202234,
+          "c_over_a": 0.16775399659463688,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map343209.fits",
+        "sha256": "81ff1998b91727f5e93fa6f0d6adc8bfea04e2f2a4e3fb210ef6d3c511a9062f",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.4855286034751389,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.4855286034751389,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0036299839383719945,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "97bc5197f4e1078f8f79906650c3fb773a18e338956aecc3b4e919ab81b4d3cd",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "360186": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.09344489,
+        -0.12052224835220937
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.6,
+          -0.34
+        ],
+        [
+          -0.33,
+          -0.45
+        ],
+        [
+          -0.1,
+          0.44
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.393265326,
+      "halo_mass_at_200_msun_legacy": 1570000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.536580427,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6836748622543953,
+      "selection_einstein_radius_max_arcsec": 0.6836748622543953,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.995677970373794,
+      "stellar_mass_normalization": 0.3968990381009633,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6836748622543953,
+        "radius_kpc": 1.846923606597749,
+        "stellar_mass_msun": 26821908131.47935,
+        "stellar_luminosity_lsun_i": 13439998100.723415,
+        "mass_to_light_msun_per_lsun": 1.995677970373794,
+        "point_particle_mass_to_light": 1.9951970299177746,
+        "foreground_cube_mass_to_light": 1.9957739406889616,
+        "foreground_cube_mass_fraction": 0.9998456834200993,
+        "foreground_cube_light_fraction": 0.9997976040743375,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.0017368568631844516,
+          0.0003435414422049793,
+          0.00979524626567372
+        ],
+        "centre_iterations": 7,
+        "rotation_rows": [
+          [
+            0.5308509090979989,
+            -0.8299685489292962,
+            -0.17131701637031652
+          ],
+          [
+            0.5888002441269389,
+            0.21581606790951705,
+            0.7789336925233954
+          ],
+          [
+            -0.6095175016567488,
+            -0.5143691598650469,
+            0.6032518400749732
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7855045933793564,
+          "c_over_a": 0.23000009549924103,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map360186.fits",
+        "sha256": "da98266364b82d1bfc669144d342789d6f9fbee4618c7f6d75f91b49fffd665b",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5878185223667296,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5878185223667296,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0002285761037772449,
+          "tolerance_arcsec": 0.005878185223667296,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "395387fd8d50be1237c1ba91a262525dfc14a47df6b843a2489dc11915ebe6ec",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "401306": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.00981834791082615,
+        -0.08521415320949081
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.6,
+          -0.5
+        ],
+        [
+          -0.66,
+          -0.38
+        ],
+        [
+          0.02,
+          0.64
+        ],
+        [
+          0.02,
+          -0.77
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.389166554,
+      "halo_mass_at_200_msun_legacy": 1640000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.730960186,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9258045555583146,
+      "selection_einstein_radius_max_arcsec": 0.9258045555583146,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.9744712168936733,
+      "stellar_mass_normalization": 0.3926814538100831,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9258045555583146,
+        "radius_kpc": 2.5010284612748253,
+        "stellar_mass_msun": 46205974323.69299,
+        "stellar_luminosity_lsun_i": 23401695567.072536,
+        "mass_to_light_msun_per_lsun": 1.9744712168936733,
+        "point_particle_mass_to_light": 1.9744497071110247,
+        "foreground_cube_mass_to_light": 1.9926455687440736,
+        "foreground_cube_mass_fraction": 0.9933247195452942,
+        "foreground_cube_light_fraction": 0.984264888114211,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.00808683708709933,
+          0.026684094764264216,
+          -0.0013241776708761762
+        ],
+        "centre_iterations": 8,
+        "rotation_rows": [
+          [
+            0.6378870122089862,
+            -0.7520661929104704,
+            -0.16582099124128988
+          ],
+          [
+            -0.41120951416661994,
+            -0.5146627582590034,
+            0.7523489753565742
+          ],
+          [
+            -0.6511581183659958,
+            -0.4117264707817392,
+            -0.6375534629689255
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6251076905058937,
+          "c_over_a": 0.35183292499769625,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map401306.fits",
+        "sha256": "1022130266117e316d992ee83da651022b6a3a09b147f680dfaf69e40c6ccb3f",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7344790866361741,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7344790866361741,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001325028076891721,
+          "tolerance_arcsec": 0.007344790866361741,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "755df6ee9c18d2d74c42d735242c7e10f6273b8b8774418a0965b67d48564034",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "411079": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.01737553,
+        -0.025702092701959656
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.73,
+          -0.18
+        ],
+        [
+          -0.06,
+          -0.67
+        ],
+        [
+          -0.03,
+          0.66
+        ],
+        [
+          -0.67,
+          -0.28
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.380673426,
+      "halo_mass_at_200_msun_legacy": 1750000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.70736729,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.829814396529334,
+      "selection_einstein_radius_max_arcsec": 0.829814396529334,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.9315692302346381,
+      "stellar_mass_normalization": 0.38414913672768225,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.829814396529334,
+        "radius_kpc": 2.2417144210787296,
+        "stellar_mass_msun": 41484887007.434906,
+        "stellar_luminosity_lsun_i": 21477297504.058662,
+        "mass_to_light_msun_per_lsun": 1.9315692302346381,
+        "point_particle_mass_to_light": 1.9315470374127421,
+        "foreground_cube_mass_to_light": 1.932012775810524,
+        "foreground_cube_mass_fraction": 0.9993859241675475,
+        "foreground_cube_light_fraction": 0.9991564882079009,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.008989198264830214,
+          -0.0018435315358361728,
+          0.04421255023928376
+        ],
+        "centre_iterations": 12,
+        "rotation_rows": [
+          [
+            -0.23365294262925207,
+            -0.090824765720186,
+            -0.9680687807860373
+          ],
+          [
+            0.7567545768648749,
+            0.6081631348508995,
+            -0.23970838909473025
+          ],
+          [
+            0.6105152027548163,
+            -0.7885990510647345,
+            -0.07336704890511257
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7607208642827995,
+          "c_over_a": 0.3000739210151725,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map411079.fits",
+        "sha256": "778b98f2eaaa31febd3048df72ebd9da26a20d4f353418723b3364002abfde88",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7268714261412486,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7268714261412486,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 5.1705361555076657e-05,
+          "tolerance_arcsec": 0.007268714261412485,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "a1466a178e86067ba8e39e52d4adf7f1d492ea656b8faa46777f570fe5f1c3d6",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "412691": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.05845353456267111,
+        -0.06315386541543988
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.88,
+          -0.36
+        ],
+        [
+          -0.7,
+          -0.5
+        ],
+        [
+          -0.15,
+          0.8
+        ],
+        [
+          -0.2,
+          -0.87
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.435021563,
+      "halo_mass_at_200_msun_legacy": 2130000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.890005557,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 1.0882804882045092,
+      "selection_einstein_radius_max_arcsec": 1.0882804882045092,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.2074001799993272,
+      "stellar_mass_normalization": 0.4390062029804981,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 1.0882804882045092,
+        "radius_kpc": 2.939951481668959,
+        "stellar_mass_msun": 65337199283.85687,
+        "stellar_luminosity_lsun_i": 29599163702.105335,
+        "mass_to_light_msun_per_lsun": 2.2074001799993272,
+        "point_particle_mass_to_light": 2.2074302693201546,
+        "foreground_cube_mass_to_light": 2.208075455834924,
+        "foreground_cube_mass_fraction": 0.9986376367441981,
+        "foreground_cube_light_fraction": 0.9983322323872823,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.015230448379731013,
+          0.0038717263582411236,
+          0.01263740538556435
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            -0.7771811139029626,
+            -0.32162869799641003,
+            -0.540873827077706
+          ],
+          [
+            0.366174550583768,
+            0.46786881453447626,
+            -0.8043724080865023
+          ],
+          [
+            0.5117672466046707,
+            -0.8231972746621784,
+            -0.24584656249668585
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5150790658692231,
+          "c_over_a": 0.2867154394728889,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map412691.fits",
+        "sha256": "91277e651150ffca5e878cdc947d1ec3550459f898714c5a512c51488cacc48b",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.8949207844358718,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.8949207844358718,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00017639659694024257,
+          "tolerance_arcsec": 0.008949207844358717,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "5cd212b449cbd9171e15b25f6639985bb69c031bc50501f14cdd4db544195c1b",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "414684": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.06923071512366016,
+        -0.06507742405436776
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.57,
+          -0.48
+        ],
+        [
+          -0.75,
+          -0.31
+        ],
+        [
+          0.09,
+          0.62
+        ],
+        [
+          0.15,
+          -0.72
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.287485486,
+      "halo_mass_at_200_msun_legacy": 1700000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.739692874,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.865048357896833,
+      "selection_einstein_radius_max_arcsec": 0.865048357896833,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.4587281640828424,
+      "stellar_mass_normalization": 0.29011083640253976,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.865048357896833,
+        "radius_kpc": 2.3368977291047206,
+        "stellar_mass_msun": 43885821814.30893,
+        "stellar_luminosity_lsun_i": 30084989715.614082,
+        "mass_to_light_msun_per_lsun": 1.4587281640828424,
+        "point_particle_mass_to_light": 1.4586553440627832,
+        "foreground_cube_mass_to_light": 1.4586949421407107,
+        "foreground_cube_mass_fraction": 0.9990181682208685,
+        "foreground_cube_light_fraction": 0.9990409209725334,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.009455036579730607,
+          -0.009153297023404316,
+          -0.0018608996460965838
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.5606259706642178,
+            0.7500292308677786,
+            -0.3509340021438389
+          ],
+          [
+            0.5929986552485651,
+            -0.06783984688963496,
+            0.8023405449354932
+          ],
+          [
+            0.5779715528381972,
+            -0.6579163381600123,
+            -0.4827991053139218
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8296835377382207,
+          "c_over_a": 0.453471640710362,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map414684.fits",
+        "sha256": "14d6aab680de4f7ce75b3532cbe793fcb2a8f85ba8f0d1ae616b12fd5365fb16",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7440997928940968,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7440997928940968,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00010551828566440768,
+          "tolerance_arcsec": 0.007440997928940968,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "b75d716d255cd2418afd446f70c9f5bb1b91bc54703d6d14edc395bd455c9532",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "415409": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.02135656,
+        0.13683672208651773
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.68,
+          0.38
+        ],
+        [
+          -0.0,
+          -0.57
+        ],
+        [
+          -0.03,
+          0.76
+        ],
+        [
+          -0.62,
+          0.38
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.19211022,
+      "halo_mass_at_200_msun_legacy": 1890000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.71942461,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9140757532271547,
+      "selection_einstein_radius_max_arcsec": 0.9140757532271547,
+      "stellar_mass_to_light_msun_per_lsun_i": 0.9747910848499078,
+      "stellar_mass_normalization": 0.19386576876120803,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9140757532271547,
+        "radius_kpc": 2.4693435140893936,
+        "stellar_mass_msun": 42765236354.98356,
+        "stellar_luminosity_lsun_i": 43871181240.4073,
+        "mass_to_light_msun_per_lsun": 0.9747910848499078,
+        "point_particle_mass_to_light": 0.9748707239413531,
+        "foreground_cube_mass_to_light": 0.9746330059508411,
+        "foreground_cube_mass_fraction": 0.9995213249947034,
+        "foreground_cube_light_fraction": 0.999683440611232,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.006046887212614397,
+          0.012674748855457607,
+          -0.006874306555267594
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.14134611205564732,
+            -0.9087645339270476,
+            0.39264271097666975
+          ],
+          [
+            -0.755151068330088,
+            0.3554436237399413,
+            0.5508236508561937
+          ],
+          [
+            -0.6401313463709452,
+            -0.2186477811892336,
+            -0.7364950829261157
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8708840606756335,
+          "c_over_a": 0.19570148026926423,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map415409.fits",
+        "sha256": "91b4ca1e1ed3f6f340b5bd5327c5ff16b9c58504906565a421de514a527d859b",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7215134331178071,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7215134331178071,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0006750748237366322,
+          "tolerance_arcsec": 0.007215134331178072,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "f8a0c377fd539ddf7d0f5bbd2e38b75bf070c58bac51ca1eb89dcfe6de46deff",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "419880": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 4.0,
+      "source_centre_yx_arcsec": [
+        0.12395816547205536,
+        0.04362797768262136
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.67,
+          0.14
+        ],
+        [
+          -0.4,
+          -0.31
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.331369931,
+      "halo_mass_at_200_msun_legacy": 1050000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.583717548,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7111185127572405,
+      "selection_einstein_radius_max_arcsec": 0.7111185127572405,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.6814899045667135,
+      "stellar_mass_normalization": 0.33441353545332136,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7111185127572405,
+        "radius_kpc": 1.921061663682057,
+        "stellar_mass_msun": 28931339969.913116,
+        "stellar_luminosity_lsun_i": 17205776788.394188,
+        "mass_to_light_msun_per_lsun": 1.6814899045667135,
+        "point_particle_mass_to_light": 1.6812468041217068,
+        "foreground_cube_mass_to_light": 1.6920472279504801,
+        "foreground_cube_mass_fraction": 0.9946078742492015,
+        "foreground_cube_light_fraction": 0.988402139092974,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.008468437233706846,
+          -0.01499388906949408,
+          0.011079392298263357
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.12511476795486218,
+            0.8658295334305219,
+            -0.4844435094818448
+          ],
+          [
+            -0.7322413727272457,
+            0.4100538713544602,
+            0.5437631788322357
+          ],
+          [
+            0.6694541559405834,
+            0.2866967764497972,
+            0.6853000010704622
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.559129183360529,
+          "c_over_a": 0.32048625851878254,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map419880.fits",
+        "sha256": "4b3109f65b88e9558a11dfd573c344557324d416c5f686fec3e641fed0aeb11a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5867909968485108,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5867909968485108,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001221715487527142,
+          "tolerance_arcsec": 0.005867909968485108,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "1955c3e0afb272a22b9831a09ab944d4afb0bae45ff8b77834e49fde2298c63d",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "425781": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 4.0,
+      "source_centre_yx_arcsec": [
+        0.08692203,
+        0.005710515270633391
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.88,
+          -0.08
+        ],
+        [
+          -0.08,
+          -0.75
+        ],
+        [
+          -0.05,
+          0.76
+        ],
+        [
+          -0.73,
+          -0.18
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.383116925,
+      "halo_mass_at_200_msun_legacy": 2020000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.828296905,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9767167897215636,
+      "selection_einstein_radius_max_arcsec": 0.9767167897215636,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.9441444675391917,
+      "stellar_mass_normalization": 0.38665009112221005,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9767167897215636,
+        "radius_kpc": 2.6385660721073676,
+        "stellar_mass_msun": 53820077483.44617,
+        "stellar_luminosity_lsun_i": 27683167779.99998,
+        "mass_to_light_msun_per_lsun": 1.9441444675391917,
+        "point_particle_mass_to_light": 1.944152372676889,
+        "foreground_cube_mass_to_light": 1.944339689187288,
+        "foreground_cube_mass_fraction": 0.9995215869520574,
+        "foreground_cube_light_fraction": 0.9994212298732003,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.002171349745488346,
+          0.01809016999361455,
+          0.014351804227313834
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            -0.2516184890954514,
+            -0.7947377543312445,
+            -0.5523405089126209
+          ],
+          [
+            0.7465074868340444,
+            0.20384971147280667,
+            -0.63338129687667
+          ],
+          [
+            0.6159664828917566,
+            -0.5716967701264228,
+            0.5419853272746185
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7200919469308615,
+          "c_over_a": 0.26347614419720217,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map425781.fits",
+        "sha256": "00cc8ef11e27747f24a58afbeb6d15bc8823849a5ddef2e8f18fc7c8cf20416d",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.8331268390704576,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.8331268390704576,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00013681714386393207,
+          "tolerance_arcsec": 0.008331268390704576,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "20def43938dff70597fc15bc0342fe087988b59b118904a96a960ea66781f9e4",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "441099": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 4.0,
+      "source_centre_yx_arcsec": [
+        0.07025405,
+        -0.12534153065954895
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.64,
+          -0.45
+        ],
+        [
+          -0.25,
+          -0.64
+        ],
+        [
+          -0.02,
+          0.52
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.405482818,
+      "halo_mass_at_200_msun_legacy": 1350000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.650386283,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7873279881820905,
+      "selection_einstein_radius_max_arcsec": 0.7873279881820905,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0578910781511888,
+      "stellar_mass_normalization": 0.40927193743676876,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7873279881820905,
+        "radius_kpc": 2.1269388824881688,
+        "stellar_mass_msun": 35256891302.10788,
+        "stellar_luminosity_lsun_i": 17132535184.409616,
+        "mass_to_light_msun_per_lsun": 2.0578910781511888,
+        "point_particle_mass_to_light": 2.0574656913733786,
+        "foreground_cube_mass_to_light": 2.058462829288909,
+        "foreground_cube_mass_fraction": 0.9996783897798376,
+        "foreground_cube_light_fraction": 0.9994007227515199,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.0033115905565779535,
+          0.005465738462821565,
+          -0.014368783287069092
+        ],
+        "centre_iterations": 5,
+        "rotation_rows": [
+          [
+            0.17718379138391543,
+            -0.3516538664713626,
+            0.91920915044758
+          ],
+          [
+            0.8192305827618822,
+            0.5702895476641572,
+            0.060258477350806576
+          ],
+          [
+            -0.545405497165593,
+            0.7423674225211878,
+            0.389131666201557
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.624474542118859,
+          "c_over_a": 0.2632217356875615,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map441099.fits",
+        "sha256": "197aa320aa8931af9284110eb6f8659b46e29156346835e718f703060e420045",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          200,
+          200
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.6542495387263209,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.6542495387263209,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 6.394008630894454e-05,
+          "tolerance_arcsec": 0.006542495387263209,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "b2b468314476f42b68b1add5104245ab1fe127bf075979bd7ae00acd4c05c1de",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "442663": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.09199417758731192,
+        -0.06448603635748089
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.84,
+          -0.27
+        ],
+        [
+          -0.52,
+          -0.51
+        ],
+        [
+          -0.1,
+          0.61
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.390092719,
+      "halo_mass_at_200_msun_legacy": 1550000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.763138571,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9158525745672823,
+      "selection_einstein_radius_max_arcsec": 0.9158525745672823,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.978997162390842,
+      "stellar_mass_normalization": 0.39358157068314115,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9158525745672823,
+        "radius_kpc": 2.474143534477692,
+        "stellar_mass_msun": 46449847945.109024,
+        "stellar_luminosity_lsun_i": 23471407047.89723,
+        "mass_to_light_msun_per_lsun": 1.978997162390842,
+        "point_particle_mass_to_light": 1.9788125715455276,
+        "foreground_cube_mass_to_light": 1.979253391877942,
+        "foreground_cube_mass_fraction": 0.999668063053118,
+        "foreground_cube_light_fraction": 0.9995386483778077,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.014540024676149553,
+          0.0463892993138423,
+          0.0033021662786443026
+        ],
+        "centre_iterations": 14,
+        "rotation_rows": [
+          [
+            0.301174258823787,
+            0.9307825521579485,
+            0.2072146385279732
+          ],
+          [
+            0.6482256859106068,
+            -0.3592152055628816,
+            0.6713925053336095
+          ],
+          [
+            0.6993550785885992,
+            -0.06788428898318133,
+            -0.7115435315998468
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.6295538809453944,
+          "c_over_a": 0.26376209060061756,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map442663.fits",
+        "sha256": "3790fd999d3ce1f7af08c4f9c7ef7eadb5c8db66a4115200198ed2a225f9ef83",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7695579273077565,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7695579273077565,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0008493293145171998,
+          "tolerance_arcsec": 0.007695579273077565,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "551c91eee5d5d29b93b2fcd9affbf55ac5c91caf618a2937d2188a798fafe07e",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "448856": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.11082615,
+        -0.08521415320949081
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.7,
+          -0.22
+        ],
+        [
+          -0.36,
+          -0.4
+        ],
+        [
+          -0.08,
+          0.42
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.383018396,
+      "halo_mass_at_200_msun_legacy": 1550000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.591107331,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.713798177299953,
+      "selection_einstein_radius_max_arcsec": 0.713798177299953,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.9438602520145036,
+      "stellar_mass_normalization": 0.38659356653756427,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.713798177299953,
+        "radius_kpc": 1.9283006832437521,
+        "stellar_mass_msun": 29475896705.092068,
+        "stellar_luminosity_lsun_i": 15163588367.293875,
+        "mass_to_light_msun_per_lsun": 1.9438602520145036,
+        "point_particle_mass_to_light": 1.9434913318394647,
+        "foreground_cube_mass_to_light": 1.9439483372834623,
+        "foreground_cube_mass_fraction": 0.9998763968719049,
+        "foreground_cube_light_fraction": 0.999831089916131,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.0026501125983408465,
+          0.0303703323835093,
+          -0.017493241394424833
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            -0.22527202043368263,
+            0.9291501476767616,
+            -0.2931424907480635
+          ],
+          [
+            0.8755139755276041,
+            0.06104435970760418,
+            -0.479321254279151
+          ],
+          [
+            -0.4274667185472758,
+            -0.3646280148591722,
+            -0.8272355259019549
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8072906903560427,
+          "c_over_a": 0.3033740848852747,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map448856.fits",
+        "sha256": "efbe137bbf232a2a47ab24e7a39d0b0f6e4f74e06d47d03b1587a79bcf30a336",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5951043544494099,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5951043544494099,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 6.945023728965882e-05,
+          "tolerance_arcsec": 0.005951043544494099,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "114a83b2ff444e19e10fb8f38a8de5f45eb1455beb2288c4989c14df41e8c1d8",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "450416": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.06267111,
+        -0.06315386541543988
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.58,
+          -0.22
+        ],
+        [
+          -0.4,
+          -0.34
+        ],
+        [
+          -0.0,
+          0.46
+        ],
+        [
+          -0.03,
+          -0.54
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.178533039,
+      "halo_mass_at_200_msun_legacy": 1310000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.549649626,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7355486964358868,
+      "selection_einstein_radius_max_arcsec": 0.7355486964358868,
+      "stellar_mass_to_light_msun_per_lsun_i": 0.9060315987733905,
+      "stellar_mass_normalization": 0.18019093029066321,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7355486964358868,
+        "radius_kpc": 1.98705894607566,
+        "stellar_mass_msun": 24882868482.255375,
+        "stellar_luminosity_lsun_i": 27463576895.046993,
+        "mass_to_light_msun_per_lsun": 0.9060315987733905,
+        "point_particle_mass_to_light": 0.9060747786950254,
+        "foreground_cube_mass_to_light": 0.9057659127281706,
+        "foreground_cube_mass_fraction": 0.9990479259081367,
+        "foreground_cube_light_fraction": 0.9993409741325064,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.00476003859935102,
+          -0.021336361732175253,
+          0.0011262805593078831
+        ],
+        "centre_iterations": 7,
+        "rotation_rows": [
+          [
+            -0.48139801855746817,
+            -0.8592252560380327,
+            -0.1731701680871182
+          ],
+          [
+            -0.8474326093841892,
+            0.5067179790277764,
+            -0.1584135798544765
+          ],
+          [
+            0.22386138631136876,
+            0.07049006395502488,
+            -0.9720685318445241
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8445271832187227,
+          "c_over_a": 0.22636240127468651,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map450416.fits",
+        "sha256": "1d533abd3694b32d8c8978ffd1bdbab306f9030bcaa2cf482f3c718d0e275ad3",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5518256398574869,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5518256398574869,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001561413362253239,
+          "tolerance_arcsec": 0.005518256398574869,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "28f01cae452f135b11ab6817620786e27627da826fa410131bee64787106a97c",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "451452": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.04895555317224834,
+        0.07143348838836494
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.6,
+          -0.22
+        ],
+        [
+          -0.55,
+          -0.27
+        ],
+        [
+          0.03,
+          0.46
+        ],
+        [
+          0.02,
+          -0.56
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.288116066,
+      "halo_mass_at_200_msun_legacy": 1440000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.598046882,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7642121102428892,
+      "selection_einstein_radius_max_arcsec": 0.7642121102428892,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.4619690651652137,
+      "stellar_mass_normalization": 0.290755384541703,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7642121102428892,
+        "radius_kpc": 2.06449215084681,
+        "stellar_mass_msun": 31463396433.829063,
+        "stellar_luminosity_lsun_i": 21521246368.009476,
+        "mass_to_light_msun_per_lsun": 1.4619690651652137,
+        "point_particle_mass_to_light": 1.461896136377735,
+        "foreground_cube_mass_to_light": 1.462009786767642,
+        "foreground_cube_mass_fraction": 0.9991744387318312,
+        "foreground_cube_light_fraction": 0.9991466085595445,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.021109613495672537,
+          -0.014680380355243149,
+          -0.03414693952186224
+        ],
+        "centre_iterations": 6,
+        "rotation_rows": [
+          [
+            0.6853624852338781,
+            -0.27734680833582226,
+            -0.6733179128316539
+          ],
+          [
+            -0.691797056426394,
+            -0.5366771548460112,
+            -0.48310916383998276
+          ],
+          [
+            -0.22736555709653936,
+            0.7969042473047327,
+            -0.5596860942294859
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9142459260766895,
+          "c_over_a": 0.3963088396820604,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map451452.fits",
+        "sha256": "d997e03c9e9ddfe1c58ab1cda5ca99f78bc2ecf770f2bc291ef5e767e7932c76",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.6020455534354431,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.6020455534354431,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00010286058462682934,
+          "tolerance_arcsec": 0.006020455534354431,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "660834da9925aa2f50c9c310ede5f6f0a30706a64b1f945e1906d22118d4f2a3",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "451938": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.12444144,
+        0.12599454992059198
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.55,
+          0.3
+        ],
+        [
+          -0.12,
+          -0.33
+        ],
+        [
+          -0.22,
+          0.44
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.408241607,
+      "halo_mass_at_200_msun_legacy": 550000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.482781016,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6228865275145089,
+      "selection_einstein_radius_max_arcsec": 0.6228865275145089,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0715043174299,
+      "stellar_mass_normalization": 0.4119793289374861,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6228865275145089,
+        "radius_kpc": 1.6827060572400747,
+        "stellar_mass_msun": 20663745104.90747,
+        "stellar_luminosity_lsun_i": 9975236320.310848,
+        "mass_to_light_msun_per_lsun": 2.0715043174299,
+        "point_particle_mass_to_light": 2.071368219769111,
+        "foreground_cube_mass_to_light": 2.074822063298373,
+        "foreground_cube_mass_fraction": 0.9977020279218434,
+        "foreground_cube_light_fraction": 0.9961066517015603,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.004480620576960163,
+          -0.014262125849757992,
+          -0.002548263930840578
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.6135567411809928,
+            0.5823275471329653,
+            -0.533331747790682
+          ],
+          [
+            -0.5809542271998136,
+            -0.12456248109712537,
+            -0.8043484159253341
+          ],
+          [
+            -0.5348273658387599,
+            0.8033547262281043,
+            0.2618795001464239
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.4463007525624414,
+          "c_over_a": 0.23659461948090213,
+          "iterations": 8
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map451938.fits",
+        "sha256": "c40157021dd705eacdd3dc76886e0ad2096f2f44b5a7d962dc0ed96efa83512f",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          140,
+          140
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.48541221400066326,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.48541221400066326,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00021822260903209267,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "aecb9c04e656eae0575ace34f1a551822ee9cb5669942ea9dcae8ca29af8cb7d",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "453492": {
+      "grid_shape": [
+        80,
+        80
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.09391217,
+        0.04372706474335588
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.82,
+          0.1
+        ],
+        [
+          -0.24,
+          -0.64
+        ],
+        [
+          -0.46,
+          0.56
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.42623285,
+      "halo_mass_at_200_msun_legacy": 1590000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.753783106,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.9206662625923369,
+      "selection_einstein_radius_max_arcsec": 0.9206662625923369,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.162775023725271,
+      "stellar_mass_normalization": 0.4301311831309977,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.9206662625923369,
+        "radius_kpc": 2.487147543457858,
+        "stellar_mass_msun": 47831981676.80772,
+        "stellar_luminosity_lsun_i": 22116022772.641205,
+        "mass_to_light_msun_per_lsun": 2.162775023725271,
+        "point_particle_mass_to_light": 2.1627069701670156,
+        "foreground_cube_mass_to_light": 2.1840382710615556,
+        "foreground_cube_mass_fraction": 0.974627394689432,
+        "foreground_cube_light_fraction": 0.9651386674868966,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.04227366586045802,
+          0.00480093287023973,
+          0.00833699664037619
+        ],
+        "centre_iterations": 8,
+        "rotation_rows": [
+          [
+            -0.7634119545409893,
+            0.46161971719027206,
+            0.45178471019400374
+          ],
+          [
+            0.602604767290276,
+            0.7608170475611213,
+            0.2408836121022159
+          ],
+          [
+            -0.23252888444866235,
+            0.4561410492836089,
+            -0.8589910715807872
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.7428153688123563,
+          "c_over_a": 0.32540967115855124,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map453492.fits",
+        "sha256": "156c74aa583dfa91f5b22933e3a26f9ad1c12af397edaf041b9ba4e2d96de180",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7575740222032227,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7575740222032227,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          80,
+          80
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 7.217872850662221e-05,
+          "tolerance_arcsec": 0.007575740222032227,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "7fce79d0e658957abc112ad8976dcc8f569ebdcabc8cdaaa0fc6d0a43425f502",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "454966": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.0543867,
+        0.07676544542502278
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.72,
+          0.15
+        ],
+        [
+          -0.04,
+          -0.48
+        ],
+        [
+          -0.56,
+          0.24
+        ],
+        [
+          -0.02,
+          0.62
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.395235889,
+      "halo_mass_at_200_msun_legacy": 1430000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.696779737,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.8409065416533225,
+      "selection_einstein_radius_max_arcsec": 0.8409065416533225,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.0052688427923844,
+      "stellar_mass_normalization": 0.3988064640955363,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.8409065416533225,
+        "radius_kpc": 2.2716794611999203,
+        "stellar_mass_msun": 35069350418.57052,
+        "stellar_luminosity_lsun_i": 17488602859.7221,
+        "mass_to_light_msun_per_lsun": 2.0052688427923844,
+        "point_particle_mass_to_light": 2.0050305570711444,
+        "foreground_cube_mass_to_light": 2.005407819317459,
+        "foreground_cube_mass_fraction": 0.9997075701225415,
+        "foreground_cube_light_fraction": 0.9996382895089685,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.002744993667730962,
+          0.019585912929594357,
+          0.01541601822680861
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.20973343978615305,
+            -0.9225969774019975,
+            -0.32376951914003105
+          ],
+          [
+            0.23325780033533217,
+            -0.274361489596824,
+            0.9329075900693131
+          ],
+          [
+            -0.9495276103506362,
+            -0.2711836837180792,
+            0.1576601625868214
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9120455028641281,
+          "c_over_a": 0.21557274301720175,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map454966.fits",
+        "sha256": "8262e36413b6ce807da370a18d55e78fb0680d3a4e0ea3dacaeb8c1ef18f7675",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.7019046908683926,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.7019046908683926,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001128788952728943,
+          "tolerance_arcsec": 0.007019046908683926,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "d3b72a0f4666533b84d35608cebc99b18c6d457c9c866161123957d40abed44b",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "461656": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.01248864,
+        0.06968838945637756
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.63,
+          0.2
+        ],
+        [
+          0.04,
+          -0.48
+        ],
+        [
+          -0.57,
+          0.24
+        ],
+        [
+          0.02,
+          0.62
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.276568565,
+      "halo_mass_at_200_msun_legacy": 1170000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.637617128,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7849790949849293,
+      "selection_einstein_radius_max_arcsec": 0.7849790949849293,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.403459895332003,
+      "stellar_mass_normalization": 0.2791191217920883,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7849790949849293,
+        "radius_kpc": 2.1205934300886047,
+        "stellar_mass_msun": 33515761938.122673,
+        "stellar_luminosity_lsun_i": 23880812020.064293,
+        "mass_to_light_msun_per_lsun": 1.403459895332003,
+        "point_particle_mass_to_light": 1.4034952926307713,
+        "foreground_cube_mass_to_light": 1.403320985008853,
+        "foreground_cube_mass_fraction": 0.9990353500621196,
+        "foreground_cube_light_fraction": 0.9991342414239662,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.009345459612616328,
+          -0.005820268123455469,
+          0.014242708497568533
+        ],
+        "centre_iterations": 3,
+        "rotation_rows": [
+          [
+            0.8073961788208303,
+            -0.3662620166151294,
+            0.46256193705334164
+          ],
+          [
+            -0.22922928115514543,
+            -0.9171299860261103,
+            -0.326077483725635
+          ],
+          [
+            0.54365921962808,
+            0.15724097403912007,
+            -0.8244452249826034
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.9398327695854755,
+          "c_over_a": 0.2445679920936226,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map461656.fits",
+        "sha256": "fe7a33a5e77a87bade6733af6ea3a14893bd35897208005d514c6a28a36d5094",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.6402453707274265,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.6402453707274265,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00024222668573159467,
+          "tolerance_arcsec": 0.006402453707274265,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "c55bc2d4c04fc71d330a6df14fc7b5e034819cbed5dafe91b7b9528e9b9fba01",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "463901": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.00033585,
+        0.013156743288305829
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.53,
+          0.07
+        ],
+        [
+          0.04,
+          -0.48
+        ],
+        [
+          -0.52,
+          0.06
+        ],
+        [
+          0.0,
+          0.48
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.298914753,
+      "halo_mass_at_200_msun_legacy": 1130000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.533167531,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6356443961899091,
+      "selection_einstein_radius_max_arcsec": 0.6356443961899091,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.516779347819451,
+      "stellar_mass_normalization": 0.3016560151977773,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6356443961899091,
+        "radius_kpc": 1.7171709909788595,
+        "stellar_mass_msun": 23367970109.61361,
+        "stellar_luminosity_lsun_i": 15406308203.765974,
+        "mass_to_light_msun_per_lsun": 1.516779347819451,
+        "point_particle_mass_to_light": 1.5167291334293451,
+        "foreground_cube_mass_to_light": 1.5169123786429357,
+        "foreground_cube_mass_fraction": 0.9993149677977116,
+        "foreground_cube_light_fraction": 0.9992273294509234,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.02166061807209957,
+          -0.0037471807977061894,
+          0.017266125312337597
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.8072890129334133,
+            -0.366886732537321,
+            0.46225379942741834
+          ],
+          [
+            -0.23412935874475269,
+            0.5198910683625192,
+            0.8215209798968305
+          ],
+          [
+            -0.5417267696641608,
+            -0.7714320466022696,
+            0.3338033919903549
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.8694275106068379,
+          "c_over_a": 0.4079600172016,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map463901.fits",
+        "sha256": "87b7d3702ed4d84ce89ba0aebee99b9168476f58171c437fb15fa6aa021e7951",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          140,
+          140
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5369802827150411,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5369802827150411,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0002602685409860417,
+          "tolerance_arcsec": 0.005369802827150411,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "33ba278d1a1a137c4e9682b27c88f3e823733f44874ecb5c717278e33fd0d2d9",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "464399": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.05022105,
+        -0.006045360295034018
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.68,
+          0.0
+        ],
+        [
+          -0.14,
+          -0.58
+        ],
+        [
+          -0.56,
+          0.0
+        ],
+        [
+          -0.1,
+          0.58
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.316807468,
+      "halo_mass_at_200_msun_legacy": 1250000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.61186978,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7104251605326776,
+      "selection_einstein_radius_max_arcsec": 0.7104251605326776,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.6076180025612479,
+      "stellar_mass_normalization": 0.31972194328067927,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7104251605326776,
+        "radius_kpc": 1.9191885970213791,
+        "stellar_mass_msun": 30688332671.59794,
+        "stellar_luminosity_lsun_i": 19089318869.722446,
+        "mass_to_light_msun_per_lsun": 1.6076180025612479,
+        "point_particle_mass_to_light": 1.6076510230441134,
+        "foreground_cube_mass_to_light": 1.6076284265903447,
+        "foreground_cube_mass_fraction": 0.9989904184287683,
+        "foreground_cube_light_fraction": 0.9989839408715064,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.008136787103238128,
+          -1.5600056361695323e-05,
+          0.0033741846402360106
+        ],
+        "centre_iterations": 9,
+        "rotation_rows": [
+          [
+            0.8071167798426016,
+            -0.1794583874965495,
+            -0.5624563901794052
+          ],
+          [
+            0.5847458437972912,
+            0.11155062962700353,
+            0.8035102707443218
+          ],
+          [
+            -0.081454293062448,
+            -0.9774206587682489,
+            0.1949719311971323
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5457730988563992,
+          "c_over_a": 0.2501874681108219,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map464399.fits",
+        "sha256": "f002a77c6a892b23fe20d2e9c7a2863fa007519b930f4a6f4af651597f44597a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.614844934528498,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.614844934528498,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0001041466678416425,
+          "tolerance_arcsec": 0.00614844934528498,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "1212d223591c9d9ad31bfdeccf997538da9f1b071efe1c255f67ee578731e9ac",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "468189": {
+      "grid_shape": [
+        100,
+        100
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        -0.1705554107989332,
+        -0.09005477009657269
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.37,
+          0.34
+        ],
+        [
+          -0.68,
+          -0.31
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.409226889,
+      "halo_mass_at_200_msun_legacy": 1000000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.609770671,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.7405394826531878,
+      "selection_einstein_radius_max_arcsec": 0.7405394826531878,
+      "stellar_mass_to_light_msun_per_lsun_i": 2.076581016726063,
+      "stellar_mass_normalization": 0.4129889793406509,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.7405394826531878,
+        "radius_kpc": 2.0005413795965024,
+        "stellar_mass_msun": 31596074079.92304,
+        "stellar_luminosity_lsun_i": 15215430472.217934,
+        "mass_to_light_msun_per_lsun": 2.076581016726063,
+        "point_particle_mass_to_light": 2.0765152037838934,
+        "foreground_cube_mass_to_light": 2.0846609543094425,
+        "foreground_cube_mass_fraction": 0.9892836311306322,
+        "foreground_cube_light_fraction": 0.9854492666142967,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.038767057250387454,
+          0.00039608373507898497,
+          -0.007426321802282591
+        ],
+        "centre_iterations": 1,
+        "rotation_rows": [
+          [
+            0.9548286205487255,
+            0.29469340813919154,
+            0.038185083217474734
+          ],
+          [
+            -0.2949404231575132,
+            0.9241828575856799,
+            0.24268537766506257
+          ],
+          [
+            0.036227781724591346,
+            -0.24298526898574513,
+            0.9693532415416172
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.454482351956121,
+          "c_over_a": 0.30354820652653725,
+          "iterations": 6
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map468189.fits",
+        "sha256": "ee01059167b080389c2708c70796d29a3805f5184833eade04dd3067496c2861",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          140,
+          140
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.6127859700497249,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.6127859700497249,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          100,
+          100
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00012135184602291016,
+          "tolerance_arcsec": 0.006127859700497249,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "f9333e65d852d8ffbcd751dbf75c61af2e0a8179b6adf4b6eadcc9ab48c94b7d",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "471967": {
+      "grid_shape": [
+        120,
+        120
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.01145778,
+        -0.0006434990397247153
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.53,
+          0.0
+        ],
+        [
+          -0.05,
+          -0.47
+        ],
+        [
+          -0.48,
+          0.0
+        ],
+        [
+          -0.05,
+          0.48
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.311151951,
+      "halo_mass_at_200_msun_legacy": 840000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.492698372,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5707179745803614,
+      "selection_einstein_radius_max_arcsec": 0.5707179745803614,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.5790292788900866,
+      "stellar_mass_normalization": 0.31403623792437224,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5707179745803614,
+        "radius_kpc": 1.5417745454123533,
+        "stellar_mass_msun": 19982134281.388214,
+        "stellar_luminosity_lsun_i": 12654695228.59882,
+        "mass_to_light_msun_per_lsun": 1.5790292788900866,
+        "point_particle_mass_to_light": 1.5790559671531719,
+        "foreground_cube_mass_to_light": 1.5791363692240774,
+        "foreground_cube_mass_fraction": 0.9983396269073407,
+        "foreground_cube_light_fraction": 0.9982719237461917,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.0198725926200444,
+          -0.020756920618339822,
+          -0.003707021085950801
+        ],
+        "centre_iterations": 2,
+        "rotation_rows": [
+          [
+            0.7028115073030362,
+            -0.6288670533707968,
+            -0.3325390418990907
+          ],
+          [
+            0.07260835728754599,
+            0.5284315944446487,
+            -0.8458652826808122
+          ],
+          [
+            0.7076609439939712,
+            0.5703387407299437,
+            0.4170488090957042
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.38211118955550644,
+          "c_over_a": 0.24525378287940985,
+          "iterations": 8
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map471967.fits",
+        "sha256": "f3e106b142b3cf356f138ee6bd41617a24d3197a5d1f52a0c89cd4a22b61bbf0",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.4949083546922732,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.4949083546922732,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          120,
+          120
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 2.8813999680132873e-06,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "2fa802a44700b5807e3db483690621b91b22c0d65b6663b9895f0675e0ed593b",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "485608": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.04076717,
+        -0.075864804579769
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.42,
+          -0.41
+        ],
+        [
+          -0.08,
+          -0.53
+        ],
+        [
+          -0.0,
+          0.48
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.347883252,
+      "halo_mass_at_200_msun_legacy": 980000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.523154277,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.6117052052360223,
+      "selection_einstein_radius_max_arcsec": 0.6117052052360223,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.7651391203424847,
+      "stellar_mass_normalization": 0.3510496329460872,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.6117052052360223,
+        "radius_kpc": 1.6525001081709252,
+        "stellar_mass_msun": 22852002604.017097,
+        "stellar_luminosity_lsun_i": 12946289808.354137,
+        "mass_to_light_msun_per_lsun": 1.7651391203424847,
+        "point_particle_mass_to_light": 1.7652505444089697,
+        "foreground_cube_mass_to_light": 1.7655590342620384,
+        "foreground_cube_mass_fraction": 0.9984834518644256,
+        "foreground_cube_light_fraction": 0.9982459763160324,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          -0.02610380177388665,
+          -0.024705038406056826,
+          0.0028942973779396055
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.7810372705474701,
+            0.6177499384503896,
+            0.09146472303734446
+          ],
+          [
+            -0.2223982140559835,
+            0.4120135272312723,
+            -0.8836197642443008
+          ],
+          [
+            -0.5835407581313127,
+            0.6697983778145368,
+            0.4591844037819092
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.5618209911207183,
+          "c_over_a": 0.2616322544059488,
+          "iterations": 7
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map485608.fits",
+        "sha256": "62313edc3909e9d4e3a450204c3bc58c2a2d2695f4d96ee977cf17852fa4531e",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          180,
+          180
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.5257058800462638,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.5257058800462638,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.00010855996745307017,
+          "tolerance_arcsec": 0.005257058800462638,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "dcd39ef08e61866b18054fe12a1a36e2d94305f76d48417a5824bc68960b3cc5",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    },
+    "498059": {
+      "grid_shape": [
+        160,
+        160
+      ],
+      "pixel_scale_arcsec": 0.05,
+      "mask_radius_arcsec": 3.5,
+      "source_centre_yx_arcsec": [
+        0.07205536,
+        0.04362797768262136
+      ],
+      "positions_yx_arcsec": [
+        [
+          0.52,
+          0.06
+        ],
+        [
+          0.04,
+          -0.35
+        ],
+        [
+          -0.37,
+          0.08
+        ],
+        [
+          -0.02,
+          0.43
+        ]
+      ],
+      "stellar_mass_normalization_legacy": 0.202593617,
+      "halo_mass_at_200_msun_legacy": 730000000000.0,
+      "mock_einstein_radius_arcsec_legacy": 0.460231082,
+      "status": "production membership, SPH stellar normalization, historical mock grid and 0.2 arcsec central suppression adopted; remaining inherited fitting inputs provisional",
+      "selection_einstein_radius_yz_arcsec": 0.5787902495499707,
+      "selection_einstein_radius_max_arcsec": 0.5787902495499707,
+      "stellar_mass_to_light_msun_per_lsun_i": 1.0281195044099456,
+      "stellar_mass_normalization": 0.20447168752216882,
+      "stellar_aperture": {
+        "view": "yz",
+        "radius_source": "particle-mass selection; stars+winds, DM, gas; no BH",
+        "radius_arcsec": 0.5787902495499707,
+        "radius_kpc": 1.5635815124714578,
+        "stellar_mass_msun": 17582105272.409687,
+        "stellar_luminosity_lsun_i": 17101227237.684147,
+        "mass_to_light_msun_per_lsun": 1.0281195044099456,
+        "point_particle_mass_to_light": 1.0281329272838424,
+        "foreground_cube_mass_to_light": 1.0278767503769872,
+        "foreground_cube_mass_fraction": 0.9993113569456503,
+        "foreground_cube_light_fraction": 0.9995473646790588,
+        "solar_absolute_magnitude": 4.53,
+        "quadrature_order": 128,
+        "centre_offset_kpc": [
+          0.006722820585363763,
+          0.008734018519666273,
+          -0.013353553319499245
+        ],
+        "centre_iterations": 4,
+        "rotation_rows": [
+          [
+            0.5666758578518879,
+            -0.5788489503180242,
+            0.586355152483159
+          ],
+          [
+            0.823101239658318,
+            0.4298233589014776,
+            -0.3711552632195755
+          ],
+          [
+            -0.03718630662983822,
+            0.6929543800701262,
+            0.7200218092119562
+          ]
+        ],
+        "shape": {
+          "b_over_a": 0.896307599355797,
+          "c_over_a": 0.23341677843707673,
+          "iterations": 5
+        },
+        "scope": "real stars; full bound-subhalo LOS; intrinsic SDSS i",
+        "kernel": "continuum circular-aperture integral of LOS-projected 3D M4",
+        "calibration": {
+          "lens_redshift": 0.15,
+          "source_redshift": 0.65,
+          "cosmology": "Planck18",
+          "zeropoint": 25.948,
+          "pixel_scale_arcsec": 0.05,
+          "solar_absolute_magnitude": 4.53
+        },
+        "unit_ml_template_factor": 0.19887930016415595,
+        "audit_source": "audits/stellar_ml_20261008/measurements_37.json"
+      },
+      "central_deflection_radius_arcsec": 0.2,
+      "mock_grid_provenance": {
+        "type": "archived native lensed-source FITS shape",
+        "artifact": "lens/arc/image_map498059.fits",
+        "sha256": "5cc36b43fa037ee07384266cea0a945ef026f8b7a61b3e7518b9ae42117c7a2a",
+        "audit_source": "audits/mock_grid_20261008/grid_comparison_37.csv",
+        "confirmed_date": "2026-10-08",
+        "previous_inherited_grid_shape": [
+          160,
+          160
+        ]
+      },
+      "mock_einstein_radius_arcsec": 0.46157804248738016,
+      "mock_truth": {
+        "definition": "sqrt(A/pi) for largest closed tangential critical curve",
+        "historical_sum_of_radii_arcsec": 0.46157804248738016,
+        "central_deflection_radius_arcsec": 0.0,
+        "image_central_deflection_radius_arcsec": 0.2,
+        "evaluation_pixel_scale_arcsec": 0.0125,
+        "native_raytrace_shape": [
+          160,
+          160
+        ],
+        "convergence": {
+          "passed": true,
+          "last_grid_change_arcsec": 0.0004202509879172589,
+          "tolerance_arcsec": 0.005,
+          "scope": "critical-curve sampling of the fixed native interpolated mock model"
+        },
+        "truth_manifest_sha256": "bed3d7c62ca78ad259468458a6805d3dea2f0d0a55543abb18a3f9706876cabb",
+        "audit_source": "audits/mock_truth_20261008/measurements_37.json"
+      }
+    }
+  },
+  "missing_positions": [],
+  "missing_source_centres": [],
+  "notes": [
+    "Legacy n is named stellar_mass_normalization_legacy; it is not a Sersic index.",
+    "Legacy Einstein radius, M200 and source centres are preserved without claiming validation.",
+    "The adopted stellar_mass_normalization is preferred to its unchanged _legacy predecessor for new preparation.",
+    "Stellar M/L uses real stars, intrinsic SDSS i, native StellarHsml and a circular YZ aperture at the new selection YZ radius. Dark matter, gas and wind masses are excluded from this numerator.",
+    "Solar i absolute magnitude 4.53 is used consistently for luminosity and the template conversion; old mixed 4.53/4.52 calibration remains only in legacy values.",
+    "Selection radii do not replace inherited mock Einstein radii, source coordinates, fitting masks or position constraints. Existing mocks and fits are not regenerated by this parameter update."
+  ],
+  "membership_source": "sample_sets.json: production_37 (2026-10-06)",
+  "parameter_source": "historical inputs preserved; adopted stellar M/L and normalization: audits/stellar_ml_20261008",
+  "mock_settings_audit": "audits/mock_grid_20261008/grid_comparison_37.csv",
+  "mock_truth_audit": "audits/mock_truth_20261008/measurements_37.json"
+}
