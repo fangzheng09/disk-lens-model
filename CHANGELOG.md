@@ -17,5 +17,5 @@
   original provenance when reusing existing products.
 
 Final manuscript result tables are awaiting run selection. This candidate
-is hosted at [github.com/lzero09/disk-lens-model](https://github.com/lzero09/disk-lens-model);
+is hosted at [github.com/fangzheng09/disk-lens-model](https://github.com/fangzheng09/disk-lens-model);
 an archive DOI has not yet been assigned.

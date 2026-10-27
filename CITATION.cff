@@ -6,7 +6,7 @@ message: >-
 title: "TNG50 disc lensing"
 type: software
 version: "0.1.0"
-repository-code: "https://github.com/lzero09/disk-lens-model"
+repository-code: "https://github.com/fangzheng09/disk-lens-model"
 license: MIT
 authors:
   - family-names: Fang

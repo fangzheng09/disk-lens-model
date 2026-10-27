@@ -102,6 +102,6 @@ distribution of this candidate.
 Citation metadata is in [CITATION.cff](CITATION.cff); third-party source and
 redistribution status are in [THIRD_PARTY.md](THIRD_PARTY.md). This is a
 0.1.0 release candidate hosted at
-[github.com/lzero09/disk-lens-model](https://github.com/lzero09/disk-lens-model).
+[github.com/fangzheng09/disk-lens-model](https://github.com/fangzheng09/disk-lens-model).
 Final manuscript results are pending selection; an archival DOI has not yet
 been assigned.

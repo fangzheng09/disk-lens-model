@@ -12,8 +12,8 @@ requires-python = ">=3.11"
 dependencies = ["numpy>=1.26,<2.2", "astropy>=6.1,<7", "scipy>=1.14,<2", "numba>=0.60,<1"]
 
 [project.urls]
-Repository = "https://github.com/lzero09/disk-lens-model"
-Issues = "https://github.com/lzero09/disk-lens-model/issues"
+Repository = "https://github.com/fangzheng09/disk-lens-model"
+Issues = "https://github.com/fangzheng09/disk-lens-model/issues"
 
 [project.scripts]
 disk-lens = "disk_lens.cli:main"
