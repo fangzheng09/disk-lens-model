@@ -9,7 +9,7 @@ recursive-include catalog *.json *.md
 recursive-include docs *.md
 recursive-include scripts *.py *.md
 recursive-include requirements *.txt *.md
-recursive-include results *.md *.json *.csv *.results *.png *.pdf
+recursive-include results *.md *.zip SHA256SUMS
 prune local_notes
 prune runs
 prune logs

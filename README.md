@@ -5,22 +5,14 @@ galaxies? A mock study based on TNG50 simulations**, by Zheng Fang,
 Xiaoyue Cao, Ran Li and Weipeng Lin.
 
 The adopted sample contains **34 edge-on TNG50 galaxies**. The main
-mass-recovery analysis uses **20 adopted decomposed fits**; a Sérsic
-true-light diagnostic covers the 34-system sample.
+mass-recovery analysis uses **20 adopted decomposed fits**.
 
 ## Results
 
-- [Browse the 20 adopted fits](results/GALLERY.md)
-- [Parameter summaries](results/main_fits.csv) · [All fitted parameters](results/posterior_parameters.csv)
-- [Enclosed masses](results/mass_recovery.csv) · [Radial structure](results/radial_structure.csv)
-- [True-light masses](results/true_light_mass_recovery.csv) · [Summary statistics](results/summary_statistics.json)
-- [Sample membership](results/sample_membership.json) · [Figure index](results/figures/README.md)
-
-Each system has its final model report, model definition, weighted parameter
-intervals, fitting diagnostics and settings under `results/systems/ID/`.
-The [result definitions](results/README.md) specify apertures, units and
-posterior summaries. Full sampler archives and large simulation inputs are
-kept separately and are available on reasonable request.
+The [20-system results directory](results/README.md) contains each system's
+complete five-stage fitting archives: SP, SPix1, SPix2, L and M. Models,
+posterior samples, imaging data and diagnostics are preserved inside the
+original ZIPs. The adopted catalogue contains 34 galaxies.
 
 ## Install
 
@@ -62,7 +54,7 @@ compatibility link. [Workflow](docs/WORKFLOW.md), [fitting](docs/FITTING.md),
 [data](docs/DATA.md) and [conventions](docs/CONVENTIONS.md) describe the inputs.
 
 ```text
-results/        adopted fits, tables and manuscript figures
+results/        complete five-stage results for 20 adopted fits
 catalog/        the 34-system sample and fiducial inputs
 src/disk_lens/  scientific workflow implementation
 scripts/        command entry points

@@ -1,19 +1,11 @@
 # Repository scope
 
-This repository presents the 34-system manuscript sample and20 adopted
-main-analysis fits. [Results](../results/README.md) provides the fitted
-models, weighted parameter summaries, diagnostics, derived mass and radial
-tables, the Sérsic control, and the manuscript figures.
+The adopted sample contains 34 TNG50 galaxies. The main analysis uses 20
+systems, each supplied with its complete five-stage fitting archives under
+[`results/`](../results/README.md). The archives preserve model files,
+posterior samples, imaging data and fitting diagnostics.
 
-`src/disk_lens/` implements particle extraction, foreground rendering,
-mock imaging, five-stage SLaM fitting and parameter summarization. `scripts/`
-provides entry points; the root `pipeline.py` links to the implementation.
-`config/`, `templates/` and `catalog/` are portable runtime resources.
-
-New runs use PyAutoLens 2025.1.18.7. Their default stage live points are
-800/800/1000/1000/1500; each adopted result records its actual settings.
-Raw simulation inputs and complete sampler outputs remain in separate run
-storage. The published tables and per-system settings describe the adopted results.
-
-See [installation](INSTALLATION.md), [workflow](WORKFLOW.md),
-[result definitions](../results/README.md) and [third-party terms](../THIRD_PARTY.md).
+`src/disk_lens/` implements the scientific workflow; `pipeline.py` links to
+its implementation. `config/`, `templates/` and `catalog/` provide runtime
+settings and inputs. See [installation](INSTALLATION.md) and
+[workflow](WORKFLOW.md) for running instructions.
