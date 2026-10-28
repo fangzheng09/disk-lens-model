@@ -32,10 +32,6 @@ For compatibility, `mock.txt` and `fitting.txt` include `production.txt`, and
 `fitting-bootstrap.txt` includes `bootstrap.txt`. Apply the runtime aliases
 with `--no-deps` after bootstrapping, as shown above.
 
-`legacy-mock-2024.txt` preserves the old mock environment for historical audits
-in a separate environment; new release commands use the unified 2025 stack.
-Saved 2024 mock manifests retain their original versions and provenance.
-
 TNG extraction additionally needs the separately installed `illustris_python`
 reader described in `docs/INSTALLATION.md`; selection-radius analysis uses the
 `selection` extra. Installation, CLI and resource checks are distinct from a

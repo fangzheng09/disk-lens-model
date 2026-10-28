@@ -70,7 +70,7 @@ zero radius, distinct from a computation error.
 
 Render XY, XZ and YZ principal-axis views and apply the historical strict cut
 `max(R_XY, R_XZ, R_YZ) > 0.5 arcsec`. Screening results do not automatically
-change the user-approved `production_37` membership or classify fit success.
+change the adopted 34-system membership or classify fit success.
 
 ## Invocation and numerical checks
 
@@ -119,13 +119,3 @@ python -m disk_lens selection-radii \
 `--support-scale` is an explicit sensitivity setting and changes the reconstructed
 mass density. Record it separately from numerical grid refinement. The scientific
 default is 1.0. Subpixel refinement is controlled by `--subpixels`.
-
-## Recorded 2026-10-06 audit
-
-All 216 mass/kinematically preselected objects were recalculated in three
-views with independent grid and doubled-field checks. After refinement,
-173 satisfy the strict 0.5 arcsec radius cut;
-37 of the 37 confirmed production members pass.
-The confirmed membership is unchanged. See the
-[results and provenance](../catalog/audits/einstein_sph_20261006/README.md).
-Inherited mock parameters and fit classifications are separate records.

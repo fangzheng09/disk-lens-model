@@ -1,0 +1,50 @@
+{
+  "id": 468189,
+  "status": "adopted completed fit",
+  "mask_radius_arcsec": 3.5,
+  "pixel_scale_arcsec": 0.05,
+  "lens_redshift": 0.15,
+  "source_redshift": 0.65,
+  "input_stellar_normalization": 0.4129889793406509,
+  "input_halo_mass_at_200_msun": 1000000000000.0,
+  "posterior_effective_sample_size": 8454.772723502603,
+  "posterior_effective_sample_target": 500,
+  "parameter_quantiles": [
+    0.15865,
+    0.5,
+    0.84135
+  ],
+  "posterior_weighting": "positive saved posterior weights",
+  "stellar_normalization_parameter": "galaxies.lens.disk.profile_list.29.mass_to_light_ratio",
+  "final_sampler": "Nautilus",
+  "final_live_points": 2000,
+  "final_search_identifier": "02e8d5d66f62799d83d67b06cf5f8acc",
+  "posterior_samples_sha256": "218149067816c6117c26905a3aa777b9d4dea6d8f0ee9b8b9ebaf15bdb0cba7f",
+  "final_archive_sha256": "2dc5632e4a3b7820c1d87a2e2788173b4655a98070cd1a19037407a075095593",
+  "mock_config_sha256": "f690d7ef81f8c383b166622dcb599384dadd7b357fa1023b94befa8c829d04a1",
+  "dataset_sha256": {
+    "data": "cdb1a00e8cf1874e6c69ebbbfffd5a71fde188fb145330074a41a9048bef8930",
+    "psf": "d39e47ae00e24f1b60e5c49048210bf95dcb1977c752988236d69945f01fdb35",
+    "noise_map": "1cb1a95d020a0da0f6c25931b88b6f140cdb5c5656f22a2b275ee5973d5d5c4c"
+  },
+  "stage_live_points": {
+    "source_lp_n_live": 800,
+    "source_pix_1_n_live": 800,
+    "source_pix_2_n_live": 1000,
+    "light_n_live": 1000,
+    "mass_n_live": 2000
+  },
+  "software_versions": {
+    "autolens": "2025.1.18.7",
+    "autofit": "2025.1.18.7"
+  },
+  "earlier_stages_reused": false,
+  "diagnostic_images": "saved final-search diagnostic panels",
+  "files_sha256": {
+    "model.results": "59a120cc297ef562202d2dfae4de97719b05112ddfdcc093817b26a57c780db8",
+    "model.json": "361727ac98934233775375e29b35f0c50cfc95b66336e3ea0e26dc24146fc2ca",
+    "fit.png": "f4f1ddbc2ce7cf760524facfabc0cabbc4705100272a999b946f2056b2800fab",
+    "fit_log10.png": "9661df1557e6009c3276cc040262d7632240f9de05bacf39eff54f04c37e4c26",
+    "tracer.png": "67d9f0dddf444d6c6f2cbcde761ac76e02e1e8fec4b74686ca7425f8289c54b9"
+  }
+}

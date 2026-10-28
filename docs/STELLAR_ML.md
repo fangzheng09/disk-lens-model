@@ -1,10 +1,8 @@
 # Stellar aperture M/L and the mock coefficient
 
-The 37 production records were recalculated on 2026-10-08 using each
-object's updated **YZ particle-mass selection Einstein radius**. The
-three-view maximum remains the selection statistic; it is not the aperture
-radius when another view has the larger critical curve. Membership remains
-the confirmed original 33 plus 4, 83993, 83999 and 297779.
+The34 adopted records use each object's YZ particle-mass selection Einstein
+radius for the input stellar aperture measurement. The three-view maximum
+is the selection statistic; it does not replace that YZ aperture.
 
 ## Measurement
 
@@ -37,7 +35,7 @@ renderer check are recorded in the audit summary.
 The full bound-subhalo aperture is distinct from the foreground's nominal
 5 R_half cube selection. The measurements also record the cube-only M/L
 as a diagnostic; its difference from the adopted aperture value is below
-1% for these 37 systems. Neither an aperture average nor a constant mock
+1% for these 34 systems. Neither an aperture average nor a constant mock
 coefficient represents the galaxy's full spatial M/L variation.
 
 ## Calibration and parameter use
@@ -49,12 +47,6 @@ zs=0.65, ZP=25.948 and pixel scale 0.05 arcsec:
 ```text
 n = Upsilon_i * 0.19887930016415595
 ```
-
-Historical aperture calculations used 4.53, but their saved unit factor
-`0.1970563339860656` used 4.52. The calibration correction alone increases
-n by about 0.925%. The comparison table separates physical M/L changes
-from n changes. M/L and n are separate quantities; n is the numerical
-light-template coefficient, not a Sersic index or fitted MGE normalization.
 
 Each `production_systems.json` record now includes:
 
@@ -90,10 +82,3 @@ The CLI records explicit calibration inputs, geometry and the particle-file
 checksum. It refuses to replace an existing output. Run particle calculations
 on an allocated compute node. Other band, pixel or redshift conventions
 must be supplied consistently through the command options.
-
-The [37-object audit](../catalog/audits/stellar_ml_20261008/README.md) contains
-the complete comparison and measurements. Fifteen historical aperture radii
-and direct M/L measurements were recovered. For the other 22 objects, the
-comparison's old physical M/L is inferred from saved n and the historical
-unit factor; it does not pretend their legacy mock radius was the original
-M/L aperture.

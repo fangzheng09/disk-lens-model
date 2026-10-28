@@ -1,0 +1,51 @@
+{
+  "id": 451938,
+  "status": "adopted completed fit",
+  "mask_radius_arcsec": 3.5,
+  "pixel_scale_arcsec": 0.05,
+  "lens_redshift": 0.15,
+  "source_redshift": 0.65,
+  "input_stellar_normalization": 0.4119793289374861,
+  "input_halo_mass_at_200_msun": 550000000000.0,
+  "posterior_effective_sample_size": 2435.7606812040103,
+  "posterior_effective_sample_target": 500,
+  "parameter_quantiles": [
+    0.15865,
+    0.5,
+    0.84135
+  ],
+  "posterior_weighting": "positive saved posterior weights",
+  "stellar_normalization_parameter": "galaxies.lens.disk.profile_list.29.mass_to_light_ratio",
+  "final_sampler": "Nautilus",
+  "final_live_points": 2000,
+  "final_search_identifier": "170e7ac5bb2b16c05ba7705f5876f089",
+  "posterior_samples_sha256": "b36a6fda6fd8552597692c6fa34ae62cb5a2635471c65e17a1ef65913930b1b4",
+  "final_archive_sha256": "28cf962500ae6fb56d8c94f6dd4d2f01901582e983c8d4e057612e3d84a983e4",
+  "mock_config_sha256": "6ed8c5b9c75deeeca6f39698d616e8e0fe75782e51afe629880aaac5ff85b194",
+  "dataset_sha256": {
+    "data": "08df3f583aa33ff050f2c2e02dcb3a90c7d0c8a224f719af880feecf5dc04925",
+    "psf": "d39e47ae00e24f1b60e5c49048210bf95dcb1977c752988236d69945f01fdb35",
+    "noise_map": "62dd6cf6b3055094e8d6392b9a441e7670ccc5be7d4ebf0b443d5831dafd3e9e"
+  },
+  "stage_live_points": {
+    "source_lp_n_live": 800,
+    "source_pix_1_n_live": 800,
+    "source_pix_2_n_live": 1000,
+    "light_n_live": 1000,
+    "mass_n_live": 2000
+  },
+  "earlier_stages_reused": false,
+  "diagnostic_images": "saved final-search diagnostic panels",
+  "files_sha256": {
+    "model.results": "666769a4b189fda3d05447b6fd3392e8accc31b7378b680b3dda6950f23c9b25",
+    "model.json": "1d3b4721a1f56e71064674f6c62d2a6283afe2750360d001fdada8d79c6c6e00",
+    "fit.png": "3e5172b9bad6881b54c7db9f22d0092e077f6aeac2ffb7c1cb760019e7736998",
+    "fit_log10.png": "d6bc79bac3c31ae4bf886b9350d5b4d3c2d9e0abddb90fe8dbb0079915d190d4",
+    "tracer.png": "dfdd86ec91979a004faa8112ba861d068e35fce15f75d2614bfdfa946aaf892a"
+  },
+  "workflow_version_requirements": {
+    "autolens": "2025.1.18.7",
+    "autofit": "2025.1.18.7"
+  },
+  "software_version_record": "No separate environment manifest supplied with the imported search archives; workflow version requirements are recorded separately."
+}

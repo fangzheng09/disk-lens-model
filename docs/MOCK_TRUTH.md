@@ -48,5 +48,5 @@ production catalogue's `mock_einstein_radius_arcsec` is a synchronized
 value from that truth record. Historical `_legacy` radii are preserved.
 Prepared catalogue snapshots are not mutated during a run.
 
-The unified version is validated against all 37 existing mocks and saved
-unmasked radii; see [version compatibility](VERSION_COMPATIBILITY.md).
+See [version conventions](VERSION_COMPATIBILITY.md) for the adopted
+native-pixel mock prescription.

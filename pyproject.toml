@@ -53,7 +53,7 @@ packages = [
 "disk_lens.slam" = ["*.md", "*.rst"]
 "disk_lens.resources.config" = [".gitignore", "*.yaml", "*.rst", "**/*.yaml", "**/*.rst"]
 "disk_lens.resources.configs" = ["*.template.json", "README.md"]
-"disk_lens.resources.catalog" = ["*.json", "README.md", "audits/**/*.csv", "audits/**/*.json", "audits/**/*.md"]
+"disk_lens.resources.catalog" = ["*.json", "README.md"]
 
 [tool.setuptools.exclude-package-data]
 "*" = ["local.*", "**/local.*", "__pycache__/*", "*.pyc"]

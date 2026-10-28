@@ -55,16 +55,6 @@ scripts, but new plans require the unified release for both stages. Long
 SPH rendering and fitting run on allocated compute nodes. See
 [workflow](WORKFLOW.md) for model, resume and output definitions.
 
-## Historical records
-
-The existing 2026-10-08 SPH images were generated with AutoLens
-2024.11.13.2. Their manifests retain that actual provenance. The old mock
-constraint snapshot is kept under `requirements/legacy-mock-2024.txt` for
-historical reconstruction, rather than used as a new-run requirement.
-New plans and products are marked with their actual 2025 version. Existing
-verified mock/truth bundles are not overwritten or relabelled during
-installation or fitting.
-
 ## Base package and distributions
 
 The base package installs with `python -m pip install .` for numerical

@@ -1,0 +1,194 @@
+Bayesian Evidence                                                               50087.99923847
+Maximum Log Likelihood                                                          50117.07800100
+Maximum Log Posterior                                                           50118.83141217
+
+model                                                                           Collection (N=4)
+    galaxies                                                                    Collection (N=4)
+        lens                                                                    Galaxy (N=4)
+            bulge - disk                                                        Basis (N=1)
+                profile_list                                                    Collection (N=1)
+                    0 - 29                                                      Gaussian (N=1)
+            dark                                                                NFWMCRLudlowSph (N=1)
+            shear                                                               ExternalShear (N=2)
+        source                                                                  Galaxy (N=0)
+            pixelization                                                        Pixelization (N=0)
+                regularization                                                  AdaptiveBrightnessSplit (N=0)
+                image_mesh                                                      Hilbert (N=0)
+
+Maximum Log Likelihood Model:
+
+galaxies
+    lens
+        shear
+            gamma_1                                                             -0.020
+            gamma_2                                                             0.001
+        dark
+            mass_at_200                                                         8413873878267.988
+        bulge - disk
+            profile_list
+                0 - 29
+                    mass_to_light_ratio                                         0.346
+
+
+Summary (3.0 sigma limits):
+
+galaxies
+    lens
+        shear
+            gamma_1                                                             -0.0196 (-0.0217, -0.0178)
+            gamma_2                                                             0.0006 (-0.0014, 0.0015)
+        dark
+            mass_at_200                                                         8.8743e+12 (1.2464e+12, 2.1582e+13)
+        bulge - disk
+            profile_list
+                0 - 29
+                    mass_to_light_ratio                                         0.3440 (0.3031, 0.4080)
+
+
+Summary (1.0 sigma limits):
+
+galaxies
+    lens
+        shear
+            gamma_1                                                             -0.0196 (-0.0198, -0.0193)
+            gamma_2                                                             0.0006 (0.0002, 0.0008)
+        dark
+            mass_at_200                                                         8.8743e+12 (5.9640e+12, 1.1172e+13)
+        bulge - disk
+            profile_list
+                0 - 29
+                    mass_to_light_ratio                                         0.3440 (0.3343, 0.3595)
+
+instances
+
+galaxies
+    lens
+        redshift
+            value                                                               0.15
+        dark
+            redshift_object
+                value                                                           0.15
+            redshift_source
+                value                                                           0.65
+        bulge - disk
+            profile_list
+                0 - 2, 4, 6, 11 - 16, 18 - 20, 27 - 28
+                    intensity
+                        value                                                   0.0
+                0, 15
+                    sigma
+                        value                                                   0.01
+                1, 16
+                    sigma
+                        value                                                   0.015195645244669102
+                2, 17
+                    sigma
+                        value                                                   0.023090763440183477
+                3, 18
+                    sigma
+                        value                                                   0.03508790496656032
+                4, 19
+                    sigma
+                        value                                                   0.053318335625051394
+                5, 20
+                    sigma
+                        value                                                   0.08102065131944833
+                6, 21
+                    sigma
+                        value                                                   0.12311610749423683
+                7, 22
+                    sigma
+                        value                                                   0.18708286933869708
+                8, 23
+                    sigma
+                        value                                                   0.2842844913825623
+                9, 24
+                    sigma
+                        value                                                   0.4319886279610607
+                10, 25
+                    sigma
+                        value                                                   0.6564345940227625
+                11, 26
+                    sigma
+                        value                                                   0.9974947217098282
+                12, 27
+                    sigma
+                        value                                                   1.5157575924532478
+                13, 28
+                    sigma
+                        value                                                   2.3032914651833294
+                14, 29
+                    sigma
+                        value                                                   3.5000000000000004
+        bulge
+            profile_list
+                3
+                    intensity
+                        value                                                   15.158236191811499
+                5, 7, 10, 17, 24 - 26, 29
+                    intensity
+                        value                                                   0.0
+                8
+                    intensity
+                        value                                                   0.18944470388999796
+                9
+                    intensity
+                        value                                                   0.010364481219546265
+                21
+                    intensity
+                        value                                                   6.0124398982699585
+                22
+                    intensity
+                        value                                                   1.4131872547677284
+                23
+                    intensity
+                        value                                                   0.2632115049319583
+        disk
+            profile_list
+                3, 8 - 9
+                    intensity
+                        value                                                   0.0
+                5
+                    intensity
+                        value                                                   11.135068807635383
+                7
+                    intensity
+                        value                                                   0.041490962989931074
+                10
+                    intensity
+                        value                                                   0.09106098328907809
+                17
+                    intensity
+                        value                                                   4.17045596744784
+                21
+                    intensity
+                        value                                                   0.1639846634723457
+                22
+                    intensity
+                        value                                                   0.13556653000288763
+                23
+                    intensity
+                        value                                                   0.14946480031790557
+                24
+                    intensity
+                        value                                                   0.03554656534912481
+                25
+                    intensity
+                        value                                                   0.003697314432251151
+                26
+                    intensity
+                        value                                                   0.013673016168485097
+                29
+                    intensity
+                        value                                                   0.008697427969343422
+    source
+        redshift
+            value                                                               0.65
+        pixelization
+            regularization
+                inner_coefficient                                               8.726111806563295e-06
+                outer_coefficient                                               154.2843502831701
+                signal_scale                                                    0.01540061622388
+            image_mesh
+                weight_floor                                                    0.005120381795134511
+                weight_power                                                    2.13817248199783

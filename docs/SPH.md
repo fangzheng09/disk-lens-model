@@ -27,4 +27,4 @@ The production ray grid is the audited historical mock crop and must fit
 inside the nominal foreground. `prepare-main` rejects oversized crops rather
 than padding the image. The full SPH image contributes to stellar deflections
 before the ray grid is cropped; no foreground aperture change is introduced.
-See the [grid audit](../catalog/audits/mock_grid_20261008/README.md).
+The adopted grids are included in `catalog/production_systems.json`.

@@ -1,31 +1,48 @@
-# Final manuscript results
+# Adopted manuscript results
 
-Final adopted fits and figure samples are awaiting author selection. This
-directory defines the publication interface; it currently contains no claimed
-final fit outcomes. Large posterior searches and observations remain outside
-the repository.
+This release contains **20 adopted main fits from a 34-system parent sample**,
+the 34-system Sérsic true-light diagnostic, and the final manuscript figures.
 
-When the manuscript runs are selected, add small CSV/JSON tables and a
-provenance manifest containing:
+| File | Contents |
+|---|---|
+| `sample_membership.json` |34 parent IDs,20 main IDs and figure subsets |
+| `main_fits.csv` | Input and recovered stellar normalization, intervals and actual fit masks |
+| `posterior_parameters.csv` | Complete weighted summaries for every sampled final parameter |
+| `mass_recovery.csv` | Mock and fitted total, stellar and dark-matter aperture masses, in solar masses |
+| `radial_structure.csv` | Einstein radius, curvature, convergence and slope summaries |
+| `true_light_mass_recovery.csv` |34-system Sérsic control mass summaries |
+| `summary_statistics.json` | Cross-system median signed biases and NMAD scatters, in per cent |
+| `systems/ID/` | Adopted model, original report, diagnostic images and metadata |
+| `figures/` | Manuscript figures in PDF and PNG |
 
-- System ID, analysis inclusion and review status.
-- Run ID, experiment kind, complete five-stage rerun versus final-stage
-  resampling, and any reused stages.
-- Mock/input identity and checksums, mask radius, MGE width-grid limit,
-  stage live points and sampler classes, and software/configuration identity.
-- Completed-stage and posterior checksums, adopted-run selection rule,
-  parameter paths, posterior-weight and quantile definitions.
-- Physical aperture and unit definitions for derived masses and structure
-  quantities, with joint-posterior propagation and the matching mock truth.
-- Separate flags for computational completion, coefficient diagnostics and
-  scientific acceptance. A coefficient within 20% of the mock normalization
-  alone does not establish physical mass accuracy or convergence.
+## Parameter summaries
 
-For independent repeats, retain the run identities and select a whole run's
-posterior according to the documented rule. A result based on shared earlier
-stages must identify that dependence. Missing or unaccepted systems remain
-explicit; no temporary running-stage summary enters the final table.
+Parameter intervals use the complete final posterior with positive saved
+weights, at quantiles 0.15865,0.5 and 0.84135. The numerical stellar template
+coefficient `n` is distinct from an enclosed stellar mass and a physical M/L.
+Run metadata gives the actual mask, live points, archive identifier and
+posterior/data checksums. System 414684 reuses its completed earlier stages
+and adopts the separately sampled final mass stage; its posterior is not
+combined with another run. [Browse the fitting diagnostics](GALLERY.md).
 
-The dated historical scheduling categories in
-[`catalog/fit_status.production.json`](../catalog/fit_status.production.json)
-remain separate from these new SPH results.
+## Derived masses and radial quantities
+
+Main-analysis derived quantities propagate 200 joint equal-weight posterior
+draws per system. Mock masses use the mock Einstein aperture; fitted masses
+use each draw's own critical-curve Einstein aperture. Units are solar masses.
+The Sérsic true-light diagnostic uses the fixed mock Einstein aperture.
+Quoted mass intervals are the 15.865th and 84.135th percentiles.
+
+For radial structure, `R_E` is in arcsec and `alpha2_E` in inverse arcsec;
+`xi`, `kappa_E`, `mw_slope` and `annular_slope` are dimensionless. The last
+two are the enclosed and narrow-annulus projected mass-weighted slopes.
+The annulus is 0.95–1.05 times the effective Einstein radius. Each fit draw
+uses its own critical-curve radius, 300 radial samples and 64 azimuths.
+
+For any quantity, the signed residual is `(fit-mock)/mock`. The cross-system
+bias is its median; NMAD is 1.48 times the median absolute deviation about
+that median. NMAD describes scatter, and is separate from the signed bias.
+
+Large TNG snapshots, particles, FITS observations and complete sampler
+archives are available separately on reasonable request. The repository
+contains the selected outcomes rather than intermediate runs.

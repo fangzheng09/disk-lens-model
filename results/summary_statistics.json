@@ -1,0 +1,119 @@
+{
+  "parent_count": 34,
+  "main_fit_count": 20,
+  "true_light_count": 34,
+  "main_mass": {
+    "ids": [
+      3,
+      4,
+      5,
+      56404,
+      56405,
+      83991,
+      83993,
+      217244,
+      401306,
+      411079,
+      412691,
+      414684,
+      419880,
+      425781,
+      441099,
+      448856,
+      451452,
+      451938,
+      468189,
+      471967
+    ],
+    "count": 20,
+    "total": {
+      "median_signed_bias_percent": 0.375500262956463,
+      "sigma_nmad_percent": 0.6251156506950417
+    },
+    "stellar": {
+      "median_signed_bias_percent": -3.446188455195931,
+      "sigma_nmad_percent": 13.444341741654371
+    },
+    "dm": {
+      "median_signed_bias_percent": 18.53086420905251,
+      "sigma_nmad_percent": 92.21854261742028
+    }
+  },
+  "true_light_mass": {
+    "count": 34,
+    "ids": [
+      3,
+      4,
+      5,
+      56404,
+      56405,
+      83991,
+      83993,
+      100666,
+      209287,
+      217244,
+      297779,
+      323241,
+      343209,
+      360186,
+      401306,
+      411079,
+      412691,
+      414684,
+      415409,
+      419880,
+      425781,
+      441099,
+      442663,
+      448856,
+      450416,
+      451452,
+      451938,
+      454966,
+      461656,
+      463901,
+      464399,
+      468189,
+      471967,
+      498059
+    ],
+    "total": {
+      "median_signed_bias_percent": -0.10665243272935943,
+      "sigma_nmad_percent": 0.09488602557907244
+    },
+    "stellar": {
+      "median_signed_bias_percent": 2.130732533156121,
+      "sigma_nmad_percent": 0.8328587507943768
+    },
+    "dm": {
+      "median_signed_bias_percent": -14.23558439188647,
+      "sigma_nmad_percent": 7.186853813963046
+    }
+  },
+  "radial_structure": {
+    "R_E": {
+      "median_signed_bias_percent": -0.012142897462297242,
+      "sigma_nmad_percent": 0.29927247643849597
+    },
+    "xi": {
+      "median_signed_bias_percent": 5.1689225024822765,
+      "sigma_nmad_percent": 12.044808309856734
+    },
+    "alpha2_E": {
+      "median_signed_bias_percent": 2.255791873349444,
+      "sigma_nmad_percent": 17.06110961040891
+    },
+    "kappa_E": {
+      "median_signed_bias_percent": 4.802962887175499,
+      "sigma_nmad_percent": 32.52296051253099
+    },
+    "mw_slope": {
+      "median_signed_bias_percent": -1.3850914587039798,
+      "sigma_nmad_percent": 10.907167618918734
+    },
+    "annular_slope": {
+      "median_signed_bias_percent": -0.8113842980043029,
+      "sigma_nmad_percent": 36.788747281014
+    }
+  }
+}

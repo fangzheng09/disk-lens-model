@@ -6,12 +6,9 @@ Use TNG50-1 snapshot 84 and an installed `illustris_python` reader. One
 schema-1 systems JSON supplies the adopted ray-tracing grid, 0.05 arcsec
 pixels, fitting mask, source centre, image positions, stellar normalization
 and halo mass. The bundled `catalog/production_systems.json` contains
-exactly the approved 37 objects, with recalculated stellar M/L and normalization;
-historical mock grids have been audited and the user has adopted 0.2 arcsec
-central source suppression for all 37. Per-run mask experiments are recorded
-as explicit overrides rather than changes to this fiducial catalogue.
-See [data interfaces](DATA.md) and [sample records](../catalog/README.md). Historical field names ending in `_legacy` retain their units
-and normalization meaning; they do not imply a CIC rendering method.
+exactly the adopted 34 systems. The central source-suppression radius is
+0.2 arcsec; actual masks and settings of the 20 adopted results are recorded
+in their metadata. See [data interfaces](DATA.md) and [sample records](../catalog/README.md).
 
 ## Extract and prepare
 

@@ -1,0 +1,2176 @@
+{
+    "type": "collection",
+    "arguments": {
+        "galaxies": {
+            "type": "collection",
+            "arguments": {
+                "lens": {
+                    "class_path": "autogalaxy.galaxy.galaxy.Galaxy",
+                    "type": "model",
+                    "arguments": {
+                        "redshift": {
+                            "type": "Constant",
+                            "value": 0.15
+                        },
+                        "bulge": {
+                            "class_path": "autogalaxy.profiles.basis.Basis",
+                            "type": "model",
+                            "arguments": {
+                                "profile_list": {
+                                    "type": "collection",
+                                    "arguments": {
+                                        "0": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.01
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "1": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.015341274046343906
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "2": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.023535468936502525
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "3": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.036106407876409945
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "4": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 5.973210783923221
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.05539182980610754
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "5": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 7.112485674031007
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.08497812409839364
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "6": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 5.945651983600794
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.1303672689737678
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "7": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.5206489329535541
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.20000000000000004
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "8": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.30682548092687817
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "9": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.47070937873005037
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "10": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.7221281575281989
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "11": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.1078365961221508
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "12": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.699562481967872
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "13": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 2.6073453794753565
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "14": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00576270219657,
+                                                        0.08413312247843
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 4.0
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "15": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.01
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "16": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.015341274046343906
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "17": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.023535468936502525
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "18": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.036106407876409945
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "19": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.05539182980610754
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "20": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.08497812409839364
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "21": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.06390152886332219
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.1303672689737678
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "22": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.21379321286146777
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.20000000000000004
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "23": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.03204548305603244
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.30682548092687817
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "24": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.47070937873005037
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "25": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.7221281575281989
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "26": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.1078365961221508
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "27": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.699562481967872
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "28": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 2.6073453794753565
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "29": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.35211781968324,
+                                                        0.12026539297108
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 4.0
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "regularization": null
+                            }
+                        },
+                        "disk": {
+                            "class_path": "autogalaxy.profiles.basis.Basis",
+                            "type": "model",
+                            "arguments": {
+                                "profile_list": {
+                                    "type": "collection",
+                                    "arguments": {
+                                        "0": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.01
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "1": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.015341274046343906
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "2": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.023535468936502525
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "3": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.036106407876409945
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "4": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.05539182980610754
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "5": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.029074197849784034
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.08497812409839364
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "6": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.5343780603335285
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.1303672689737678
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "7": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.20000000000000004
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "8": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.31782850390920353
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.30682548092687817
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "9": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.03388628619797
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.47070937873005037
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "10": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.7221281575281989
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "11": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.1078365961221508
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "12": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.00024971418454233573
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.699562481967872
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "13": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 2.6073453794753565
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "14": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.17294123077515,
+                                                        -0.05820275680335
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 4.0
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "15": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.01
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "16": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 10.174682502114319
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.015341274046343906
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "17": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 4.483539727259978
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.023535468936502525
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "18": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.036106407876409945
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "19": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.05539182980610754
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "20": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.08497812409839364
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "21": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.29353235001711125
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.1303672689737678
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "22": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.1587904570104674
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.20000000000000004
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "23": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.25396157779294726
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.30682548092687817
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "24": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.14900614267655943
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.47070937873005037
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "25": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.005830715759888425
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 0.7221281575281989
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "26": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.003596652889545139
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.1078365961221508
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "27": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0022523309433576098
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 1.699562481967872
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "28": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0012538991575051517
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 2.6073453794753565
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        },
+                                        "29": {
+                                            "class_path": "autogalaxy.profiles.light_linear_and_mass_profiles.Gaussian",
+                                            "type": "model",
+                                            "arguments": {
+                                                "centre": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        -0.00026192875230508507,
+                                                        0.00014583877653430438
+                                                    ]
+                                                },
+                                                "ell_comps": {
+                                                    "type": "tuple",
+                                                    "values": [
+                                                        0.01106423553134,
+                                                        0.69999695847796
+                                                    ]
+                                                },
+                                                "intensity": {
+                                                    "type": "Constant",
+                                                    "value": 0.0
+                                                },
+                                                "sigma": {
+                                                    "type": "Constant",
+                                                    "value": 4.0
+                                                },
+                                                "mass_to_light_ratio": {
+                                                    "lower_limit": 0.0,
+                                                    "upper_limit": 1.0,
+                                                    "type": "Uniform",
+                                                    "id": 986
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "regularization": null
+                            }
+                        },
+                        "point": null,
+                        "dark": {
+                            "class_path": "autogalaxy.profiles.mass.dark.nfw_mcr.NFWMCRLudlowSph",
+                            "type": "model",
+                            "arguments": {
+                                "centre": {
+                                    "type": "tuple",
+                                    "values": [
+                                        -0.00026192875230508507,
+                                        0.00014583877653430438
+                                    ]
+                                },
+                                "mass_at_200": {
+                                    "lower_limit": 100000000.0,
+                                    "upper_limit": 1000000000000000.0,
+                                    "type": "LogUniform",
+                                    "id": 767
+                                },
+                                "redshift_object": {
+                                    "type": "Constant",
+                                    "value": 0.15
+                                },
+                                "redshift_source": {
+                                    "type": "Constant",
+                                    "value": 0.65
+                                }
+                            }
+                        },
+                        "shear": {
+                            "class_path": "autogalaxy.profiles.mass.sheets.external_shear.ExternalShear",
+                            "type": "model",
+                            "arguments": {
+                                "gamma_1": {
+                                    "lower_limit": -Infinity,
+                                    "upper_limit": Infinity,
+                                    "type": "Gaussian",
+                                    "id": 421,
+                                    "mean": -0.0035371521449487154,
+                                    "sigma": 0.05
+                                },
+                                "gamma_2": {
+                                    "lower_limit": -Infinity,
+                                    "upper_limit": Infinity,
+                                    "type": "Gaussian",
+                                    "id": 422,
+                                    "mean": 0.0008789380770742742,
+                                    "sigma": 0.05
+                                }
+                            }
+                        },
+                        "smbh": null
+                    }
+                },
+                "source": {
+                    "class_path": "autogalaxy.galaxy.galaxy.Galaxy",
+                    "type": "instance",
+                    "arguments": {
+                        "redshift": {
+                            "type": "Constant",
+                            "value": 0.65
+                        },
+                        "pixelization": {
+                            "class_path": "autoarray.inversion.pixelization.pixelization.Pixelization",
+                            "type": "instance",
+                            "arguments": {
+                                "mesh": {
+                                    "type": "instance",
+                                    "class_path": "autoarray.inversion.pixelization.mesh.delaunay.Delaunay",
+                                    "arguments": {}
+                                },
+                                "regularization": {
+                                    "type": "instance",
+                                    "class_path": "autoarray.inversion.regularization.adaptive_brightness_split.AdaptiveBrightnessSplit",
+                                    "arguments": {
+                                        "inner_coefficient": 0.003042155181167498,
+                                        "outer_coefficient": 146.70544701860132,
+                                        "signal_scale": 0.01304778383184
+                                    }
+                                },
+                                "image_mesh": {
+                                    "type": "instance",
+                                    "class_path": "autoarray.inversion.pixelization.image_mesh.hilbert.Hilbert",
+                                    "arguments": {
+                                        "weight_floor": 0.001801950440737776,
+                                        "weight_power": 1.498797562662,
+                                        "pixels": 1000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "extra_galaxies": null,
+        "dataset_model": null
+    }
+}

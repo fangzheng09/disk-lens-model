@@ -1,9 +1,8 @@
 # Data interfaces and availability
 
 TNG50 is available through the IllustrisTNG data portal under its access
-and citation terms. This source release contains the main workflow, small
-catalogue/provenance records and the interface for final selected result
-tables. It does not bundle simulation snapshots, particles, observations or
+and citation terms. This source release contains the main workflow, the 34-system catalogue and the adopted result
+tables and images. It does not bundle simulation snapshots, particles, observations or
 posterior archives. No public archive URL or DOI for those generated data
 has been assigned. The current manuscript directs requests for generated
 mock images and modelling outputs to the corresponding author.
@@ -32,13 +31,10 @@ normalized. Source, foreground and model-component FITS retain their units
 and pixel coordinate headers. Manifests record the model route, seed/RNG,
 both foreground and ray-grid dimensions, input hashes and actual calibration.
 
-## External data and deferred analysis
+## Adopted results
 
-Main fits produce stage searches, manifests and posterior products outside
-Git. The preserved paper-analysis readers, Figure 1–8 sources are in the separately preserved research archive.
-Final selected compact result tables belong under `results/` in this repository.
-Their original input conventions remain documented there. Do not move or
-replace active fitting results merely to prepare a publication repository.
-
-Large TNG snapshots, particle batches, mock observations and posterior searches
-stay in external or ignored run storage.
+The repository includes compact results and fitting diagnostics for20 main
+systems, the 34-system Sérsic diagnostic and the final figures. See
+[results](../results/README.md) for units, apertures, intervals and checksums.
+Complete sampler archives, FITS observations and simulation data remain in
+separate storage and are available on reasonable request.

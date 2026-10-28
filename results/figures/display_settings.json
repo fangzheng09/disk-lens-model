@@ -1,0 +1,26 @@
+{
+  "figure3": {
+    "system_id": 468189,
+    "display_radius_arcsec": 2.5,
+    "actual_fit_mask_radius_arcsec": 3.5,
+    "display_only": true,
+    "statistic": "posterior median"
+  },
+  "figure4_main_count": 20,
+  "figure5_main_count": 20,
+  "figure7_sersic_count": 34,
+  "figure6_ids": [
+    3,
+    4,
+    5,
+    56404,
+    56405,
+    83991,
+    83993,
+    217244,
+    401306,
+    411079,
+    412691,
+    414684
+  ]
+}
