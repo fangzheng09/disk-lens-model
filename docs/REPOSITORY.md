@@ -1,6 +1,6 @@
 # Repository scope
 
-The adopted sample contains 34 TNG50 galaxies. The main analysis uses 20
+The adopted sample contains 35 TNG50 galaxies. The main analysis uses 21
 systems, each supplied with its complete five-stage fitting archives under
 [`results/`](../results/README.md). The archives preserve model files,
 posterior samples, imaging data and fitting diagnostics.

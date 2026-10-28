@@ -4,15 +4,15 @@ Code and results for **What can strong lensing recover in edge-on disc
 galaxies? A mock study based on TNG50 simulations**, by Zheng Fang,
 Xiaoyue Cao, Ran Li and Weipeng Lin.
 
-The adopted sample contains **34 edge-on TNG50 galaxies**. The main
-mass-recovery analysis uses **20 adopted decomposed fits**.
+The adopted sample contains **35 edge-on TNG50 galaxies**. The main
+mass-recovery analysis uses **21 adopted decomposed fits**.
 
 ## Results
 
-The [20-system results directory](results/README.md) contains each system's
+The [21-system results directory](results/README.md) contains each system's
 complete five-stage fitting archives: SP, SPix1, SPix2, L and M. Models,
 posterior samples, imaging data and diagnostics are preserved inside the
-original ZIPs. The adopted catalogue contains 34 galaxies.
+original ZIPs. The adopted catalogue contains 35 galaxies.
 
 ## Install
 
@@ -54,8 +54,8 @@ compatibility link. [Workflow](docs/WORKFLOW.md), [fitting](docs/FITTING.md),
 [data](docs/DATA.md) and [conventions](docs/CONVENTIONS.md) describe the inputs.
 
 ```text
-results/        complete five-stage results for 20 adopted fits
-catalog/        the 34-system sample and fiducial inputs
+results/        complete five-stage results for 21 adopted fits
+catalog/        the 35-system sample and fiducial inputs
 src/disk_lens/  scientific workflow implementation
 scripts/        command entry points
 config/         AutoConf settings and priors

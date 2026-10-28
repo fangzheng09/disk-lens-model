@@ -12,5 +12,5 @@ PSF and realised-Poisson noise prescriptions are preserved.
 Prepared plans record their version requirements and validate existing
 products before reuse. Saved results retain their original software
 provenance; installing the current package does not relabel earlier data.
-The published sample contains 34 systems. Each of the 20 adopted fits records
+The published sample contains 35 systems. Each of the 21 adopted fits records
 its available software and input checksums in its result metadata.

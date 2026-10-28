@@ -70,7 +70,7 @@ zero radius, distinct from a computation error.
 
 Render XY, XZ and YZ principal-axis views and apply the historical strict cut
 `max(R_XY, R_XZ, R_YZ) > 0.5 arcsec`. Screening results do not automatically
-change the adopted 34-system membership or classify fit success.
+change the adopted 35-system membership or classify fit success.
 
 ## Invocation and numerical checks
 

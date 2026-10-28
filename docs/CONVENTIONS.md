@@ -24,7 +24,7 @@ native image pixel. This is separate from SPH subpixel integration and
 from the fitting stages' own oversampling settings. The spherical Ludlow halo uses the inspected
 historical PyAutoLens convention. Foreground and source ray-grid dimensions
 are separate. The central pseudo-core radius and fitting mask are distinct,
-per-system inputs. All34 adopted members use the user-confirmed 0.2 arcsec
+per-system inputs. All35 adopted members use the user-confirmed 0.2 arcsec
 central source suppression, with an explicit override available.
 
 The five-stage SLaM model, priors, meshes and image-position constraints are
@@ -46,7 +46,7 @@ snapshot particle velocities to peculiar km/s with `sqrt(a)`; catalogue
 the existing mass-weighted statistic `sum(m_i * v_phi_i^2 / v_i^2) / sum(m_i)`
 and the strict threshold `kappa_rot > 0.45`.
 
-The adopted catalogue contains 34 systems, with20 included in the main
+The adopted catalogue contains 35 systems, with 21 included in the main
 recovery statistics. The runner consumes these fixed inputs and does not
 automatically reselect galaxies. The iterative centre used for the SPH
 foreground is a separate rendering operation.
@@ -79,7 +79,7 @@ separate per-system inputs. No artificial central deflection is used for
 the particle-mass selection radius.
 
 See [method, component scales and invocation](EINSTEIN_RADIUS.md). Numerical
-screening does not automatically change the adopted 34 members or their
+screening does not automatically change the adopted 35 members or their
 fit classifications.
 
 ## Adopted stellar aperture M/L

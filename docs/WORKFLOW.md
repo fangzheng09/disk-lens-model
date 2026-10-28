@@ -6,9 +6,8 @@ Use TNG50-1 snapshot 84 and an installed `illustris_python` reader. One
 schema-1 systems JSON supplies the adopted ray-tracing grid, 0.05 arcsec
 pixels, fitting mask, source centre, image positions, stellar normalization
 and halo mass. The bundled `catalog/production_systems.json` contains
-exactly the adopted 34 systems. The central source-suppression radius is
-0.2 arcsec; actual masks and settings of the 20 adopted results are recorded
-in their metadata. See [data interfaces](DATA.md) and [sample records](../catalog/README.md).
+exactly the adopted 35 systems. The central source-suppression radius is
+0.2 arcsec; actual settings are retained in the 21 adopted five-stage result archives. See [data interfaces](DATA.md) and [sample records](../catalog/README.md).
 
 ## Extract and prepare
 

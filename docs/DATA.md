@@ -1,8 +1,8 @@
 # Data interfaces and availability
 
 TNG50 is available through the IllustrisTNG data portal under its access
-and citation terms. This repository contains the 34-system catalogue and
-complete five-stage outputs for 20 adopted fits. Simulation snapshots and
+and citation terms. This repository contains the 35-system catalogue and
+complete five-stage outputs for 21 adopted fits. Simulation snapshots and
 particle inputs are not bundled.
 
 Obtain [IllustrisTNG data](https://www.tng-project.org/data/) under the
@@ -32,6 +32,6 @@ both foreground and ray-grid dimensions, input hashes and actual calibration.
 ## Adopted results
 
 The [results directory](../results/README.md) provides all five original
-completed-stage archives for each of the 20 main-analysis systems. The
+completed-stage archives for each of the 21 main-analysis systems. The
 archives include posterior samples, model reports, imaging data and saved
 diagnostics. TNG snapshots and extracted particles remain separate inputs.

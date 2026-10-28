@@ -1,6 +1,6 @@
 # Stellar aperture M/L and the mock coefficient
 
-The34 adopted records use each object's YZ particle-mass selection Einstein
+The35 adopted records use each object's YZ particle-mass selection Einstein
 radius for the input stellar aperture measurement. The three-view maximum
 is the selection statistic; it does not replace that YZ aperture.
 
@@ -35,7 +35,7 @@ renderer check are recorded in the audit summary.
 The full bound-subhalo aperture is distinct from the foreground's nominal
 5 R_half cube selection. The measurements also record the cube-only M/L
 as a diagnostic; its difference from the adopted aperture value is below
-1% for these 34 systems. Neither an aperture average nor a constant mock
+1% for these 35 systems. Neither an aperture average nor a constant mock
 coefficient represents the galaxy's full spatial M/L variation.
 
 ## Calibration and parameter use
