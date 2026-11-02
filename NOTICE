@@ -6,10 +6,8 @@ documentation. Third-party material retains its own rights and terms.
 
 The upstream-derived SLaM Python modules in src/disk_lens/slam/ and the
 snapshot under config/ originate from PyAutoLens Workspace, with local
-adaptations. The root MIT grant does not assign a license to that copied
-workspace material. Its applicable redistribution permission remains to be
-confirmed; see THIRD_PARTY.md and src/disk_lens/slam/ORIGIN.md for the pinned
-comparison baseline, local differences and exact file hashes.
+adaptations. See THIRD_PARTY.md and src/disk_lens/slam/ORIGIN.md for the
+pinned comparison baseline, local differences and exact file hashes.
 
 Separately installed dependencies and IllustrisTNG simulation data retain
 their own licenses and access conditions. They are not relicensed by this

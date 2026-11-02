@@ -1,8 +1,6 @@
 cff-version: 1.2.0
 message: >-
   If you use this research code, please cite the accompanying manuscript.
-  MIT covers project-authored code and documentation; copied workspace
-  material has separate unresolved terms (see THIRD_PARTY.md and NOTICE).
 title: "TNG50 disc lensing"
 type: software
 version: "0.1.0"
@@ -29,4 +27,4 @@ preferred-citation:
       given-names: Weipeng
       orcid: "https://orcid.org/0000-0003-2204-2474"
   year: 2026
-  notes: "Manuscript in preparation; 34 mock galaxies and 20 adopted main fits."
+  notes: "Manuscript in preparation; 35 mock galaxies and 21 adopted main fits."

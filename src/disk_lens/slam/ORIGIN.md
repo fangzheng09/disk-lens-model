@@ -52,10 +52,3 @@ SHA-256 hashes of the Python files at this audit:
 The audit's per-file comparisons and unified diffs are retained outside the
 distributable source tree. No scientific stage implementation was changed by
 the attribution audit.
-
-## Redistribution status
-
-The applicable permission/license for this historical workspace material
-still requires confirmation; see [THIRD_PARTY.md](../../../THIRD_PARTY.md).
-No upstream copyright notice has been invented or replaced with the license
-of a separately installed library.
